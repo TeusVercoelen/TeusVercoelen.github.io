@@ -1,4 +1,3 @@
-
 ---
 layout: archive
 title: "CV"
@@ -9,5 +8,3 @@ redirect_from:
 ---
 
 {% include base_path %}
-
-# My CV
