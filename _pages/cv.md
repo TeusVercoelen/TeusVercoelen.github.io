@@ -11,7 +11,7 @@ redirect_from:
 # My CV
 
 <iframe 
-  src="/assets/pdfs/my-cv.pdf" 
+  src="/files/resume.pdf" 
   width="100%" 
   height="800px">
 </iframe>
