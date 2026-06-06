@@ -11,8 +11,9 @@ redirect_from:
 
 📄 [Download CV](/files/resume.pdf)
 
-<iframe 
-  src="/files/resume.pdf" 
-  width="100%" 
-  height="800px">
-</iframe>
+<object data="/files/resume.pdf" type="application/pdf" width="100%" height="900">
+  <p>
+    Your browser cannot display PDF.
+    <a href="/files/resume.pdf">Download it here</a>.
+  </p>
+</object>
