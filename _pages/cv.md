@@ -11,7 +11,7 @@ redirect_from:
 
 📄 [Download](/files/resume.pdf)
 
----
+
 
 ## EDUCATION
 
