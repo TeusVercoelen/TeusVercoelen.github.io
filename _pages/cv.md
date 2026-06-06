@@ -15,6 +15,8 @@ redirect_from:
 
 ## EDUCATION
 
+---
+
 ### Delft University of Technology — MSc. Marine Technology  
 *Delft, Netherlands | Feb. 2024 – May 2026*
 
@@ -31,6 +33,8 @@ redirect_from:
 
 ## WORK EXPERIENCE
 
+---
+
 ### FlexDelft — Researcher  
 *Delft, Netherlands | Jun 2026 – Jul 2026*
 
@@ -45,12 +49,16 @@ redirect_from:
 
 ## SKILLS
 
+---
+
 - **Programming:** Python (NumPy, SciPy, Matplotlib, Pandas), Numerical modeling (Fluid dynamics, Rigid body dynamics, Monte-Carlo), Data processing and visualization
 - **Engineering Design:** Concept development, Design for manufacturing, CAD (Onshape, CATIA, CadQuery)
 - **Hands-on:** General tool usage, Workshop fabrication, Machining (Turning, Milling), Experimental fluid dynamics
 - **Tools:** MATLAB, Simulink, PowerPoint, LaTeX  
 
 ## VOLUNTEERING
+
+---
 
 ### Stichting Vakantiespelen Dijkgatsbos — Camp Counselor  
 *Wieringerwerf | Aug. 2023*
@@ -59,5 +67,7 @@ redirect_from:
 *Huizen | 2016 – 2023*
 
 ## HOBBIES
+
+---
 
 Programming, Sailing, Making things ([see portfolio](/portfolio/))
