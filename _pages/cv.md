@@ -36,16 +36,16 @@ redirect_from:
 ---
 
 ### FlexDelft — Researcher  
-*Delft, Netherlands | Jun 2026 – Jul 2026*
+*Delft, Netherlands | Jun. 2026 – Jul. 2026*
 
 - **Developing** and **testing** new systems in the wind tunnel lab
 - Implementing the methodology developed during the graduation thesis
 
 ### Vechtstede College — Teaching Assistant  
-*Weesp, Netherlands | 2020 – 2021, 2023*
+*Weesp, Netherlands | Aug. 2020 – Jul. 2021, Sep. 2023 - Oct. 2023*
 
 ### Johan de Witt Scholengroep — Physics Teacher (Internship)  
-*The Hague, Netherlands | 2022 – 2023*
+*The Hague, Netherlands | Sep. 2022 – Feb. 2023*
 
 ## SKILLS
 
@@ -64,7 +64,7 @@ redirect_from:
 *Wieringerwerf | Aug. 2023*
 
 ### Scouting Flevo Zee — Scout Leader  
-*Huizen | 2016 – 2023*
+*Huizen | May. 2016 – Jul. 2023*
 
 ## HOBBIES
 
