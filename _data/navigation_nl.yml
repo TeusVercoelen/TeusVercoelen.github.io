@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Over mij"
+    url: /nl/about/
   - title: "Projecten"
     url: /nl/projects/
   - title: "Contact"

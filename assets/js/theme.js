@@ -15,14 +15,22 @@ function determineTheme() {
 function setTheme(theme) {
   const icon = document.getElementById("theme-icon");
 
+  localStorage.setItem("theme", theme);
+
   if (theme === "dark") {
     document.documentElement.setAttribute("data-theme", "dark");
-    icon.classList.remove("fa-sun");
-    icon.classList.add("fa-moon");
+
+    if (icon) {
+      icon.classList.remove("fa-sun");
+      icon.classList.add("fa-moon");
+    }
   } else {
     document.documentElement.removeAttribute("data-theme");
-    icon.classList.remove("fa-moon");
-    icon.classList.add("fa-sun");
+
+    if (icon) {
+      icon.classList.remove("fa-moon");
+      icon.classList.add("fa-sun");
+    }
   }
 }
 

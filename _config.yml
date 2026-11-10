@@ -214,7 +214,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-
+  changelog:
+    output: false
 
 # Conversion
 markdown: kramdown

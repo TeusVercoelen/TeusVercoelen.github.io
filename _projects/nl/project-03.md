@@ -13,7 +13,7 @@ permalink: /nl/projects/project-03/
 author_profile: true
 classes: wide
 started: 2024-06-01
-order: 999
+order: 3
 ---
 
 <span style="color:#999999">&#91;<i>Deze pagina is nog in ontwikkeling.</i>&#93;</span>

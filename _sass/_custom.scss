@@ -825,3 +825,94 @@ html[data-theme="dark"] .project-list-item__year {
   margin-bottom: 0.8em;
   padding-top: 0 !important;
 }
+
+
+/* Changelog entries */
+.changelog__entry {
+  margin-bottom: 1em;
+}
+
+.changelog__date {
+  margin-top: 1em;
+  margin-bottom: 0.8em;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+/* Vertical timeline */
+.changelog__timeline {
+  position: relative;
+  margin-left: 0;
+  margin-right: 1em;
+  padding-left: 2.5em;
+  padding-right: 1em;
+  border-left: 2px solid #cccccc;
+}
+
+/* Category headings and icons */
+.changelog__category {
+  position: relative;
+  margin-bottom: 0.2em;
+}
+
+.changelog__category p {
+  margin: 0;
+}
+
+.changelog__category i {
+  position: absolute;
+  left: -2.5em;
+  top: 0.25em;
+  width: 2em;
+  text-align: center;
+  display: inline-block;
+}
+
+/* Category item lists */
+.changelog__items {
+  display: block !important;
+  list-style-type: disc !important;
+  margin-top: 0.3em !important;
+  margin-bottom: 0.8em !important;
+  padding-left: 1.5em !important;
+}
+
+.changelog__items li {
+  display: list-item !important;
+  list-style-type: disc !important;
+  margin-bottom: 0.2em;
+}
+
+.changelog__items li p {
+  display: inline;
+  margin: 0;
+}
+
+/* Dark mode */
+html[data-theme="dark"] .changelog__timeline {
+  border-left-color: #555555;
+}
+
+/* Scrollable changelog window */
+.changelog {
+  max-height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+}
+
+html[data-theme="dark"] .changelog {
+  border-color: #555555;
+}
+
+/* Changelog heading */
+.changelog-heading {
+  margin-top: 2em;
+}
+
+.changelog-heading .header-link,
+.changelog-heading a {
+  display: none !important;
+}
