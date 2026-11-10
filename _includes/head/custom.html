@@ -1,15 +1,20 @@
-
-<!-- start custom head snippets -->
-
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
-
-<!-- end custom head snippets -->
-
 <meta name="site-language" content="{{ page.lang | default: 'en' }}">
 <meta name="translation-key" content="{{ page.translation_key | default: '' }}">
 <meta name="current-page-url" content="{{ page.url | relative_url }}">
 
 {% include translation-map.html %}
+
+{% if page.permalink == "/404.html" %}
+<script>
+  (function () {
+    var path = window.location.pathname;
+    var language = path.indexOf("/nl/") === 0 ? "nl" : "en";
+
+    document.querySelector('meta[name="site-language"]').content = language;
+    document.documentElement.lang = language;
+  })();
+</script>
+{% endif %}
 
 <script defer src="{{ '/assets/js/theme.js' | relative_url }}"></script>
 <script defer src="{{ '/assets/js/language.js' | relative_url }}"></script>

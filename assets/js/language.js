@@ -37,12 +37,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
   button.addEventListener("click", function (event) {
     event.preventDefault();
+    
+    // Preserve the missing URL when switching languages on a 404 page.
+    const missingUrl = new URLSearchParams(window.location.search).get("missing");
+    const is404 = translationKey === "not_found";
 
     const pages = window.siteTranslations || {};
 
     // Navigate to the matching translated page, if available.
     if (translationKey && pages[translationKey]?.[targetLanguage]) {
-      window.location.href = pages[translationKey][targetLanguage];
+      window.location.href =
+        pages[translationKey][targetLanguage] +
+        (is404 && missingUrl
+          ? "?missing=" + encodeURIComponent(missingUrl)
+          : "");
       return;
     }
 
