@@ -1,0 +1,37 @@
+{% assign current_lang = page.lang | default: "en" %}
+
+{% if page.started %}
+  <p class="page__date">
+    <strong>
+      <i class="fas fa-fw fa-star" aria-hidden="true"></i>
+      {{ site.data.translations[current_lang].started_label | default: "Started:" }}
+    </strong>
+    <time datetime="{{ page.started | date_to_xmlschema }}">
+      {{ page.started | date: "%B %Y" }}
+    </time>
+  </p>
+{% endif %}
+
+{% assign date_format = page.date_format | default: site.date_format | default: "%-d %B %Y" %}
+
+{% if page.last_modified_at %}
+  <p class="page__date">
+    <strong>
+      <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i>
+      {{ site.data.translations[current_lang].updated_label | default: "Updated:" }}
+    </strong>
+    <time class="dt-updated" datetime="{{ page.last_modified_at | date_to_xmlschema }}">
+      {{ page.last_modified_at | date: date_format }}
+    </time>
+  </p>
+{% elsif page.date %}
+  <p class="page__date">
+    <strong>
+      <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i>
+      {{ site.data.translations[current_lang].updated_label | default: "Updated:" }}
+    </strong>
+    <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">
+      {{ page.date | date: date_format }}
+    </time>
+  </p>
+{% endif %}

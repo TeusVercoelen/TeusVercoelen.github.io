@@ -1,0 +1,100 @@
+---
+title: "Projects"
+layout: single
+permalink: /en/tags/
+author_profile: true
+translation_key: tags
+lang: en
+classes: wide
+---
+
+These are all the projects I have worked on, sorted by tag. You can click any title for more information about the project.
+
+<div class="project-navigation">
+  {% include project-view-switch.html %}
+
+  <div class="project-sort">
+    <button
+      type="button"
+      class="project-sort__button"
+      id="tag-sort-button"
+      aria-expanded="false"
+      aria-controls="tag-sort-menu">
+      <i class="fas fa-sort" aria-hidden="true"></i>
+      Sort
+    </button>
+
+    <div class="project-sort__menu" id="tag-sort-menu" hidden>
+      <button type="button" data-sort="asc" class="is-active">Alphabetically (A-Z)</button>
+      <button type="button" data-sort="desc">Alphabetically (Z-A)</button>
+    </div>
+  </div>
+</div>
+
+{% assign current_lang = page.lang | default: "en" %}
+{% assign all_tags = "" %}
+
+{% for project in site.projects %}
+  {% assign project_lang = project.lang | default: "en" %}
+  {% if project_lang == current_lang %}
+    {% for tag in project.tags %}
+      {% assign all_tags = all_tags | append: tag | append: "||" %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% assign all_tags = all_tags | split: "||" | uniq | sort_natural %}
+{% assign sorted_projects = site.projects | where: "lang", current_lang | sort: "title" %}
+
+<div id="tags-list">
+  {% for tag in all_tags %}
+
+    <section class="project-tag-section"
+      id="{{ tag | slugify }}"
+      data-tag="{{ tag | downcase | escape }}">
+
+      <h2 class="project-tag-section__title">{{ tag }}</h2>
+
+      {% for project in sorted_projects %}
+        {% if project.tags contains tag %}
+
+          {% assign started_year = project.started | date: "%Y" %}
+          {% assign updated_date = project.last_modified_at | default: project.date | default: project.started %}
+          {% assign updated_year = updated_date | date: "%Y" %}
+
+          <article class="project-list-item">
+
+            {% if project.started %}
+              <div class="project-list-item__year">
+                {% if started_year == updated_year %}
+                  {{ started_year }}
+                {% else %}
+                  {{ started_year }}–{{ updated_year }}
+                {% endif %}
+              </div>
+            {% else %}
+              <div class="project-list-item__year"></div>
+            {% endif %}
+
+            <div class="project-list-item__content">
+              <h2 class="project-list-item__title">
+                <a href="{{ project.url | relative_url }}">
+                  {{ project.title }}
+                </a>
+              </h2>
+
+              <p class="project-list-item__description">
+                {{ project.description }}
+              </p>
+            </div>
+
+          </article>
+
+        {% endif %}
+      {% endfor %}
+
+    </section>
+  {% endfor %}
+</div>
+
+<script defer src="{{ '/assets/js/tag-sort.js' | relative_url }}"></script>

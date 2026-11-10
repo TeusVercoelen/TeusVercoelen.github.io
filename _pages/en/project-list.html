@@ -1,0 +1,83 @@
+---
+title: "Projects"
+layout: single
+permalink: /en/project-list/
+author_profile: true
+translation_key: project_list
+lang: en
+classes: wide
+---
+
+This is a list of projects I have worked on. You can click any title for more information about the project.
+
+<div class="project-navigation">
+    {% include project-view-switch.html %}
+
+    <div class="project-sort">
+        <button
+            type="button"
+            class="project-sort__button"
+            id="project-sort-button"
+            aria-expanded="false"
+            aria-controls="project-sort-menu">
+            <i class="fas fa-sort" aria-hidden="true"></i>
+            Sort
+        </button>
+
+        <div class="project-sort__menu" id="project-sort-menu" hidden>
+            <button type="button" data-sort="featured" class="is-active">Featured</button>
+            <button type="button" data-sort="started-asc">Started (old-new)</button>
+            <button type="button" data-sort="started-desc">Started (new-old)</button>
+            <button type="button" data-sort="updated-asc">Updated (old-new)</button>
+            <button type="button" data-sort="updated-desc">Updated (new-old)</button>
+            <button type="button" data-sort="title-asc">Alphabetically (A-Z)</button>
+            <button type="button" data-sort="title-desc">Alphabetically (Z-A)</button>
+        </div>
+    </div>
+</div>
+
+{% assign current_lang = page.lang | default: "en" %}
+{% assign sorted_projects = site.projects | where: "lang", current_lang | sort: "order" %}
+
+<div id="projects-list">
+  {% for project in sorted_projects %}
+    {% assign started_year = project.started | date: "%Y" %}
+    {% assign updated_date = project.last_modified_at | default: project.date | default: project.started %}
+    {% assign updated_year = updated_date | date: "%Y" %}
+
+    <article class="project-list-item"
+      data-order="{{ project.order | default: 999999 }}"
+      data-title="{{ project.title | downcase | escape }}"
+      data-started="{% if project.started %}{{ project.started | date: '%Y-%m-%d' }}{% endif %}"
+      data-updated="{{ updated_date | date: '%Y-%m-%d' }}">
+
+      {% if project.started %}
+        <div class="project-list-item__year">
+          {% if started_year == updated_year %}
+            {{ started_year }}
+          {% else %}
+            {{ started_year }}–{{ updated_year }}
+          {% endif %}
+        </div>
+      {% else %}
+        <div class="project-list-item__year"></div>
+      {% endif %}
+
+      <div class="project-list-item__content">
+        <h2 class="project-list-item__title">
+          <a href="{{ project.url | relative_url }}">
+            {{ project.title }}
+          </a>
+        </h2>
+
+        <p class="project-list-item__description">
+          {{ project.description }}
+        </p>
+      </div>
+
+    </article>
+  {% endfor %}
+</div>
+
+
+<script defer src="{{ '/assets/js/project-sort.js' | relative_url }}"></script>

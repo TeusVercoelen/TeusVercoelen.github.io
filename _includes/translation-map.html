@@ -1,0 +1,37 @@
+
+{% assign translation_items = site.pages | concat: site.projects %}
+{% assign translation_keys = "" %}
+
+{% for item in translation_items %}
+  {% if item.translation_key %}
+    {% assign translation_keys = translation_keys | append: item.translation_key | append: "||" %}
+  {% endif %}
+{% endfor %}
+
+{% assign translation_keys = translation_keys | split: "||" | uniq %}
+
+<script>
+  window.siteTranslations = {
+    {% for key in translation_keys %}
+      {% assign en_url = nil %}
+      {% assign nl_url = nil %}
+
+      {% for item in translation_items %}
+        {% if item.translation_key == key %}
+          {% assign item_lang = item.lang | default: "en" %}
+
+          {% if item_lang == "en" %}
+            {% assign en_url = item.url | relative_url %}
+          {% elsif item_lang == "nl" %}
+            {% assign nl_url = item.url | relative_url %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      {{ key | jsonify }}: {
+        "en": {{ en_url | jsonify }},
+        "nl": {{ nl_url | jsonify }}
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  };
+</script>

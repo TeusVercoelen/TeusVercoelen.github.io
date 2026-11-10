@@ -1,0 +1,79 @@
+{% assign locale = include.locale | default: site.locale %}
+{% capture logo_path %}{{ site.logo }}{% endcapture %}
+
+{% assign current_lang = "en" %}
+{% if page.url contains "/nl/" or page.permalink contains "/nl/" or page.lang == "nl" %}
+  {% assign current_lang = "nl" %}
+{% endif %}
+
+{% assign home_url = "/en/" %}
+{% if current_lang == "nl" %}
+  {% assign home_url = "/nl/" %}
+{% endif %}
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        {% unless logo_path == empty %}
+          <a class="site-logo" href="{{ home_url | relative_url }}">
+            <img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}">
+          </a>
+        {% endunless %}
+
+        <a class="site-title" href="{{ home_url | relative_url }}">
+          {{ site.data.translations[current_lang].title | escape_once | strip }}
+          <span class="site-subtitle">
+            {{ site.data.translations[current_lang].subtitle | escape_once | strip }}
+          </span>
+        </a>
+
+        <ul class="visible-links">
+          {% assign navigation = site.data.navigation_en %}
+          {% if current_lang == "nl" %}
+            {% assign navigation = site.data.navigation_nl %}
+          {% endif %}
+
+          {% for link in navigation.main %}
+            <li class="masthead__menu-item">
+              <a
+                href="{{ link.url | relative_url }}"
+                {% if link.description %} title="{{ link.description }}"{% endif %}
+                {% if link.target %} target="{{ link.target }}"{% endif %}
+              >{{ link.title }}</a>
+            </li>
+          {%- endfor -%}
+
+          <li id="theme-toggle" class="masthead__menu-item persist tail">
+            <a role="button" aria-label="Toggle theme">
+              <i id="theme-icon"
+                class="fa-solid fa-sun"
+                aria-hidden="true"
+                title="Toggle theme"></i>
+            </a>
+          </li>
+
+          <li id="language-toggle" class="masthead__menu-item persist tail">
+            <a href="#" role="button" aria-label="Switch language">
+              <span id="language-icon" aria-hidden="true">🇬🇧</span>
+            </a>
+          </li>
+        </ul>
+
+        {% if site.search == true %}
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[locale].search_label | default: "Toggle search" }}</span>
+          <i class="fas fa-search"></i>
+        </button>
+        {% endif %}
+
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[locale].menu_label | default: "Toggle menu" }}</span>
+          <div class="navicon"></div>
+        </button>
+
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>

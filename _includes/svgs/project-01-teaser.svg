@@ -1,0 +1,1632 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" class="teaser-svg" id="project-01" viewBox="0 0 4724 2409" width="200.00mm" height="102.00mm">
+	<defs>
+		<clipPath id="project-01.border-clip">
+			<path d="M 236 0 L 4488 0 Q 4724 0 4724 236 L 4724 2173 Q 4724 2409 4488 2409 L 236 2409 Q 0 2409 0 2173 L 0 236 Q 0 0 236 0" clip-rule="evenodd" />
+		</clipPath>
+		<filter id="project-01.background-blur" x="-50%" y="-50%" width="200%" height="200%">
+			<feGaussianBlur stdDeviation="40" />
+		</filter>
+	</defs>
+	<g clip-path="url(#project-01.border-clip)">
+		<g filter="url(#project-01.background-blur)">
+			<rect x="0" y="0" width="4724" height="2409" stoke="none" fill="#002d04" />
+			<path d="M 12 -20 Q 266 53 401 247 Q 248 67 -12 20" stoke="none" fill="#A2E88F" />
+			<path d="M 76 -12 Q 527 -259 340 -403 Q 541 -279 116 12" stoke="none" fill="#7CC85F" />
+			<path d="M 204 20 Q -18 105 -217 233 Q -32 86 181 -20" stoke="none" fill="#61AA52" />
+			<path d="M 266 7 Q 110 -213 140 -447 Q 134 -211 311 -7" stoke="none" fill="#479239" />
+			<path d="M 362 3 Q 204 -262 321 -467 Q 225 -251 408 -3" stoke="none" fill="#30552E" />
+			<path d="M 490 21 Q 127 -48 42 171 Q 105 -55 473 -21" stoke="none" fill="#3C5B3A" />
+			<path d="M 594 17 Q 296 94 233 321 Q 273 89 562 -17" stoke="none" fill="#53A544" />
+			<path d="M 682 22 Q 463 201 231 160 Q 466 177 666 -22" stoke="none" fill="#26511D" />
+			<path d="M 794 0 Q 850 244 784 471 Q 827 239 747 0" stoke="none" fill="#243D23" />
+			<path d="M 882 -17 Q 1337 94 1228 304 Q 1316 84 852 17" stoke="none" fill="#426535" />
+			<path d="M 975 -20 Q 1163 126 1374 232 Q 1154 148 952 20" stoke="none" fill="#50C449" />
+			<path d="M 1083 4 Q 939 231 978 464 Q 916 236 1037 -4" stoke="none" fill="#406E36" />
+			<path d="M 1154 -23 Q 1390 -75 1625 -53 Q 1389 -51 1159 23" stoke="none" fill="#84BB75" />
+			<path d="M 1276 5 Q 1379 500 1146 459 Q 1382 477 1230 -5" stoke="none" fill="#7FDE68" />
+			<path d="M 1354 23 Q 1121 70 885 86 Q 1118 46 1345 -23" stoke="none" fill="#355732" />
+			<path d="M 1467 10 Q 1461 366 1231 419 Q 1454 344 1425 -10" stoke="none" fill="#52903A" />
+			<path d="M 1564 -8 Q 1751 204 1716 438 Q 1727 202 1520 8" stoke="none" fill="#83FA6F" />
+			<path d="M 1662 0 Q 1473 300 1635 471 Q 1457 317 1615 0" stoke="none" fill="#6EE066" />
+			<path d="M 1714 -11 Q 1739 -353 1969 -409 Q 1746 -330 1755 11" stoke="none" fill="#59A94B" />
+			<path d="M 1830 23 Q 1496 162 1360 -30 Q 1515 147 1833 -23" stoke="none" fill="#23441B" />
+			<path d="M 1934 -22 Q 2166 34 2380 135 Q 2157 56 1921 22" stoke="none" fill="#305F23" />
+			<path d="M 2010 19 Q 1654 -37 1639 -273 Q 1678 -40 2038 -19" stoke="none" fill="#589851" />
+			<path d="M 2129 22 Q 1889 58 1679 166 Q 1877 38 2112 -22" stoke="none" fill="#8BCE7C" />
+			<path d="M 2235 -15 Q 2296 309 2527 355 Q 2292 332 2199 15" stoke="none" fill="#A0D78D" />
+			<path d="M 2330 -16 Q 2613 96 2651 329 Q 2590 101 2297 16" stoke="none" fill="#8EE481" />
+			<path d="M 2386 1 Q 2497 -265 2381 -470 Q 2517 -278 2433 -1" stoke="none" fill="#2B4027" />
+			<path d="M 2486 11 Q 2440 -245 2267 -406 Q 2455 -263 2526 -11" stoke="none" fill="#82C173" />
+			<path d="M 2581 10 Q 2348 -195 2399 -425 Q 2371 -191 2624 -10" stoke="none" fill="#83C469" />
+			<path d="M 2692 22 Q 2481 -107 2246 -131 Q 2482 -131 2705 -22" stoke="none" fill="#3A652B" />
+			<path d="M 2790 -22 Q 3119 -299 3255 -106 Q 3101 -285 2801 22" stoke="none" fill="#3F8533" />
+			<path d="M 2896 -23 Q 3132 158 3356 84 Q 3140 180 2888 23" stoke="none" fill="#2A4126" />
+			<path d="M 2990 23 Q 2753 10 2518 34 Q 2749 -12 2986 -23" stoke="none" fill="#8FDD75" />
+			<path d="M 3099 18 Q 2949 328 2715 293 Q 2951 305 3070 -18" stoke="none" fill="#95C883" />
+			<path d="M 3184 -23 Q 3435 -46 3650 52 Q 3426 -24 3178 23" stoke="none" fill="#2F6128" />
+			<path d="M 3254 2 Q 3133 -256 3235 -469 Q 3155 -247 3301 -2" stoke="none" fill="#67AE5B" />
+			<path d="M 3394 11 Q 3358 513 3145 412 Q 3367 491 3353 -11" stoke="none" fill="#73DD65" />
+			<path d="M 3493 5 Q 3206 285 3366 460 Q 3190 302 3447 -5" stoke="none" fill="#2A5E27" />
+			<path d="M 3578 -20 Q 3788 354 3983 221 Q 3802 372 3556 20" stoke="none" fill="#A0DE90" />
+			<path d="M 3644 13 Q 3326 -165 3398 -390 Q 3348 -159 3682 -13" stoke="none" fill="#74D25C" />
+			<path d="M 3736 4 Q 3538 -265 3668 -462 Q 3558 -253 3783 -4" stoke="none" fill="#5A9941" />
+			<path d="M 3879 1 Q 3595 397 3820 470 Q 3589 420 3832 -1" stoke="none" fill="#69DA50" />
+			<path d="M 3934 14 Q 3469 -220 3655 -366 Q 3485 -202 3971 -14" stoke="none" fill="#4B8841" />
+			<path d="M 4046 -23 Q 4399 -248 4518 -44 Q 4380 -235 4051 23" stoke="none" fill="#8CCF7A" />
+			<path d="M 4122 5 Q 4103 -232 4032 -458 Q 4125 -240 4168 -5" stoke="none" fill="#448837" />
+			<path d="M 4257 -17 Q 4437 135 4601 305 Q 4421 153 4226 17" stoke="none" fill="#65BE53" />
+			<path d="M 4335 -23 Q 4632 99 4806 -61 Q 4649 115 4341 23" stoke="none" fill="#496B42" />
+			<path d="M 4417 -16 Q 4656 -128 4763 -338 Q 4677 -118 4451 16" stoke="none" fill="#82CC7B" />
+			<path d="M 4543 19 Q 4327 119 4133 254 Q 4313 100 4518 -19" stoke="none" fill="#457B3B" />
+			<path d="M 4646 -13 Q 5067 224 4896 387 Q 5050 208 4608 13" stoke="none" fill="#2C5A26" />
+			<path d="M 4702 -9 Q 5127 -318 4918 -429 Q 5137 -339 4745 9" stoke="none" fill="#82F664" />
+			<path d="M 1 123 Q -341 323 -471 125 Q -322 309 -1 76" stoke="none" fill="#5EAA57" />
+			<path d="M 73 97 Q 218 -139 157 -367 Q 241 -146 119 103" stoke="none" fill="#69D958" />
+			<path d="M 175 116 Q -300 -81 -129 -244 Q -283 -65 210 84" stoke="none" fill="#73E260" />
+			<path d="M 281 122 Q 3 121 -157 -51 Q 19 104 296 78" stoke="none" fill="#2F5427" />
+			<path d="M 392 77 Q 613 161 839 230 Q 607 184 379 122" stoke="none" fill="#72AB61" />
+			<path d="M 498 83 Q 584 444 820 429 Q 587 467 465 117" stoke="none" fill="#2B4824" />
+			<path d="M 569 122 Q 336 -202 139 -72 Q 322 -221 587 78" stoke="none" fill="#5C9A4B" />
+			<path d="M 695 112 Q 584 323 438 508 Q 565 309 654 88" stoke="none" fill="#26491D" />
+			<path d="M 785 118 Q 492 175 401 393 Q 469 167 756 81" stoke="none" fill="#62C74C" />
+			<path d="M 890 95 Q 786 407 966 561 Q 772 426 844 105" stoke="none" fill="#A6F19F" />
+			<path d="M 986 92 Q 1020 331 1115 547 Q 999 341 941 107" stoke="none" fill="#294522" />
+			<path d="M 1082 109 Q 958 313 871 532 Q 936 305 1038 90" stoke="none" fill="#4E7E4B" />
+			<path d="M 1180 99 Q 981 424 1166 572 Q 968 443 1133 100" stoke="none" fill="#67D059" />
+			<path d="M 1266 119 Q 986 164 863 366 Q 966 153 1240 80" stoke="none" fill="#699E65" />
+			<path d="M 1344 123 Q 936 225 890 -6 Q 959 219 1355 77" stoke="none" fill="#63C15E" />
+			<path d="M 1468 106 Q 1531 460 1314 553 Q 1521 439 1423 93" stoke="none" fill="#2B6927" />
+			<path d="M 1565 96 Q 1569 335 1625 564 Q 1547 342 1519 104" stoke="none" fill="#437C3F" />
+			<path d="M 1620 86 Q 1809 -69 1919 -279 Q 1830 -60 1657 114" stoke="none" fill="#649C5B" />
+			<path d="M 1714 89 Q 2023 -90 1956 -316 Q 2045 -97 1756 111" stoke="none" fill="#478B34" />
+			<path d="M 1840 122 Q 1632 279 1396 282 Q 1631 255 1822 78" stoke="none" fill="#254022" />
+			<path d="M 1948 112 Q 1891 610 1681 502 Q 1900 589 1908 88" stoke="none" fill="#30402A" />
+			<path d="M 2009 81 Q 2158 -213 2393 -193 Q 2157 -190 2039 118" stoke="none" fill="#67E05F" />
+			<path d="M 2109 121 Q 1938 -84 1705 -122 Q 1940 -107 2132 79" stoke="none" fill="#80C966" />
+			<path d="M 2196 88 Q 2216 -260 2446 -311 Q 2222 -237 2237 111" stoke="none" fill="#233E20" />
+			<path d="M 2309 123 Q 2046 -120 1850 10 Q 2032 -139 2318 77" stoke="none" fill="#2C3B26" />
+			<path d="M 2392 84 Q 2501 -187 2730 -246 Q 2508 -165 2427 116" stoke="none" fill="#7BFF75" />
+			<path d="M 2525 114 Q 2116 263 2220 475 Q 2095 274 2487 86" stoke="none" fill="#486842" />
+			<path d="M 2611 122 Q 2196 32 2161 266 Q 2172 30 2594 78" stoke="none" fill="#7FC26D" />
+			<path d="M 2676 102 Q 2512 -178 2651 -369 Q 2532 -165 2722 97" stoke="none" fill="#223E1D" />
+			<path d="M 2775 112 Q 2738 -159 2550 -302 Q 2751 -178 2815 88" stoke="none" fill="#375431" />
+			<path d="M 2869 106 Q 2780 -120 2772 -356 Q 2803 -121 2915 94" stoke="none" fill="#90DF76" />
+			<path d="M 2965 94 Q 2984 -153 3105 -356 Q 3005 -142 3011 106" stoke="none" fill="#38692D" />
+			<path d="M 3063 109 Q 2738 -153 2893 -330 Q 2756 -138 3106 90" stoke="none" fill="#9EFF7D" />
+			<path d="M 3175 123 Q 2956 25 2723 -13 Q 2959 2 3187 77" stoke="none" fill="#68B65A" />
+			<path d="M 3259 115 Q 3179 -393 2980 -266 Q 3165 -412 3296 85" stoke="none" fill="#89E069" />
+			<path d="M 3395 90 Q 3546 293 3573 528 Q 3522 297 3352 110" stoke="none" fill="#6C9C5C" />
+			<path d="M 3447 106 Q 3242 -144 3349 -355 Q 3264 -135 3493 94" stoke="none" fill="#416B34" />
+			<path d="M 3589 107 Q 3607 408 3416 547 Q 3592 390 3544 92" stoke="none" fill="#539340" />
+			<path d="M 3655 122 Q 3410 -203 3220 -62 Q 3395 -222 3671 78" stoke="none" fill="#B8FE9F" />
+			<path d="M 3782 94 Q 3648 481 3871 558 Q 3641 504 3737 105" stoke="none" fill="#99ED85" />
+			<path d="M 3838 115 Q 3650 -46 3554 -262 Q 3671 -57 3874 85" stoke="none" fill="#67A462" />
+			<path d="M 3943 78 Q 4340 148 4387 -83 Q 4364 151 3961 122" stoke="none" fill="#A7FF95" />
+			<path d="M 4047 76 Q 4420 288 4520 74 Q 4442 297 4050 123" stoke="none" fill="#7ACC70" />
+			<path d="M 4168 103 Q 3959 364 4080 567 Q 3940 377 4122 97" stoke="none" fill="#465F3E" />
+			<path d="M 4252 79 Q 4551 101 4665 308 Q 4531 113 4231 121" stoke="none" fill="#86BD79" />
+			<path d="M 4329 78 Q 4547 -21 4778 -68 Q 4553 1 4346 122" stoke="none" fill="#73A967" />
+			<path d="M 4449 118 Q 4298 443 4066 395 Q 4301 419 4420 82" stoke="none" fill="#28421F" />
+			<path d="M 4553 92 Q 4712 305 4698 541 Q 4688 305 4509 108" stoke="none" fill="#4D743E" />
+			<path d="M 4648 90 Q 5037 406 4833 525 Q 5024 387 4606 110" stoke="none" fill="#7AC86C" />
+			<path d="M 4733 78 Q 4924 313 5158 283 Q 4928 336 4714 122" stoke="none" fill="#8EEF81" />
+			<path d="M 21 210 Q 24 686 -204 626 Q 29 663 -21 190" stoke="none" fill="#9CF593" />
+			<path d="M 72 199 Q -116 -290 119 -270 Q -116 -267 119 201" stoke="none" fill="#46A83F" />
+			<path d="M 188 177 Q 646 350 656 114 Q 669 349 197 223" stoke="none" fill="#497741" />
+			<path d="M 266 204 Q -15 -180 205 -263 Q -6 -158 312 196" stoke="none" fill="#51893F" />
+			<path d="M 368 216 Q -41 55 72 -151 Q -20 65 403 185" stoke="none" fill="#2A6525" />
+			<path d="M 494 220 Q 313 395 84 454 Q 306 373 469 180" stoke="none" fill="#53A03F" />
+			<path d="M 560 216 Q 479 -48 268 -155 Q 489 -70 596 185" stoke="none" fill="#6BBF65" />
+			<path d="M 651 201 Q 490 -103 657 -270 Q 508 -87 698 199" stoke="none" fill="#52AD41" />
+			<path d="M 761 222 Q 487 190 342 3 Q 504 174 781 179" stoke="none" fill="#56AF44" />
+			<path d="M 845 207 Q 965 -243 729 -250 Q 965 -266 890 193" stoke="none" fill="#58784D" />
+			<path d="M 972 178 Q 1172 353 1408 360 Q 1172 376 956 222" stoke="none" fill="#96FD8D" />
+			<path d="M 1055 177 Q 1352 271 1523 108 Q 1369 287 1065 223" stoke="none" fill="#88D56D" />
+			<path d="M 1141 218 Q 1024 -161 795 -102 Q 1017 -184 1172 182" stoke="none" fill="#59B94B" />
+			<path d="M 1230 195 Q 1422 -28 1365 -257 Q 1444 -35 1276 206" stoke="none" fill="#6FD352" />
+			<path d="M 1331 216 Q 1264 -79 1040 -155 Q 1270 -101 1367 185" stoke="none" fill="#4A913E" />
+			<path d="M 1441 223 Q 1112 -88 983 109 Q 1092 -99 1450 177" stoke="none" fill="#ABFF98" />
+			<path d="M 1544 224 Q 1276 366 1072 245 Q 1286 345 1540 177" stoke="none" fill="#2B4E26" />
+			<path d="M 1639 224 Q 1235 435 1167 209 Q 1257 427 1638 177" stoke="none" fill="#5C9645" />
+			<path d="M 1758 200 Q 1514 593 1737 672 Q 1507 615 1711 200" stoke="none" fill="#628E56" />
+			<path d="M 1835 224 Q 1534 103 1364 268 Q 1517 87 1828 177" stoke="none" fill="#44723E" />
+			<path d="M 1944 217 Q 1799 428 1583 522 Q 1789 407 1912 183" stoke="none" fill="#203B1D" />
+			<path d="M 2017 178 Q 2299 -108 2472 52 Q 2284 -90 2031 223" stoke="none" fill="#3E7935" />
+			<path d="M 2129 178 Q 2614 139 2561 369 Q 2591 135 2112 222" stoke="none" fill="#52A03D" />
+			<path d="M 2200 184 Q 2313 -144 2549 -134 Q 2313 -120 2234 217" stoke="none" fill="#448040" />
+			<path d="M 2305 222 Q 2094 114 1871 37 Q 2101 91 2321 178" stoke="none" fill="#56A14A" />
+			<path d="M 2404 223 Q 2186 121 1954 78 Q 2189 98 2416 178" stoke="none" fill="#375D32" />
+			<path d="M 2529 203 Q 2229 578 2448 668 Q 2221 600 2483 197" stoke="none" fill="#579A42" />
+			<path d="M 2612 222 Q 2320 568 2169 387 Q 2338 552 2593 179" stoke="none" fill="#76F768" />
+			<path d="M 2719 188 Q 3140 490 2936 608 Q 3128 470 2679 212" stoke="none" fill="#4F7A48" />
+			<path d="M 2805 179 Q 3251 154 3228 389 Q 3227 153 2786 222" stoke="none" fill="#2C4F22" />
+			<path d="M 2905 181 Q 3045 503 3279 470 Q 3050 526 2878 220" stoke="none" fill="#87D872" />
+			<path d="M 2973 218 Q 2572 126 2628 -103 Q 2595 130 3003 182" stoke="none" fill="#598051" />
+			<path d="M 3073 221 Q 2909 -3 2674 -32 Q 2911 -26 3096 180" stoke="none" fill="#2E4427" />
+			<path d="M 3171 222 Q 2700 240 2749 10 Q 2723 244 3190 179" stoke="none" fill="#4C8B37" />
+			<path d="M 3255 194 Q 3559 -81 3399 -255 Q 3576 -97 3300 206" stoke="none" fill="#9EFB8A" />
+			<path d="M 3386 220 Q 3182 550 2970 445 Q 3192 528 3362 180" stoke="none" fill="#6FAD61" />
+			<path d="M 3464 178 Q 3724 -54 3924 70 Q 3712 -34 3477 223" stoke="none" fill="#3B6030" />
+			<path d="M 3551 183 Q 3682 -173 3912 -120 Q 3678 -150 3583 217" stoke="none" fill="#81D874" />
+			<path d="M 3680 184 Q 3867 338 3992 538 Q 3847 352 3646 217" stoke="none" fill="#8BC57D" />
+			<path d="M 3783 205 Q 3529 474 3670 664 Q 3511 489 3736 196" stoke="none" fill="#4A6A46" />
+			<path d="M 3832 201 Q 3641 -146 3842 -270 Q 3654 -127 3879 200" stoke="none" fill="#395E32" />
+			<path d="M 3970 184 Q 4059 651 4272 547 Q 4071 671 3935 216" stoke="none" fill="#6FF65B" />
+			<path d="M 4072 197 Q 3881 641 4116 667 Q 3880 664 4025 204" stoke="none" fill="#6DC956" />
+			<path d="M 4135 222 Q 3943 -63 3717 3 Q 3935 -85 4155 179" stoke="none" fill="#3F8636" />
+			<path d="M 4264 208 Q 4076 411 4088 646 Q 4053 413 4219 193" stoke="none" fill="#89D56C" />
+			<path d="M 4322 218 Q 3887 104 3984 -110 Q 3909 113 4353 183" stoke="none" fill="#64CD5D" />
+			<path d="M 4446 180 Q 4608 422 4844 434 Q 4608 445 4423 221" stoke="none" fill="#77E168" />
+			<path d="M 4553 208 Q 4606 613 4372 645 Q 4602 590 4509 192" stoke="none" fill="#315829" />
+			<path d="M 4642 182 Q 4762 570 4988 504 Q 4769 592 4612 218" stoke="none" fill="#A5DE92" />
+			<path d="M 4703 189 Q 4779 -54 4959 -208 Q 4796 -37 4744 212" stoke="none" fill="#27521F" />
+			<path d="M 11 280 Q 281 331 414 526 Q 262 345 -11 321" stoke="none" fill="#5EB255" />
+			<path d="M 75 290 Q 350 117 317 -115 Q 373 113 117 312" stoke="none" fill="#98DE8E" />
+			<path d="M 192 324 Q -43 279 -278 300 Q -46 256 192 277" stoke="none" fill="#50A948" />
+			<path d="M 294 323 Q 63 369 -169 411 Q 57 347 283 278" stoke="none" fill="#5DC053" />
+			<path d="M 372 320 Q 218 -61 0 28 Q 208 -82 399 281" stoke="none" fill="#7FC573" />
+			<path d="M 459 306 Q 456 63 376 -158 Q 478 54 504 295" stoke="none" fill="#76F861" />
+			<path d="M 556 308 Q 558 51 431 -147 Q 577 38 600 293" stoke="none" fill="#81B56F" />
+			<path d="M 653 290 Q 1010 75 882 -122 Q 1029 62 695 311" stoke="none" fill="#71BA60" />
+			<path d="M 779 323 Q 416 682 328 463 Q 438 672 763 279" stoke="none" fill="#76BA5C" />
+			<path d="M 855 280 Q 1089 209 1274 62 Q 1105 227 879 321" stoke="none" fill="#4C8A3F" />
+			<path d="M 984 312 Q 544 567 731 711 Q 530 586 943 289" stoke="none" fill="#4C724B" />
+			<path d="M 1063 324 Q 768 529 593 370 Q 783 511 1057 277" stoke="none" fill="#2B5328" />
+			<path d="M 1139 285 Q 1596 141 1465 -55 Q 1615 127 1174 316" stoke="none" fill="#519F47" />
+			<path d="M 1243 322 Q 781 335 824 103 Q 804 338 1263 279" stoke="none" fill="#4EA648" />
+			<path d="M 1368 287 Q 1786 513 1623 685 Q 1768 498 1330 314" stoke="none" fill="#305128" />
+			<path d="M 1423 307 Q 1102 -61 1319 -153 Q 1112 -40 1468 294" stoke="none" fill="#2D4E23" />
+			<path d="M 1545 324 Q 1307 391 1073 356 Q 1309 367 1539 277" stoke="none" fill="#325D24" />
+			<path d="M 1625 320 Q 1431 184 1252 30 Q 1445 166 1652 281" stoke="none" fill="#3A6C2C" />
+			<path d="M 1747 321 Q 1569 569 1334 549 Q 1570 546 1722 281" stoke="none" fill="#416F32" />
+			<path d="M 1811 313 Q 1537 125 1590 -104 Q 1560 129 1851 289" stoke="none" fill="#3F7D30" />
+			<path d="M 1915 281 Q 2172 222 2319 37 Q 2191 235 1941 320" stoke="none" fill="#74F36E" />
+			<path d="M 2036 280 Q 2231 656 2434 535 Q 2244 676 2012 321" stoke="none" fill="#43943C" />
+			<path d="M 2134 281 Q 2276 576 2512 564 Q 2278 600 2107 320" stoke="none" fill="#6A9A62" />
+			<path d="M 2236 314 Q 2182 671 1946 687 Q 2179 648 2198 287" stoke="none" fill="#304328" />
+			<path d="M 2314 277 Q 2550 284 2785 312 Q 2549 308 2313 324" stoke="none" fill="#354E2E" />
+			<path d="M 2389 313 Q 2383 -208 2170 -105 Q 2372 -229 2430 289" stoke="none" fill="#51863F" />
+			<path d="M 2499 278 Q 2728 76 2953 149 Q 2722 98 2514 323" stoke="none" fill="#2B4825" />
+			<path d="M 2621 286 Q 2749 485 2895 671 Q 2731 501 2584 315" stoke="none" fill="#72BC6D" />
+			<path d="M 2722 304 Q 2863 719 2632 768 Q 2857 696 2676 297" stoke="none" fill="#5D9B54" />
+			<path d="M 2787 323 Q 2583 84 2353 137 Q 2577 61 2804 279" stoke="none" fill="#8EFD67" />
+			<path d="M 2885 323 Q 2639 293 2439 167 Q 2651 272 2898 278" stoke="none" fill="#2F472B" />
+			<path d="M 2984 278 Q 3315 404 3451 211 Q 3335 417 2993 324" stoke="none" fill="#7BFF68" />
+			<path d="M 3063 290 Q 3490 3 3291 -123 Q 3502 -17 3106 311" stoke="none" fill="#2F4E27" />
+			<path d="M 3193 321 Q 2697 315 2773 538 Q 2675 323 3169 280" stoke="none" fill="#385931" />
+			<path d="M 3255 294 Q 3287 46 3419 -148 Q 3307 58 3300 308" stoke="none" fill="#A8F18D" />
+			<path d="M 3397 298 Q 3412 534 3422 770 Q 3388 536 3350 303" stoke="none" fill="#6CFB60" />
+			<path d="M 3453 317 Q 3098 190 3145 -41 Q 3121 193 3487 284" stoke="none" fill="#67BB52" />
+			<path d="M 3590 301 Q 3609 540 3568 772 Q 3586 537 3543 301" stoke="none" fill="#79AE64" />
+			<path d="M 3655 323 Q 3457 162 3223 132 Q 3459 138 3671 279" stoke="none" fill="#6E9D5E" />
+			<path d="M 3740 314 Q 3288 44 3486 -83 Q 3302 63 3779 287" stoke="none" fill="#5C7C50" />
+			<path d="M 3853 277 Q 4095 189 4324 245 Q 4090 212 3859 324" stoke="none" fill="#4DB145" />
+			<path d="M 3931 290 Q 3937 -48 4161 -121 Q 3945 -26 3973 311" stoke="none" fill="#63AF52" />
+			<path d="M 4048 277 Q 4349 132 4520 295 Q 4334 150 4049 324" stoke="none" fill="#94F58C" />
+			<path d="M 4123 292 Q 4511 -18 4309 -141 Q 4522 -39 4167 309" stoke="none" fill="#4F7645" />
+			<path d="M 4219 294 Q 4490 58 4379 -150 Q 4511 46 4264 307" stoke="none" fill="#50AA46" />
+			<path d="M 4318 313 Q 4323 -72 4088 -99 Q 4325 -96 4358 288" stoke="none" fill="#6AB453" />
+			<path d="M 4458 304 Q 4177 619 4361 767 Q 4163 638 4411 297" stoke="none" fill="#62AF44" />
+			<path d="M 4510 290 Q 4674 107 4753 -115 Q 4697 114 4551 312" stoke="none" fill="#3B6533" />
+			<path d="M 4651 302 Q 4667 547 4593 771 Q 4644 541 4604 299" stoke="none" fill="#57A03D" />
+			<path d="M 4729 324 Q 4425 235 4264 408 Q 4407 220 4718 278" stoke="none" fill="#659A58" />
+			<path d="M -8 379 Q 299 30 436 222 Q 280 45 8 423" stoke="none" fill="#273F1F" />
+			<path d="M 119 395 Q 129 639 225 855 Q 108 650 73 407" stoke="none" fill="#213F1F" />
+			<path d="M 191 378 Q 597 600 663 374 Q 620 606 194 424" stoke="none" fill="#367132" />
+			<path d="M 280 423 Q -189 464 -151 231 Q -165 467 297 379" stoke="none" fill="#4A7542" />
+			<path d="M 404 415 Q 251 595 103 779 Q 232 582 366 387" stoke="none" fill="#74AB6D" />
+			<path d="M 487 424 Q 28 284 25 520 Q 5 285 476 378" stoke="none" fill="#7ABC66" />
+			<path d="M 601 398 Q 392 873 628 870 Q 393 896 555 404" stoke="none" fill="#46923F" />
+			<path d="M 688 382 Q 1167 467 1057 677 Q 1146 458 661 420" stoke="none" fill="#5EC758" />
+			<path d="M 793 394 Q 675 888 909 852 Q 680 911 748 408" stoke="none" fill="#527D49" />
+			<path d="M 889 411 Q 864 689 676 832 Q 848 671 846 391" stoke="none" fill="#5ED456" />
+			<path d="M 948 418 Q 576 311 619 79 Q 599 314 980 384" stoke="none" fill="#609059" />
+			<path d="M 1082 408 Q 983 624 920 852 Q 960 619 1038 394" stoke="none" fill="#74EC5C" />
+			<path d="M 1175 415 Q 1070 644 878 782 Q 1056 626 1137 387" stoke="none" fill="#32732F" />
+			<path d="M 1244 423 Q 928 7 819 216 Q 907 -2 1262 379" stoke="none" fill="#539150" />
+			<path d="M 1347 424 Q 1014 167 879 361 Q 994 155 1351 378" stoke="none" fill="#69AA5A" />
+			<path d="M 1425 413 Q 1292 214 1210 -7 Q 1313 205 1466 389" stoke="none" fill="#305B2C" />
+			<path d="M 1548 424 Q 1319 498 1083 511 Q 1317 474 1537 378" stoke="none" fill="#45703A" />
+			<path d="M 1618 413 Q 1514 201 1389 1 Q 1533 187 1658 389" stoke="none" fill="#97D47F" />
+			<path d="M 1718 417 Q 1622 156 1404 64 Q 1630 134 1752 385" stoke="none" fill="#9BE797" />
+			<path d="M 1847 383 Q 1957 776 2185 714 Q 1964 798 1816 419" stoke="none" fill="#3D6932" />
+			<path d="M 1908 414 Q 1897 9 1661 12 Q 1896 -13 1947 388" stoke="none" fill="#4B7344" />
+			<path d="M 2018 378 Q 2464 520 2481 285 Q 2487 521 2030 424" stoke="none" fill="#68BF64" />
+			<path d="M 2142 411 Q 2153 881 1922 829 Q 2157 858 2099 391" stoke="none" fill="#2C6127" />
+			<path d="M 2233 384 Q 2564 492 2557 728 Q 2540 493 2201 418" stoke="none" fill="#425B3B" />
+			<path d="M 2296 417 Q 2229 -6 2000 48 Q 2223 -29 2331 385" stoke="none" fill="#ABF796" />
+			<path d="M 2428 386 Q 2666 533 2709 766 Q 2643 539 2392 416" stoke="none" fill="#A3F28F" />
+			<path d="M 2530 402 Q 2275 786 2494 873 Q 2267 808 2483 400" stoke="none" fill="#365931" />
+			<path d="M 2603 425 Q 2362 454 2131 406 Q 2366 431 2602 377" stoke="none" fill="#5C854D" />
+			<path d="M 2682 417 Q 2394 294 2374 59 Q 2418 291 2716 385" stoke="none" fill="#385630" />
+			<path d="M 2818 407 Q 2781 645 2681 859 Q 2759 636 2773 395" stoke="none" fill="#87D97D" />
+			<path d="M 2868 397 Q 2937 169 2963 -64 Q 2961 171 2915 405" stoke="none" fill="#3F633B" />
+			<path d="M 2990 378 Q 3263 313 3458 446 Q 3250 333 2986 424" stoke="none" fill="#456D41" />
+			<path d="M 3084 425 Q 2830 492 2613 399 Q 2838 470 3085 377" stoke="none" fill="#3D5437" />
+			<path d="M 3173 379 Q 3494 441 3627 246 Q 3514 454 3189 423" stoke="none" fill="#64AE58" />
+			<path d="M 3294 385 Q 3408 612 3606 739 Q 3396 632 3261 417" stoke="none" fill="#62B357" />
+			<path d="M 3367 424 Q 3145 345 2919 274 Q 3151 322 3380 378" stoke="none" fill="#3C7735" />
+			<path d="M 3484 382 Q 3766 458 3852 679 Q 3745 468 3456 420" stoke="none" fill="#3C5538" />
+			<path d="M 3543 400 Q 3507 155 3577 -70 Q 3530 161 3590 402" stoke="none" fill="#A4F195" />
+			<path d="M 3653 422 Q 3459 279 3238 195 Q 3466 257 3673 380" stoke="none" fill="#B1FF9A" />
+			<path d="M 3772 421 Q 3593 633 3358 648 Q 3591 609 3747 381" stoke="none" fill="#88E57F" />
+			<path d="M 3874 416 Q 3765 861 3551 761 Q 3774 839 3838 386" stoke="none" fill="#517C4E" />
+			<path d="M 3976 402 Q 3982 641 3937 873 Q 3959 637 3929 400" stoke="none" fill="#78AB6C" />
+			<path d="M 4072 404 Q 4123 670 3997 870 Q 4102 659 4025 398" stoke="none" fill="#74DB6D" />
+			<path d="M 4156 422 Q 3841 816 3723 612 Q 3861 803 4135 380" stoke="none" fill="#374A30" />
+			<path d="M 4229 381 Q 4584 383 4644 154 Q 4607 388 4254 421" stoke="none" fill="#364F2E" />
+			<path d="M 4345 379 Q 4559 487 4789 539 Q 4554 511 4331 423" stoke="none" fill="#49843E" />
+			<path d="M 4436 378 Q 4694 531 4905 426 Q 4705 552 4433 424" stoke="none" fill="#46AD41" />
+			<path d="M 4510 390 Q 4524 25 4757 -12 Q 4529 48 4551 412" stoke="none" fill="#619B53" />
+			<path d="M 4606 391 Q 4978 158 4829 -24 Q 4995 143 4648 411" stoke="none" fill="#2B4E26" />
+			<path d="M 4744 412 Q 4395 608 4502 818 Q 4374 619 4703 390" stoke="none" fill="#305D28" />
+			<path d="M 10 480 Q 219 590 425 706 Q 208 612 -10 523" stoke="none" fill="#70B45F" />
+			<path d="M 82 482 Q 287 77 475 220 Q 274 96 110 520" stoke="none" fill="#407C34" />
+			<path d="M 212 489 Q 599 717 448 898 Q 580 702 173 514" stoke="none" fill="#44623B" />
+			<path d="M 296 524 Q 30 511 -157 653 Q 15 493 281 479" stoke="none" fill="#93D97E" />
+			<path d="M 398 521 Q 183 623 -8 761 Q 169 605 372 482" stoke="none" fill="#204619" />
+			<path d="M 464 485 Q 856 389 805 158 Q 878 383 499 518" stoke="none" fill="#4D7941" />
+			<path d="M 566 522 Q 115 494 170 264 Q 138 498 590 481" stoke="none" fill="#438835" />
+			<path d="M 696 492 Q 735 737 872 930 Q 717 751 653 511" stoke="none" fill="#273F23" />
+			<path d="M 754 518 Q 296 369 431 174 Q 316 381 787 484" stoke="none" fill="#8DDB7F" />
+			<path d="M 847 513 Q 711 317 625 97 Q 732 307 887 489" stoke="none" fill="#88B776" />
+			<path d="M 945 487 Q 1058 -24 1243 121 Q 1044 -5 983 515" stoke="none" fill="#4C6844" />
+			<path d="M 1066 524 Q 610 383 603 619 Q 586 383 1054 479" stoke="none" fill="#66AD4B" />
+			<path d="M 1135 491 Q 1488 276 1361 76 Q 1507 262 1178 512" stoke="none" fill="#3A762D" />
+			<path d="M 1262 480 Q 1642 461 1684 693 Q 1620 466 1243 523" stoke="none" fill="#3E5436" />
+			<path d="M 1344 524 Q 1024 206 889 400 Q 1004 193 1354 478" stoke="none" fill="#2A3D27" />
+			<path d="M 1436 523 Q 1232 403 1015 309 Q 1240 381 1455 480" stoke="none" fill="#5C9556" />
+			<path d="M 1563 491 Q 1545 805 1749 925 Q 1535 826 1521 512" stoke="none" fill="#5E895A" />
+			<path d="M 1627 481 Q 1831 167 2046 264 Q 1822 189 1650 522" stoke="none" fill="#577C4D" />
+			<path d="M 1742 524 Q 1519 709 1289 655 Q 1523 685 1727 479" stoke="none" fill="#71A369" />
+			<path d="M 1811 514 Q 1791 211 1582 101 Q 1801 190 1851 489" stoke="none" fill="#86F26D" />
+			<path d="M 1940 521 Q 1518 517 1529 753 Q 1495 519 1915 481" stoke="none" fill="#2D552B" />
+			<path d="M 2024 525 Q 1788 500 1552 503 Q 1787 476 2024 478" stoke="none" fill="#21451A" />
+			<path d="M 2134 521 Q 1951 842 1728 764 Q 1958 820 2107 482" stoke="none" fill="#3D8E38" />
+			<path d="M 2226 523 Q 2001 786 1785 691 Q 2009 764 2207 480" stoke="none" fill="#78C26C" />
+			<path d="M 2290 506 Q 2334 248 2228 37 Q 2354 237 2336 497" stoke="none" fill="#233D1E" />
+			<path d="M 2421 522 Q 2219 654 1993 723 Q 2211 632 2399 481" stoke="none" fill="#5B7D51" />
+			<path d="M 2485 512 Q 2289 320 2286 84 Q 2313 319 2527 490" stoke="none" fill="#49A044" />
+			<path d="M 2580 508 Q 2675 173 2476 47 Q 2687 153 2625 495" stoke="none" fill="#97FB75" />
+			<path d="M 2718 488 Q 3132 723 2965 891 Q 3114 708 2680 515" stoke="none" fill="#80D479" />
+			<path d="M 2793 525 Q 2474 640 2326 456 Q 2491 624 2798 478" stoke="none" fill="#1E431C" />
+			<path d="M 2869 495 Q 2787 -12 3015 46 Q 2782 10 2914 508" stoke="none" fill="#40723B" />
+			<path d="M 2999 480 Q 3186 785 3411 712 Q 3194 807 2978 522" stoke="none" fill="#31462E" />
+			<path d="M 3094 480 Q 3577 458 3518 687 Q 3554 454 3075 523" stoke="none" fill="#ABFF9C" />
+			<path d="M 3186 478 Q 3689 374 3641 605 Q 3666 370 3176 524" stoke="none" fill="#6DA565" />
+			<path d="M 3259 516 Q 2955 366 2984 132 Q 2979 368 3296 487" stoke="none" fill="#3E6A31" />
+			<path d="M 3381 524 Q 3025 426 2923 639 Q 3003 417 3367 479" stoke="none" fill="#34672D" />
+			<path d="M 3448 509 Q 3501 203 3316 55 Q 3514 184 3492 494" stoke="none" fill="#2D6427" />
+			<path d="M 3580 482 Q 3719 775 3955 769 Q 3720 798 3553 521" stoke="none" fill="#3D7435" />
+			<path d="M 3680 485 Q 4121 641 3992 839 Q 4101 630 3646 518" stoke="none" fill="#498C3C" />
+			<path d="M 3783 497 Q 3677 801 3847 965 Q 3661 819 3736 506" stoke="none" fill="#75A468" />
+			<path d="M 3878 494 Q 3960 717 4003 950 Q 3937 723 3833 509" stoke="none" fill="#9AD487" />
+			<path d="M 3935 485 Q 4241 397 4283 165 Q 4264 400 3969 518" stoke="none" fill="#579545" />
+			<path d="M 4034 520 Q 3919 202 3683 204 Q 3917 179 4063 483" stoke="none" fill="#324A2D" />
+			<path d="M 4162 518 Q 3772 610 3819 842 Q 3749 616 4128 485" stoke="none" fill="#5B7A50" />
+			<path d="M 4227 520 Q 3998 405 3876 202 Q 4018 392 4256 483" stoke="none" fill="#7FBA6E" />
+			<path d="M 4359 491 Q 4616 694 4553 921 Q 4593 689 4317 512" stoke="none" fill="#3F6D38" />
+			<path d="M 4441 479 Q 4657 683 4887 633 Q 4663 706 4428 524" stoke="none" fill="#66A059" />
+			<path d="M 4537 524 Q 4041 390 4075 623 Q 4018 394 4525 479" stoke="none" fill="#82D568" />
+			<path d="M 4614 521 Q 4407 403 4230 247 Q 4422 384 4640 482" stoke="none" fill="#3F7D34" />
+			<path d="M 4745 512 Q 4749 871 4519 927 Q 4742 849 4702 491" stoke="none" fill="#52944A" />
+			<path d="M 5 579 Q 233 777 459 708 Q 241 799 -5 625" stoke="none" fill="#294325" />
+			<path d="M 117 613 Q 86 925 -131 1015 Q 76 904 75 590" stoke="none" fill="#99FF8F" />
+			<path d="M 169 607 Q 0 364 83 143 Q 22 371 215 596" stoke="none" fill="#6CA366" />
+			<path d="M 276 582 Q 454 387 687 349 Q 459 410 301 622" stoke="none" fill="#4E9B44" />
+			<path d="M 401 584 Q 761 680 738 915 Q 738 679 370 619" stoke="none" fill="#618658" />
+			<path d="M 503 611 Q 493 906 295 1035 Q 479 887 460 592" stoke="none" fill="#4D813C" />
+			<path d="M 554 601 Q 523 356 592 130 Q 546 362 601 602" stoke="none" fill="#9DEB95" />
+			<path d="M 696 592 Q 804 804 874 1029 Q 782 812 653 612" stoke="none" fill="#35662F" />
+			<path d="M 789 587 Q 855 875 1074 963 Q 847 897 753 617" stoke="none" fill="#7DB174" />
+			<path d="M 886 616 Q 444 790 585 980 Q 426 805 848 588" stoke="none" fill="#87DF71" />
+			<path d="M 986 596 Q 1158 834 1083 1058 Q 1135 828 941 608" stoke="none" fill="#9DE886" />
+			<path d="M 1040 613 Q 1013 337 827 191 Q 1027 318 1080 590" stoke="none" fill="#6AA563" />
+			<path d="M 1164 580 Q 1428 599 1601 759 Q 1413 617 1149 624" stoke="none" fill="#356431" />
+			<path d="M 1233 615 Q 1196 92 991 209 Q 1183 72 1272 589" stoke="none" fill="#7EC279" />
+			<path d="M 1326 601 Q 1571 233 1359 130 Q 1580 212 1373 602" stoke="none" fill="#457A35" />
+			<path d="M 1444 578 Q 1783 767 1916 572 Q 1803 779 1447 625" stoke="none" fill="#2F3F29" />
+			<path d="M 1519 602 Q 1713 284 1534 130 Q 1728 265 1566 601" stoke="none" fill="#295027" />
+			<path d="M 1644 625 Q 1414 744 1180 713 Q 1416 721 1633 579" stoke="none" fill="#2C3E28" />
+			<path d="M 1721 583 Q 1881 309 2117 325 Q 1881 332 1749 621" stoke="none" fill="#7BB574" />
+			<path d="M 1817 583 Q 1964 307 2201 308 Q 1965 330 1846 620" stoke="none" fill="#83EB5D" />
+			<path d="M 1914 583 Q 2112 193 2309 324 Q 2100 213 1942 621" stoke="none" fill="#A4EC8C" />
+			<path d="M 2048 604 Q 1771 977 1987 1072 Q 1763 999 2001 600" stoke="none" fill="#5B8A52" />
+			<path d="M 2097 599 Q 2274 353 2184 134 Q 2295 343 2144 605" stoke="none" fill="#354C30" />
+			<path d="M 2222 625 Q 1994 716 1758 712 Q 1994 693 2211 579" stoke="none" fill="#8AC77C" />
+			<path d="M 2337 599 Q 2143 1013 2372 1070 Q 2139 1036 2290 605" stoke="none" fill="#7AFD5F" />
+			<path d="M 2417 579 Q 2645 649 2857 753 Q 2635 670 2402 624" stoke="none" fill="#4F7D3F" />
+			<path d="M 2495 622 Q 2277 230 2092 377 Q 2262 213 2517 581" stoke="none" fill="#668C5B" />
+			<path d="M 2597 579 Q 3069 720 3059 484 Q 3093 718 2608 625" stoke="none" fill="#75A862" />
+			<path d="M 2676 606 Q 2398 207 2623 136 Q 2406 229 2722 598" stoke="none" fill="#87FF7C" />
+			<path d="M 2772 600 Q 2901 354 2825 131 Q 2923 346 2819 603" stoke="none" fill="#76FF60" />
+			<path d="M 2908 585 Q 3018 1012 3237 923 Q 3028 1034 2876 619" stoke="none" fill="#618454" />
+			<path d="M 3008 614 Q 2570 848 2745 1006 Q 2555 867 2968 590" stoke="none" fill="#455F3D" />
+			<path d="M 3066 587 Q 3240 423 3373 229 Q 3260 436 3103 616" stoke="none" fill="#7DE656" />
+			<path d="M 3158 596 Q 3062 160 3298 145 Q 3065 183 3204 608" stoke="none" fill="#569E44" />
+			<path d="M 3300 596 Q 3366 824 3393 1059 Q 3343 828 3255 608" stoke="none" fill="#213B1B" />
+			<path d="M 3397 597 Q 3237 1021 3470 1064 Q 3234 1044 3351 607" stoke="none" fill="#73BE6F" />
+			<path d="M 3448 594 Q 3402 228 3627 157 Q 3410 250 3492 610" stoke="none" fill="#427A37" />
+			<path d="M 3544 596 Q 3910 218 3685 145 Q 3916 196 3589 608" stoke="none" fill="#7AB869" />
+			<path d="M 3640 604 Q 3419 248 3624 132 Q 3432 268 3686 600" stoke="none" fill="#79E067" />
+			<path d="M 3783 603 Q 3746 837 3735 1073 Q 3722 837 3736 601" stoke="none" fill="#8FD980" />
+			<path d="M 3833 596 Q 4139 311 3971 144 Q 4154 294 3879 608" stoke="none" fill="#305027" />
+			<path d="M 3971 616 Q 3616 752 3672 982 Q 3594 759 3933 588" stoke="none" fill="#78EE5A" />
+			<path d="M 4064 584 Q 4251 733 4401 916 Q 4234 749 4033 619" stoke="none" fill="#6CBE4D" />
+			<path d="M 4122 602 Q 4040 341 4146 130 Q 4061 351 4169 602" stoke="none" fill="#66FC5B" />
+			<path d="M 4263 593 Q 4274 852 4417 1040 Q 4256 867 4220 611" stoke="none" fill="#75F661" />
+			<path d="M 4346 624 Q 4126 718 3893 759 Q 4120 695 4330 580" stoke="none" fill="#8DDA75" />
+			<path d="M 4427 579 Q 4736 636 4881 450 Q 4755 649 4442 624" stoke="none" fill="#4EA743" />
+			<path d="M 4528 578 Q 4777 629 5000 550 Q 4786 650 4533 625" stoke="none" fill="#4B7F3C" />
+			<path d="M 4647 589 Q 4955 773 4883 998 Q 4932 767 4607 615" stoke="none" fill="#72E563" />
+			<path d="M 4700 600 Q 4853 351 4766 132 Q 4874 342 4747 604" stoke="none" fill="#A7F293" />
+			<path d="M 6 680 Q 243 728 450 841 Q 233 749 -6 725" stoke="none" fill="#8AC67A" />
+			<path d="M 73 698 Q 339 407 175 237 Q 355 390 119 706" stoke="none" fill="#40823D" />
+			<path d="M 189 725 Q -218 404 -273 633 Q -241 399 196 679" stoke="none" fill="#6FD369" />
+			<path d="M 300 723 Q -176 687 -129 919 Q -199 693 278 681" stoke="none" fill="#3D6238" />
+			<path d="M 401 684 Q 550 873 739 1014 Q 537 892 370 720" stoke="none" fill="#51A542" />
+			<path d="M 461 713 Q 501 308 266 282 Q 503 284 502 691" stoke="none" fill="#73D06E" />
+			<path d="M 595 686 Q 935 807 906 1041 Q 912 805 561 718" stoke="none" fill="#86D36F" />
+			<path d="M 692 687 Q 785 932 985 1057 Q 773 953 657 718" stoke="none" fill="#7CD15E" />
+			<path d="M 748 697 Q 724 420 881 243 Q 743 435 794 708" stoke="none" fill="#37542D" />
+			<path d="M 854 721 Q 708 497 481 431 Q 713 474 881 683" stoke="none" fill="#7EEA68" />
+			<path d="M 967 679 Q 1195 798 1430 773 Q 1199 821 960 725" stoke="none" fill="#6FCC5E" />
+			<path d="M 1083 709 Q 793 963 929 1156 Q 775 977 1037 696" stoke="none" fill="#9CFF93" />
+			<path d="M 1141 684 Q 1439 621 1518 399 Q 1461 628 1172 720" stoke="none" fill="#7FBE72" />
+			<path d="M 1276 703 Q 1466 1131 1234 1174 Q 1461 1108 1229 701" stoke="none" fill="#64A450" />
+			<path d="M 1333 720 Q 1224 316 998 387 Q 1215 294 1365 685" stoke="none" fill="#4B8347" />
+			<path d="M 1469 703 Q 1594 1012 1422 1173 Q 1577 995 1422 701" stoke="none" fill="#7CE96C" />
+			<path d="M 1537 725 Q 1302 502 1083 591 Q 1292 481 1548 679" stoke="none" fill="#213C1D" />
+			<path d="M 1640 679 Q 1955 911 2109 732 Q 1974 925 1637 726" stoke="none" fill="#3A5F2F" />
+			<path d="M 1728 680 Q 2168 798 2186 563 Q 2191 799 1742 725" stoke="none" fill="#7CBA79" />
+			<path d="M 1808 705 Q 2012 291 1783 233 Q 2016 268 1855 700" stoke="none" fill="#315A2F" />
+			<path d="M 1950 694 Q 1864 1105 2097 1142 Q 1861 1128 1906 711" stoke="none" fill="#7EC779" />
+			<path d="M 2026 679 Q 2319 895 2495 737 Q 2336 912 2022 726" stoke="none" fill="#3A5236" />
+			<path d="M 2116 725 Q 1747 403 1656 621 Q 1725 395 2125 679" stoke="none" fill="#5CDC51" />
+			<path d="M 2221 679 Q 2601 562 2682 784 Q 2579 571 2213 725" stoke="none" fill="#66C65D" />
+			<path d="M 2312 726 Q 1931 463 1842 682 Q 1909 455 2314 679" stoke="none" fill="#44723F" />
+			<path d="M 2432 710 Q 2397 960 2253 1147 Q 2378 947 2388 694" stoke="none" fill="#4B7940" />
+			<path d="M 2501 679 Q 2734 642 2966 596 Q 2740 665 2511 725" stoke="none" fill="#3A5D35" />
+			<path d="M 2579 701 Q 2408 335 2620 231 Q 2419 356 2626 703" stoke="none" fill="#223C18" />
+			<path d="M 2675 703 Q 2539 422 2678 231 Q 2559 435 2722 701" stoke="none" fill="#62B24B" />
+			<path d="M 2812 719 Q 2668 1164 2466 1040 Q 2679 1143 2778 686" stoke="none" fill="#88F281" />
+			<path d="M 2910 688 Q 3137 844 3180 1076 Q 3114 849 2873 716" stoke="none" fill="#24441E" />
+			<path d="M 2965 700 Q 2824 360 3022 232 Q 2838 379 3012 704" stoke="none" fill="#76B26F" />
+			<path d="M 3061 706 Q 3193 381 3006 237 Q 3207 362 3108 698" stoke="none" fill="#5E984D" />
+			<path d="M 3158 704 Q 3368 295 3141 232 Q 3374 272 3204 700" stoke="none" fill="#629A52" />
+			<path d="M 3300 707 Q 3401 1073 3183 1164 Q 3391 1052 3254 697" stoke="none" fill="#33502C" />
+			<path d="M 3351 707 Q 3056 305 3282 239 Q 3063 327 3397 698" stoke="none" fill="#9AE381" />
+			<path d="M 3462 724 Q 2982 767 3029 536 Q 3005 771 3478 680" stoke="none" fill="#4A6341" />
+			<path d="M 3590 701 Q 3607 939 3584 1174 Q 3583 937 3543 703" stoke="none" fill="#2F442C" />
+			<path d="M 3677 721 Q 3277 752 3287 987 Q 3254 754 3649 683" stoke="none" fill="#283D26" />
+			<path d="M 3763 679 Q 4010 677 4226 773 Q 4002 699 3756 725" stoke="none" fill="#447432" />
+			<path d="M 3872 685 Q 4360 859 4196 1029 Q 4343 844 3840 719" stoke="none" fill="#94F082" />
+			<path d="M 3941 723 Q 3760 553 3535 481 Q 3766 530 3963 681" stoke="none" fill="#80E067" />
+			<path d="M 4035 722 Q 3871 541 3659 437 Q 3880 519 4062 683" stoke="none" fill="#52AE4A" />
+			<path d="M 4147 726 Q 3701 973 3675 739 Q 3724 970 4143 679" stoke="none" fill="#B8FFA0" />
+			<path d="M 4236 725 Q 4007 668 3782 596 Q 4013 645 4247 679" stoke="none" fill="#5CA856" />
+			<path d="M 4333 725 Q 4021 413 3877 601 Q 4001 400 4343 679" stoke="none" fill="#7AC85C" />
+			<path d="M 4437 679 Q 4764 560 4904 750 Q 4746 574 4432 726" stoke="none" fill="#3C6333" />
+			<path d="M 4533 679 Q 4764 765 5000 754 Q 4766 789 4528 726" stoke="none" fill="#2F4B2E" />
+			<path d="M 4625 726 Q 4284 869 4156 670 Q 4303 855 4629 679" stoke="none" fill="#56A74D" />
+			<path d="M 4743 716 Q 4643 1219 4448 1085 Q 4656 1198 4704 688" stoke="none" fill="#64CF5B" />
+			<path d="M 21 793 Q -49 1269 184 1237 Q -44 1292 -21 812" stoke="none" fill="#87C66E" />
+			<path d="M 75 791 Q 268 618 321 388 Q 291 622 117 814" stoke="none" fill="#254E1F" />
+			<path d="M 202 824 Q -38 872 -232 1006 Q -52 854 182 781" stoke="none" fill="#528846" />
+			<path d="M 266 796 Q 194 321 428 352 Q 192 344 311 809" stoke="none" fill="#7AAA70" />
+			<path d="M 365 814 Q 383 441 152 392 Q 387 418 406 791" stoke="none" fill="#70E65D" />
+			<path d="M 467 784 Q 729 710 850 508 Q 749 721 496 821" stoke="none" fill="#8BFE7D" />
+			<path d="M 566 782 Q 834 389 987 568 Q 816 405 590 823" stoke="none" fill="#92C87F" />
+			<path d="M 684 781 Q 919 1150 1102 1001 Q 935 1167 664 824" stoke="none" fill="#2F532A" />
+			<path d="M 791 791 Q 1154 1034 1001 1214 Q 1135 1019 750 814" stoke="none" fill="#63ED5A" />
+			<path d="M 850 819 Q 663 665 538 465 Q 682 652 884 786" stoke="none" fill="#26431B" />
+			<path d="M 986 794 Q 928 1118 1127 1245 Q 916 1138 942 811" stoke="none" fill="#86E179" />
+			<path d="M 1038 810 Q 848 584 908 356 Q 871 589 1082 795" stoke="none" fill="#67CB62" />
+			<path d="M 1133 799 Q 1051 502 1218 335 Q 1069 518 1180 806" stoke="none" fill="#5FB152" />
+			<path d="M 1271 817 Q 1198 1153 963 1175 Q 1195 1130 1234 788" stoke="none" fill="#43603D" />
+			<path d="M 1371 810 Q 1057 1051 1189 1246 Q 1038 1065 1327 795" stoke="none" fill="#40643A" />
+			<path d="M 1424 811 Q 1442 523 1266 366 Q 1457 505 1467 794" stoke="none" fill="#447437" />
+			<path d="M 1551 781 Q 1803 828 1975 991 Q 1788 846 1533 824" stoke="none" fill="#7CEA67" />
+			<path d="M 1648 781 Q 1911 813 2074 985 Q 1895 831 1629 824" stoke="none" fill="#74F668" />
+			<path d="M 1757 811 Q 1433 1057 1574 1246 Q 1415 1071 1713 794" stoke="none" fill="#2F5C2B" />
+			<path d="M 1853 793 Q 1909 1026 2020 1235 Q 1889 1038 1810 812" stoke="none" fill="#54954E" />
+			<path d="M 1932 826 Q 1664 762 1463 886 Q 1651 743 1923 779" stoke="none" fill="#355232" />
+			<path d="M 2010 821 Q 1877 577 1648 518 Q 1881 554 2038 784" stoke="none" fill="#40613A" />
+			<path d="M 2125 779 Q 2423 724 2582 899 Q 2407 741 2116 826" stoke="none" fill="#557D46" />
+			<path d="M 2233 786 Q 2335 1046 2554 1132 Q 2327 1068 2200 819" stoke="none" fill="#3E6A3B" />
+			<path d="M 2296 787 Q 2536 668 2626 449 Q 2558 675 2331 818" stoke="none" fill="#70B363" />
+			<path d="M 2408 779 Q 2815 540 2880 766 Q 2792 547 2412 826" stoke="none" fill="#6B9D65" />
+			<path d="M 2505 779 Q 2916 1008 2977 780 Q 2939 1013 2507 826" stoke="none" fill="#81CC66" />
+			<path d="M 2606 779 Q 2840 815 3070 867 Q 2836 838 2599 826" stoke="none" fill="#2D5325" />
+			<path d="M 2680 789 Q 2739 395 2974 419 Q 2737 419 2718 816" stoke="none" fill="#62CB56" />
+			<path d="M 2810 784 Q 2938 1170 3163 1098 Q 2946 1192 2781 821" stoke="none" fill="#6CBF5A" />
+			<path d="M 2911 817 Q 2687 957 2608 1180 Q 2664 950 2873 788" stoke="none" fill="#418037" />
+			<path d="M 2999 824 Q 2761 880 2566 1014 Q 2747 862 2978 781" stoke="none" fill="#315D2B" />
+			<path d="M 3103 817 Q 3015 1093 2792 1173 Q 3006 1072 3066 788" stoke="none" fill="#7DD062" />
+			<path d="M 3174 780 Q 3483 847 3632 664 Q 3502 861 3188 825" stoke="none" fill="#567E46" />
+			<path d="M 3260 786 Q 3407 594 3600 458 Q 3422 613 3295 819" stoke="none" fill="#213D1B" />
+			<path d="M 3383 824 Q 2873 763 2941 989 Q 2851 771 3364 781" stoke="none" fill="#96FD7C" />
+			<path d="M 3481 781 Q 3717 854 3893 1012 Q 3703 872 3460 824" stoke="none" fill="#426D40" />
+			<path d="M 3569 826 Q 3285 989 3097 847 Q 3298 970 3564 779" stoke="none" fill="#5FE056" />
+			<path d="M 3647 786 Q 3832 638 4002 474 Q 3849 654 3679 819" stoke="none" fill="#519246" />
+			<path d="M 3775 785 Q 4154 891 4106 1123 Q 4130 888 3743 820" stoke="none" fill="#609255" />
+			<path d="M 3868 822 Q 3640 905 3457 1055 Q 3624 887 3843 783" stoke="none" fill="#365B2F" />
+			<path d="M 3976 804 Q 4082 1097 3924 1273 Q 4063 1082 3929 801" stoke="none" fill="#54B341" />
+			<path d="M 4046 779 Q 4423 535 4518 752 Q 4402 546 4051 826" stoke="none" fill="#456D3A" />
+			<path d="M 4123 796 Q 4403 555 4282 351 Q 4422 542 4168 809" stoke="none" fill="#32532F" />
+			<path d="M 4245 779 Q 4724 645 4707 881 Q 4700 645 4238 826" stoke="none" fill="#73AF6C" />
+			<path d="M 4328 824 Q 3875 830 3913 597 Q 3899 832 4348 781" stoke="none" fill="#3F593A" />
+			<path d="M 4445 781 Q 4677 1167 4856 1014 Q 4693 1184 4424 824" stoke="none" fill="#75D662" />
+			<path d="M 4508 797 Q 4854 454 4645 345 Q 4864 433 4554 808" stoke="none" fill="#628E5A" />
+			<path d="M 4609 818 Q 4145 611 4316 448 Q 4162 627 4645 787" stoke="none" fill="#628D59" />
+			<path d="M 4746 809 Q 4827 1206 4596 1257 Q 4821 1183 4701 796" stoke="none" fill="#528D4C" />
+			<path d="M -11 923 Q -418 900 -406 664 Q -395 900 11 883" stoke="none" fill="#448133" />
+			<path d="M 119 903 Q 218 1179 86 1375 Q 198 1167 72 902" stoke="none" fill="#9BDC8B" />
+			<path d="M 175 887 Q 307 673 513 556 Q 320 693 210 919" stoke="none" fill="#66E85F" />
+			<path d="M 266 898 Q 568 595 388 442 Q 582 577 312 908" stoke="none" fill="#6BA458" />
+			<path d="M 393 925 Q 178 1040 -56 1068 Q 174 1017 377 881" stoke="none" fill="#3A5B2D" />
+			<path d="M 469 883 Q 673 545 883 654 Q 663 567 494 923" stoke="none" fill="#315929" />
+			<path d="M 557 893 Q 548 406 774 474 Q 542 429 599 913" stoke="none" fill="#263C24" />
+			<path d="M 654 891 Q 686 489 922 501 Q 686 513 694 915" stoke="none" fill="#203C18" />
+			<path d="M 792 913 Q 469 1107 560 1325 Q 448 1117 750 892" stoke="none" fill="#437D39" />
+			<path d="M 855 883 Q 1361 876 1271 658 Q 1382 866 879 923" stoke="none" fill="#91D98D" />
+			<path d="M 940 904 Q 799 617 945 431 Q 818 631 987 902" stoke="none" fill="#8DD288" />
+			<path d="M 1040 890 Q 1347 744 1321 510 Q 1370 741 1080 916" stoke="none" fill="#315326" />
+			<path d="M 1154 926 Q 849 1024 687 851 Q 865 1007 1159 879" stoke="none" fill="#72AA5D" />
+			<path d="M 1270 887 Q 1548 1017 1570 1252 Q 1524 1020 1235 919" stoke="none" fill="#2E4926" />
+			<path d="M 1373 904 Q 1481 1198 1323 1374 Q 1462 1183 1326 902" stoke="none" fill="#43863C" />
+			<path d="M 1424 912 Q 1435 631 1265 467 Q 1451 613 1467 894" stoke="none" fill="#74CD5B" />
+			<path d="M 1562 890 Q 1706 1080 1804 1295 Q 1685 1091 1522 916" stoke="none" fill="#489B3C" />
+			<path d="M 1657 889 Q 1735 1137 1924 1278 Q 1722 1157 1620 917" stoke="none" fill="#78D968" />
+			<path d="M 1738 926 Q 1408 1157 1267 967 Q 1426 1142 1732 880" stoke="none" fill="#AAFF94" />
+			<path d="M 1853 911 Q 1826 1173 1662 1343 Q 1808 1158 1809 894" stoke="none" fill="#87FF79" />
+			<path d="M 1904 900 Q 2221 488 1991 435 Q 2226 465 1951 906" stoke="none" fill="#7AC75F" />
+			<path d="M 2038 922 Q 1837 1326 1646 1186 Q 1850 1306 2010 884" stoke="none" fill="#6AC14B" />
+			<path d="M 2117 880 Q 2383 715 2587 834 Q 2372 736 2124 926" stoke="none" fill="#334E30" />
+			<path d="M 2193 904 Q 2037 612 2190 432 Q 2055 626 2240 902" stoke="none" fill="#50A348" />
+			<path d="M 2325 883 Q 2807 922 2720 1141 Q 2785 914 2301 923" stoke="none" fill="#80C068" />
+			<path d="M 2387 899 Q 2721 490 2491 438 Q 2725 467 2433 907" stoke="none" fill="#467041" />
+			<path d="M 2519 923 Q 1997 944 2106 1154 Q 1976 956 2494 883" stoke="none" fill="#3C8036" />
+			<path d="M 2623 891 Q 2902 1080 2843 1309 Q 2878 1075 2582 915" stoke="none" fill="#6CBC51" />
+			<path d="M 2715 920 Q 2268 1015 2361 1232 Q 2247 1025 2683 886" stoke="none" fill="#8AFE5F" />
+			<path d="M 2774 893 Q 2989 709 2989 473 Q 3013 708 2817 913" stoke="none" fill="#6DE059" />
+			<path d="M 2896 880 Q 3253 779 3355 991 Q 3232 790 2887 926" stoke="none" fill="#34732F" />
+			<path d="M 2983 926 Q 2683 971 2530 791 Q 2700 955 2994 880" stoke="none" fill="#71AF61" />
+			<path d="M 3105 914 Q 3032 1159 2855 1315 Q 3015 1142 3064 891" stoke="none" fill="#589045" />
+			<path d="M 3198 886 Q 3297 1327 3515 1236 Q 3307 1348 3164 920" stoke="none" fill="#3E613A" />
+			<path d="M 3263 921 Q 2773 803 2908 609 Q 2793 815 3292 884" stoke="none" fill="#3B6438" />
+			<path d="M 3375 879 Q 3611 973 3844 937 Q 3616 996 3372 926" stoke="none" fill="#8FF388" />
+			<path d="M 3461 881 Q 3827 942 3905 719 Q 3849 948 3479 925" stoke="none" fill="#98F581" />
+			<path d="M 3588 912 Q 3365 1102 3383 1337 Q 3342 1105 3545 894" stoke="none" fill="#468934" />
+			<path d="M 3650 883 Q 4174 858 4061 650 Q 4194 846 3676 923" stoke="none" fill="#41792C" />
+			<path d="M 3759 926 Q 3471 749 3288 899 Q 3455 732 3760 879" stoke="none" fill="#9EF27E" />
+			<path d="M 3879 900 Q 4091 1219 3911 1371 Q 4075 1202 3832 906" stoke="none" fill="#9AF979" />
+			<path d="M 3931 913 Q 3990 489 3754 475 Q 3990 466 3974 893" stoke="none" fill="#76BD60" />
+			<path d="M 4064 920 Q 3658 983 3696 1216 Q 3635 988 4033 885" stoke="none" fill="#87E57E" />
+			<path d="M 4164 917 Q 4031 1115 3863 1281 Q 4014 1100 4126 889" stoke="none" fill="#92E083" />
+			<path d="M 4250 925 Q 4039 1051 3804 1080 Q 4035 1028 4233 881" stoke="none" fill="#80D075" />
+			<path d="M 4319 917 Q 4172 731 4051 528 Q 4191 718 4357 889" stoke="none" fill="#4F8B3B" />
+			<path d="M 4433 926 Q 4199 884 3964 871 Q 4200 861 4436 879" stoke="none" fill="#4C8748" />
+			<path d="M 4546 921 Q 4126 979 4173 1211 Q 4103 985 4515 885" stoke="none" fill="#62C35A" />
+			<path d="M 4612 885 Q 4789 729 4982 592 Q 4804 747 4643 921" stoke="none" fill="#8CCD75" />
+			<path d="M 4715 925 Q 4467 887 4280 742 Q 4480 867 4732 881" stoke="none" fill="#3F6039" />
+			<path d="M -3 980 Q 277 785 465 928 Q 264 804 3 1026" stoke="none" fill="#73B15E" />
+			<path d="M 116 991 Q 143 1516 350 1401 Q 156 1536 76 1016" stoke="none" fill="#5E8453" />
+			<path d="M 191 980 Q 490 1132 663 971 Q 507 1148 194 1027" stoke="none" fill="#539348" />
+			<path d="M 292 1027 Q 56 1042 -179 1061 Q 53 1019 286 980" stoke="none" fill="#274D20" />
+			<path d="M 365 991 Q 806 766 635 603 Q 821 748 405 1016" stoke="none" fill="#63D554" />
+			<path d="M 465 986 Q 893 906 825 680 Q 915 899 498 1020" stoke="none" fill="#7BC969" />
+			<path d="M 570 981 Q 821 965 1019 836 Q 835 984 586 1025" stoke="none" fill="#66C150" />
+			<path d="M 667 981 Q 992 666 1124 861 Q 973 680 681 1026" stoke="none" fill="#5BB349" />
+			<path d="M 792 992 Q 758 1459 991 1421 Q 763 1482 750 1014" stoke="none" fill="#81C471" />
+			<path d="M 888 1014 Q 890 1443 654 1424 Q 890 1419 846 993" stoke="none" fill="#253E1C" />
+			<path d="M 965 1027 Q 588 1253 493 1037 Q 609 1243 962 980" stoke="none" fill="#22411F" />
+			<path d="M 1042 1019 Q 984 637 748 649 Q 981 614 1078 988" stoke="none" fill="#4E6F44" />
+			<path d="M 1172 985 Q 1641 1113 1513 1312 Q 1621 1101 1141 1021" stoke="none" fill="#6F9F5E" />
+			<path d="M 1262 982 Q 1769 972 1685 1193 Q 1747 965 1243 1025" stoke="none" fill="#578946" />
+			<path d="M 1372 998 Q 1661 1330 1464 1461 Q 1647 1311 1326 1009" stoke="none" fill="#ADF79D" />
+			<path d="M 1459 984 Q 1620 1169 1830 1277 Q 1610 1190 1432 1022" stoke="none" fill="#438E3D" />
+			<path d="M 1546 1026 Q 1116 1325 1079 1091 Q 1139 1320 1538 980" stoke="none" fill="#78BF67" />
+			<path d="M 1615 1003 Q 1825 682 1643 531 Q 1839 663 1662 1003" stoke="none" fill="#23451E" />
+			<path d="M 1712 998 Q 2046 648 1835 542 Q 2055 627 1758 1008" stoke="none" fill="#94CF87" />
+			<path d="M 1833 1027 Q 1593 1071 1360 1032 Q 1596 1047 1830 980" stoke="none" fill="#5DAA43" />
+			<path d="M 1947 990 Q 1958 1344 2188 1397 Q 1954 1367 1908 1016" stoke="none" fill="#87BF7C" />
+			<path d="M 2041 1020 Q 1919 1413 1694 1340 Q 1925 1390 2007 987" stoke="none" fill="#275123" />
+			<path d="M 2099 1014 Q 1875 814 1910 581 Q 1898 817 2142 993" stoke="none" fill="#95DC87" />
+			<path d="M 2193 1003 Q 2127 743 2232 532 Q 2149 753 2240 1004" stoke="none" fill="#56904F" />
+			<path d="M 2297 987 Q 2458 810 2649 671 Q 2472 829 2330 1020" stoke="none" fill="#5D9D45" />
+			<path d="M 2433 997 Q 2316 1353 2526 1460 Q 2307 1374 2387 1009" stoke="none" fill="#35552C" />
+			<path d="M 2497 1025 Q 2277 935 2075 812 Q 2288 914 2516 982" stoke="none" fill="#4C9748" />
+			<path d="M 2592 1025 Q 2397 716 2176 801 Q 2387 695 2613 982" stoke="none" fill="#7CD16D" />
+			<path d="M 2676 998 Q 2992 679 2799 542 Q 3004 659 2722 1008" stoke="none" fill="#6BDF51" />
+			<path d="M 2787 1025 Q 2444 1053 2355 835 Q 2466 1043 2804 981" stoke="none" fill="#2A5923" />
+			<path d="M 2872 1017 Q 2744 818 2621 617 Q 2764 805 2911 990" stoke="none" fill="#73E060" />
+			<path d="M 2998 982 Q 3493 984 3414 1206 Q 3471 977 2978 1024" stoke="none" fill="#84E260" />
+			<path d="M 3064 991 Q 3112 510 3330 600 Q 3104 533 3105 1016" stoke="none" fill="#2A4B1F" />
+			<path d="M 3165 986 Q 3536 923 3531 686 Q 3560 921 3197 1021" stoke="none" fill="#60974E" />
+			<path d="M 3266 983 Q 3595 987 3688 770 Q 3617 996 3289 1024" stoke="none" fill="#83D96A" />
+			<path d="M 3397 1009 Q 3081 1317 3267 1463 Q 3067 1336 3351 998" stoke="none" fill="#284025" />
+			<path d="M 3494 1001 Q 3289 1386 3509 1474 Q 3281 1409 3447 1005" stoke="none" fill="#54824E" />
+			<path d="M 3590 1008 Q 3466 1231 3478 1467 Q 3442 1233 3543 999" stoke="none" fill="#244420" />
+			<path d="M 3686 1000 Q 3567 1305 3737 1469 Q 3552 1323 3640 1007" stoke="none" fill="#74D25B" />
+			<path d="M 3747 983 Q 4123 990 4162 757 Q 4146 992 3772 1023" stoke="none" fill="#527C4B" />
+			<path d="M 3877 1013 Q 3485 1277 3662 1433 Q 3470 1295 3834 994" stoke="none" fill="#67B254" />
+			<path d="M 3938 1022 Q 3426 915 3570 727 Q 3446 928 3966 984" stoke="none" fill="#8DDA80" />
+			<path d="M 4071 1011 Q 3721 1292 3896 1450 Q 3706 1310 4026 996" stoke="none" fill="#50A548" />
+			<path d="M 4168 997 Q 4033 1456 4269 1458 Q 4034 1479 4122 1009" stoke="none" fill="#324A2F" />
+			<path d="M 4248 981 Q 4470 1211 4694 1136 Q 4479 1233 4235 1026" stoke="none" fill="#5E8D4F" />
+			<path d="M 4325 983 Q 4530 645 4739 755 Q 4520 667 4350 1023" stoke="none" fill="#2F562A" />
+			<path d="M 4457 1010 Q 4305 1221 4306 1457 Q 4281 1222 4412 997" stoke="none" fill="#5E9354" />
+			<path d="M 4550 990 Q 4573 1433 4805 1387 Q 4579 1455 4512 1017" stoke="none" fill="#233C1A" />
+			<path d="M 4632 980 Q 4873 1202 5088 1104 Q 4884 1223 4622 1026" stoke="none" fill="#2C4E20" />
+			<path d="M 4707 1020 Q 4281 891 4382 677 Q 4303 900 4740 986" stoke="none" fill="#234621" />
+			<path d="M 21 1094 Q 21 1370 190 1535 Q 6 1388 -21 1113" stoke="none" fill="#487941" />
+			<path d="M 76 1116 Q -297 879 -145 699 Q -279 894 116 1092" stoke="none" fill="#5AA74E" />
+			<path d="M 169 1107 Q 6 845 118 638 Q 27 855 216 1100" stoke="none" fill="#71AB65" />
+			<path d="M 290 1127 Q -9 1282 -182 1121 Q 5 1264 288 1080" stoke="none" fill="#99E47B" />
+			<path d="M 362 1106 Q 526 766 330 635 Q 538 746 409 1101" stoke="none" fill="#609252" />
+			<path d="M 497 1086 Q 604 1472 834 1417 Q 611 1495 466 1121" stoke="none" fill="#7FB673" />
+			<path d="M 561 1087 Q 1069 945 911 769 Q 1086 928 595 1120" stoke="none" fill="#76D765" />
+			<path d="M 652 1112 Q 602 879 512 661 Q 623 869 696 1096" stoke="none" fill="#64C24E" />
+			<path d="M 770 1080 Q 1020 1011 1242 1091 Q 1013 1034 771 1127" stoke="none" fill="#8AF677" />
+			<path d="M 858 1082 Q 1104 1052 1305 927 Q 1118 1071 876 1125" stoke="none" fill="#85E467" />
+			<path d="M 941 1109 Q 885 878 861 643 Q 909 874 987 1098" stoke="none" fill="#71B965" />
+			<path d="M 1081 1113 Q 1038 1372 866 1533 Q 1021 1355 1039 1094" stoke="none" fill="#4D8645" />
+			<path d="M 1162 1081 Q 1508 1426 1615 1216 Q 1530 1436 1151 1126" stoke="none" fill="#457A34" />
+			<path d="M 1273 1092 Q 1327 1341 1491 1511 Q 1311 1358 1233 1116" stoke="none" fill="#517F4C" />
+			<path d="M 1371 1095 Q 1280 1533 1516 1545 Q 1280 1557 1327 1112" stoke="none" fill="#2A4026" />
+			<path d="M 1445 1080 Q 1759 918 1917 1094 Q 1743 935 1446 1127" stoke="none" fill="#8CDA75" />
+			<path d="M 1527 1122 Q 1051 1003 1178 804 Q 1071 1015 1557 1085" stoke="none" fill="#3C5035" />
+			<path d="M 1644 1126 Q 1407 1290 1181 1221 Q 1413 1268 1633 1081" stoke="none" fill="#6EC265" />
+			<path d="M 1713 1112 Q 1402 829 1569 662 Q 1419 845 1757 1095" stoke="none" fill="#61B54B" />
+			<path d="M 1817 1122 Q 1623 652 1456 818 Q 1606 636 1845 1085" stoke="none" fill="#86E070" />
+			<path d="M 1905 1111 Q 1617 818 1787 653 Q 1635 834 1950 1097" stoke="none" fill="#82F677" />
+			<path d="M 2018 1081 Q 2375 775 2481 986 Q 2354 787 2030 1126" stoke="none" fill="#669457" />
+			<path d="M 2105 1086 Q 2586 989 2468 785 Q 2605 977 2136 1121" stoke="none" fill="#A4F996" />
+			<path d="M 2207 1125 Q 1994 1022 1787 910 Q 2005 1001 2227 1082" stoke="none" fill="#77A168" />
+			<path d="M 2331 1119 Q 2012 1231 2013 1467 Q 1989 1232 2295 1089" stoke="none" fill="#4A7A45" />
+			<path d="M 2432 1096 Q 2688 1348 2565 1549 Q 2667 1336 2387 1111" stoke="none" fill="#98FD8E" />
+			<path d="M 2528 1094 Q 2702 1298 2699 1534 Q 2678 1299 2485 1113" stoke="none" fill="#46A940" />
+			<path d="M 2619 1121 Q 2414 1249 2263 1431 Q 2395 1235 2586 1087" stoke="none" fill="#B5FFA1" />
+			<path d="M 2710 1083 Q 3090 1083 3120 1317 Q 3067 1087 2688 1125" stoke="none" fill="#52A64A" />
+			<path d="M 2773 1111 Q 2855 774 2652 654 Q 2866 753 2818 1096" stoke="none" fill="#3B5734" />
+			<path d="M 2871 1114 Q 2641 918 2675 684 Q 2664 920 2913 1093" stoke="none" fill="#3B6337" />
+			<path d="M 2990 1127 Q 2606 1358 2518 1139 Q 2628 1348 2986 1080" stoke="none" fill="#4D863B" />
+			<path d="M 3061 1107 Q 3249 648 3013 637 Q 3249 625 3108 1100" stoke="none" fill="#508E4C" />
+			<path d="M 3204 1099 Q 3372 1350 3276 1566 Q 3350 1341 3158 1108" stoke="none" fill="#ABF59A" />
+			<path d="M 3257 1115 Q 3277 635 3047 692 Q 3270 612 3298 1092" stoke="none" fill="#7BB26B" />
+			<path d="M 3397 1104 Q 3427 1346 3369 1575 Q 3404 1342 3350 1103" stoke="none" fill="#73D45C" />
+			<path d="M 3491 1115 Q 3169 1285 3234 1512 Q 3147 1292 3450 1092" stoke="none" fill="#85F86D" />
+			<path d="M 3551 1121 Q 3072 976 3215 789 Q 3091 990 3582 1086" stoke="none" fill="#537446" />
+			<path d="M 3645 1119 Q 3185 902 3359 743 Q 3202 918 3681 1088" stoke="none" fill="#7CE257" />
+			<path d="M 3743 1087 Q 4150 999 4093 770 Q 4172 992 3776 1120" stoke="none" fill="#89EC78" />
+			<path d="M 3879 1098 Q 3736 1566 3972 1561 Q 3737 1590 3833 1109" stoke="none" fill="#264420" />
+			<path d="M 3930 1110 Q 3942 856 3828 648 Q 3962 843 3975 1097" stoke="none" fill="#2B4F20" />
+			<path d="M 4044 1081 Q 4330 1160 4511 1008 Q 4346 1178 4053 1127" stoke="none" fill="#478432" />
+			<path d="M 4151 1126 Q 3922 1192 3688 1219 Q 3918 1168 4139 1081" stoke="none" fill="#547D4D" />
+			<path d="M 4265 1105 Q 4441 1598 4206 1574 Q 4442 1575 4218 1102" stoke="none" fill="#55744C" />
+			<path d="M 4353 1085 Q 4467 1390 4703 1402 Q 4467 1413 4323 1122" stoke="none" fill="#62DD5B" />
+			<path d="M 4438 1080 Q 4948 945 4900 1176 Q 4924 941 4431 1127" stoke="none" fill="#8BC974" />
+			<path d="M 4553 1112 Q 4429 1318 4369 1547 Q 4406 1314 4509 1096" stoke="none" fill="#75C456" />
+			<path d="M 4642 1122 Q 4481 1317 4260 1400 Q 4472 1295 4612 1085" stoke="none" fill="#65D358" />
+			<path d="M 4745 1095 Q 4877 1306 4899 1542 Q 4854 1310 4702 1112" stoke="none" fill="#87D273" />
+			<path d="M -10 1225 Q -248 838 -423 996 Q -264 821 10 1183" stoke="none" fill="#61A944" />
+			<path d="M 92 1181 Q 524 899 562 1132 Q 501 904 99 1227" stoke="none" fill="#8BE46F" />
+			<path d="M 169 1201 Q 442 874 251 736 Q 455 855 216 1207" stoke="none" fill="#67C653" />
+			<path d="M 287 1181 Q 536 1247 759 1171 Q 544 1269 290 1227" stoke="none" fill="#9AF17B" />
+			<path d="M 362 1207 Q 489 905 324 736 Q 505 887 408 1201" stoke="none" fill="#425C3C" />
+			<path d="M 503 1214 Q 494 1518 289 1635 Q 482 1498 460 1194" stoke="none" fill="#7FD76B" />
+			<path d="M 557 1214 Q 181 908 377 777 Q 195 927 599 1194" stoke="none" fill="#304828" />
+			<path d="M 660 1186 Q 805 894 1041 907 Q 805 918 689 1222" stoke="none" fill="#8BE676" />
+			<path d="M 748 1211 Q 474 937 625 755 Q 493 951 793 1197" stoke="none" fill="#477833" />
+			<path d="M 869 1227 Q 556 1064 397 1238 Q 538 1049 865 1181" stoke="none" fill="#589C50" />
+			<path d="M 983 1217 Q 728 1359 698 1594 Q 704 1358 944 1191" stoke="none" fill="#366534" />
+			<path d="M 1045 1222 Q 802 1113 699 901 Q 823 1102 1075 1186" stoke="none" fill="#9DF37F" />
+			<path d="M 1135 1214 Q 1194 741 960 775 Q 1189 718 1178 1194" stoke="none" fill="#8BF56A" />
+			<path d="M 1241 1184 Q 1602 1194 1660 965 Q 1625 1199 1265 1224" stoke="none" fill="#21451B" />
+			<path d="M 1373 1202 Q 1371 1439 1382 1675 Q 1348 1441 1326 1206" stoke="none" fill="#51884B" />
+			<path d="M 1464 1219 Q 996 1390 1148 1570 Q 979 1406 1427 1189" stoke="none" fill="#2B5927" />
+			<path d="M 1545 1181 Q 1835 1105 2010 1263 Q 1820 1123 1539 1227" stoke="none" fill="#76E85F" />
+			<path d="M 1615 1208 Q 1452 956 1549 741 Q 1474 965 1662 1200" stoke="none" fill="#306A2C" />
+			<path d="M 1741 1227 Q 1487 1455 1282 1337 Q 1497 1435 1728 1181" stoke="none" fill="#6CA665" />
+			<path d="M 1851 1191 Q 1977 1391 2089 1599 Q 1957 1404 1812 1217" stoke="none" fill="#478B36" />
+			<path d="M 1949 1214 Q 1863 1440 1718 1626 Q 1844 1427 1907 1194" stoke="none" fill="#669C5D" />
+			<path d="M 2046 1214 Q 1818 1400 1833 1635 Q 1795 1402 2003 1194" stoke="none" fill="#85DD68" />
+			<path d="M 2101 1191 Q 2496 1014 2378 809 Q 2516 1001 2140 1217" stoke="none" fill="#95F57F" />
+			<path d="M 2235 1189 Q 2311 1659 2526 1561 Q 2322 1679 2199 1219" stoke="none" fill="#285123" />
+			<path d="M 2314 1180 Q 2684 1004 2785 1218 Q 2663 1016 2313 1228" stoke="none" fill="#AAEC91" />
+			<path d="M 2425 1222 Q 2278 1468 2044 1502 Q 2273 1445 2395 1186" stoke="none" fill="#468B3E" />
+			<path d="M 2519 1224 Q 2345 1421 2113 1465 Q 2340 1399 2493 1184" stoke="none" fill="#55914B" />
+			<path d="M 2625 1212 Q 2616 1483 2449 1650 Q 2598 1467 2580 1196" stoke="none" fill="#3F7639" />
+			<path d="M 2691 1226 Q 2306 1275 2255 1045 Q 2329 1269 2707 1182" stoke="none" fill="#74B068" />
+			<path d="M 2819 1208 Q 2803 1450 2715 1669 Q 2781 1442 2772 1200" stoke="none" fill="#2A4324" />
+			<path d="M 2893 1181 Q 3163 1356 3363 1231 Q 3176 1375 2890 1227" stoke="none" fill="#75A069" />
+			<path d="M 2990 1227 Q 2727 1351 2518 1241 Q 2737 1330 2986 1181" stoke="none" fill="#A0F995" />
+			<path d="M 3064 1193 Q 3207 1002 3315 792 Q 3229 1012 3105 1215" stoke="none" fill="#60C85A" />
+			<path d="M 3175 1227 Q 2951 1152 2725 1084 Q 2957 1129 3187 1181" stoke="none" fill="#224119" />
+			<path d="M 3294 1221 Q 3174 1500 2940 1534 Q 3169 1477 3261 1187" stoke="none" fill="#47643F" />
+			<path d="M 3374 1228 Q 3007 989 2902 1201 Q 2986 980 3374 1180" stoke="none" fill="#8CE76F" />
+			<path d="M 3490 1217 Q 3405 1468 3205 1595 Q 3392 1449 3451 1191" stoke="none" fill="#8BC87D" />
+			<path d="M 3584 1188 Q 3676 1439 3882 1555 Q 3666 1460 3549 1220" stoke="none" fill="#97D480" />
+			<path d="M 3640 1199 Q 3626 937 3759 742 Q 3646 949 3686 1209" stoke="none" fill="#98F97D" />
+			<path d="M 3742 1188 Q 3890 709 4076 854 Q 3876 728 3777 1220" stoke="none" fill="#72CC5F" />
+			<path d="M 3834 1212 Q 3631 989 3693 761 Q 3654 994 3878 1196" stoke="none" fill="#71CB61" />
+			<path d="M 3969 1220 Q 3861 1535 3625 1544 Q 3859 1512 3935 1188" stoke="none" fill="#2D4625" />
+			<path d="M 4057 1226 Q 3840 1391 3605 1365 Q 3841 1367 4041 1182" stoke="none" fill="#5D8F49" />
+			<path d="M 4156 1183 Q 4504 1203 4558 1433 Q 4482 1209 4134 1225" stoke="none" fill="#306127" />
+			<path d="M 4253 1224 Q 3853 1204 3832 1439 Q 3830 1203 4230 1184" stoke="none" fill="#2E5C26" />
+			<path d="M 4360 1197 Q 4648 1494 4475 1655 Q 4632 1478 4315 1211" stoke="none" fill="#6DA459" />
+			<path d="M 4421 1184 Q 4690 746 4825 940 Q 4671 761 4447 1224" stoke="none" fill="#9EEA97" />
+			<path d="M 4548 1220 Q 4229 1318 4213 1553 Q 4205 1317 4513 1188" stoke="none" fill="#69D950" />
+			<path d="M 4635 1182 Q 4977 1150 5070 1367 Q 4956 1160 4619 1226" stoke="none" fill="#8AF362" />
+			<path d="M 4744 1192 Q 4893 1387 4956 1615 Q 4870 1394 4703 1216" stoke="none" fill="#4C823F" />
+			<path d="M 22 1312 Q 67 1805 -161 1748 Q 72 1782 -22 1296" stoke="none" fill="#548941" />
+			<path d="M 85 1284 Q 281 1016 509 1077 Q 276 1039 107 1325" stoke="none" fill="#5EBE4D" />
+			<path d="M 191 1281 Q 436 1221 664 1285 Q 431 1244 193 1328" stoke="none" fill="#3D822F" />
+			<path d="M 284 1281 Q 759 1443 750 1206 Q 782 1441 294 1327" stoke="none" fill="#3E6736" />
+			<path d="M 395 1326 Q 158 1380 -41 1506 Q 145 1360 375 1283" stoke="none" fill="#88C17C" />
+			<path d="M 460 1294 Q 449 843 683 878 Q 447 867 503 1314" stoke="none" fill="#315723" />
+			<path d="M 561 1289 Q 815 1178 896 956 Q 838 1185 595 1320" stoke="none" fill="#5EA849" />
+			<path d="M 656 1289 Q 1068 1158 975 941 Q 1089 1148 692 1319" stoke="none" fill="#59B549" />
+			<path d="M 766 1327 Q 451 1398 308 1211 Q 469 1383 775 1281" stoke="none" fill="#67A55A" />
+			<path d="M 887 1318 Q 465 1498 599 1693 Q 446 1513 848 1291" stoke="none" fill="#7DF96F" />
+			<path d="M 940 1306 Q 1068 1023 926 834 Q 1086 1008 987 1302" stoke="none" fill="#57834B" />
+			<path d="M 1037 1311 Q 1148 937 928 851 Q 1156 915 1083 1298" stoke="none" fill="#7EFF76" />
+			<path d="M 1142 1286 Q 1534 1256 1533 1020 Q 1558 1255 1171 1323" stoke="none" fill="#2D5724" />
+			<path d="M 1275 1298 Q 1164 1660 1379 1759 Q 1156 1682 1230 1311" stoke="none" fill="#305B2D" />
+			<path d="M 1359 1326 Q 1073 1688 922 1506 Q 1090 1672 1339 1283" stoke="none" fill="#2C6628" />
+			<path d="M 1436 1326 Q 1200 1257 1016 1110 Q 1214 1238 1455 1283" stoke="none" fill="#405D39" />
+			<path d="M 1545 1328 Q 1100 1132 1074 1367 Q 1076 1131 1539 1281" stoke="none" fill="#7BD169" />
+			<path d="M 1661 1311 Q 1418 1531 1496 1754 Q 1396 1540 1616 1297" stoke="none" fill="#58A045" />
+			<path d="M 1712 1300 Q 2021 965 1820 840 Q 2032 944 1758 1309" stoke="none" fill="#96E881" />
+			<path d="M 1855 1304 Q 1926 1555 1843 1776 Q 1903 1548 1808 1305" stoke="none" fill="#64CB5D" />
+			<path d="M 1905 1300 Q 2079 1067 2012 840 Q 2101 1059 1951 1309" stoke="none" fill="#38672A" />
+			<path d="M 2009 1287 Q 2200 845 2382 996 Q 2186 864 2039 1322" stoke="none" fill="#45663D" />
+			<path d="M 2099 1315 Q 1934 1117 1910 882 Q 1958 1113 2142 1294" stoke="none" fill="#9ED58D" />
+			<path d="M 2209 1326 Q 1967 1278 1774 1142 Q 1980 1258 2225 1282" stoke="none" fill="#4F9E3C" />
+			<path d="M 2303 1325 Q 2001 1301 1892 1091 Q 2021 1289 2324 1283" stoke="none" fill="#5DBD4F" />
+			<path d="M 2391 1318 Q 2255 1125 2127 926 Q 2274 1111 2429 1290" stoke="none" fill="#2A3B23" />
+			<path d="M 2515 1326 Q 2217 1294 2067 1476 Q 2198 1280 2498 1282" stoke="none" fill="#519C4C" />
+			<path d="M 2597 1282 Q 2999 1417 3060 1189 Q 3022 1422 2608 1327" stoke="none" fill="#60B354" />
+			<path d="M 2678 1293 Q 3053 1091 2926 891 Q 3072 1077 2720 1316" stoke="none" fill="#407131" />
+			<path d="M 2773 1310 Q 2910 813 2676 848 Q 2905 790 2818 1298" stoke="none" fill="#649C53" />
+			<path d="M 2906 1323 Q 2692 1431 2510 1582 Q 2676 1414 2878 1285" stoke="none" fill="#293D24" />
+			<path d="M 2968 1292 Q 3016 1002 3228 898 Q 3027 1022 3008 1316" stoke="none" fill="#3F742E" />
+			<path d="M 3106 1295 Q 3410 1550 3268 1739 Q 3391 1537 3063 1314" stoke="none" fill="#4C6742" />
+			<path d="M 3183 1281 Q 3415 1327 3650 1354 Q 3414 1351 3178 1328" stoke="none" fill="#90D48A" />
+			<path d="M 3286 1283 Q 3563 1669 3713 1487 Q 3582 1683 3268 1326" stoke="none" fill="#81C46E" />
+			<path d="M 3397 1305 Q 3303 1548 3365 1776 Q 3281 1555 3350 1304" stoke="none" fill="#4A7F3F" />
+			<path d="M 3491 1293 Q 3734 1486 3696 1719 Q 3711 1483 3450 1316" stoke="none" fill="#334C31" />
+			<path d="M 3559 1327 Q 3180 1378 3121 1150 Q 3202 1371 3574 1282" stoke="none" fill="#69A663" />
+			<path d="M 3684 1315 Q 3678 1695 3443 1722 Q 3674 1671 3642 1293" stoke="none" fill="#487341" />
+			<path d="M 3763 1328 Q 3296 1132 3292 1368 Q 3273 1132 3756 1281" stoke="none" fill="#8BFE67" />
+			<path d="M 3847 1282 Q 4072 1209 4297 1137 Q 4080 1231 3864 1326" stoke="none" fill="#489D3E" />
+			<path d="M 3934 1289 Q 4043 1038 4262 948 Q 4053 1059 3970 1320" stoke="none" fill="#74BC5A" />
+			<path d="M 4036 1324 Q 3834 1199 3652 1050 Q 3848 1180 4061 1285" stoke="none" fill="#5D9A4C" />
+			<path d="M 4167 1297 Q 4495 1627 4294 1752 Q 4481 1608 4123 1312" stoke="none" fill="#547B46" />
+			<path d="M 4244 1281 Q 4644 1583 4710 1357 Q 4667 1589 4239 1328" stoke="none" fill="#7DBC72" />
+			<path d="M 4341 1328 Q 4031 1541 3870 1368 Q 4047 1524 4335 1281" stoke="none" fill="#344C2B" />
+			<path d="M 4457 1311 Q 4377 1533 4302 1757 Q 4355 1527 4412 1298" stoke="none" fill="#497846" />
+			<path d="M 4551 1316 Q 4129 1551 4299 1715 Q 4113 1569 4510 1293" stoke="none" fill="#76A869" />
+			<path d="M 4620 1282 Q 4976 956 5079 1169 Q 4955 968 4634 1327" stoke="none" fill="#A0E88C" />
+			<path d="M 4743 1317 Q 4611 1514 4465 1699 Q 4592 1500 4704 1291" stoke="none" fill="#94FE87" />
+			<path d="M 12 1385 Q 193 1541 405 1646 Q 184 1563 -12 1425" stoke="none" fill="#44623F" />
+			<path d="M 103 1427 Q -154 1421 -352 1551 Q -168 1402 89 1382" stoke="none" fill="#213F1D" />
+			<path d="M 169 1407 Q 54 1147 157 934 Q 75 1156 216 1403" stoke="none" fill="#71A869" />
+			<path d="M 308 1392 Q 495 1568 550 1798 Q 473 1574 269 1418" stoke="none" fill="#5CA04B" />
+			<path d="M 401 1422 Q 238 1597 44 1731 Q 224 1578 369 1388" stoke="none" fill="#A5F99C" />
+			<path d="M 496 1424 Q 244 1497 104 1688 Q 224 1484 467 1386" stoke="none" fill="#2D6227" />
+			<path d="M 555 1410 Q 443 1178 477 944 Q 466 1180 601 1400" stoke="none" fill="#A7F799" />
+			<path d="M 693 1419 Q 481 1560 381 1774 Q 459 1551 656 1390" stoke="none" fill="#6FD568" />
+			<path d="M 747 1404 Q 1023 958 788 933 Q 1025 934 794 1406" stoke="none" fill="#6CA163" />
+			<path d="M 845 1396 Q 1166 1172 1046 968 Q 1185 1159 889 1414" stoke="none" fill="#92F671" />
+			<path d="M 982 1419 Q 700 1543 674 1778 Q 676 1541 945 1390" stoke="none" fill="#71C962" />
+			<path d="M 1044 1387 Q 1259 1269 1408 1086 Q 1278 1283 1076 1422" stoke="none" fill="#73B566" />
+			<path d="M 1171 1423 Q 730 1465 784 1694 Q 707 1471 1142 1386" stoke="none" fill="#A5DF90" />
+			<path d="M 1237 1388 Q 1590 1316 1595 1079 Q 1613 1315 1269 1422" stoke="none" fill="#283B26" />
+			<path d="M 1373 1408 Q 1520 1817 1291 1873 Q 1513 1795 1326 1402" stoke="none" fill="#7AFF71" />
+			<path d="M 1458 1425 Q 1221 1801 1041 1648 Q 1235 1782 1434 1385" stoke="none" fill="#4C7444" />
+			<path d="M 1533 1383 Q 1798 1374 1975 1218 Q 1815 1391 1551 1426" stoke="none" fill="#45833C" />
+			<path d="M 1619 1417 Q 1403 1241 1387 1005 Q 1426 1238 1658 1392" stoke="none" fill="#4F993B" />
+			<path d="M 1756 1395 Q 1918 1598 1932 1833 Q 1895 1600 1713 1415" stoke="none" fill="#559F50" />
+			<path d="M 1808 1409 Q 1654 1162 1741 942 Q 1677 1169 1854 1400" stoke="none" fill="#2E492C" />
+			<path d="M 1906 1415 Q 1739 1213 1729 977 Q 1762 1211 1949 1395" stoke="none" fill="#95D085" />
+			<path d="M 2029 1382 Q 2285 1628 2486 1503 Q 2299 1648 2019 1428" stoke="none" fill="#374F2F" />
+			<path d="M 2107 1424 Q 1956 1058 1733 1135 Q 1948 1036 2134 1385" stoke="none" fill="#345E2D" />
+			<path d="M 2207 1426 Q 2013 1137 1788 1209 Q 2004 1115 2227 1383" stoke="none" fill="#45653B" />
+			<path d="M 2311 1381 Q 2556 1280 2782 1349 Q 2550 1303 2316 1428" stoke="none" fill="#69B04D" />
+			<path d="M 2423 1424 Q 2247 1606 2020 1671 Q 2240 1584 2396 1385" stoke="none" fill="#27411C" />
+			<path d="M 2486 1393 Q 2501 1004 2737 993 Q 2504 1027 2527 1416" stoke="none" fill="#AFFF90" />
+			<path d="M 2615 1425 Q 2427 1722 2201 1653 Q 2433 1700 2590 1385" stoke="none" fill="#429C3E" />
+			<path d="M 2709 1426 Q 2447 1450 2275 1613 Q 2430 1434 2689 1384" stoke="none" fill="#34482E" />
+			<path d="M 2773 1396 Q 3146 1114 2964 964 Q 3160 1095 2817 1413" stoke="none" fill="#94D784" />
+			<path d="M 2870 1413 Q 2841 1168 2720 965 Q 2860 1155 2914 1396" stoke="none" fill="#467A36" />
+			<path d="M 2965 1406 Q 2732 964 2966 933 Q 2737 987 3012 1404" stoke="none" fill="#A0F294" />
+			<path d="M 3069 1423 Q 2667 1325 2727 1096 Q 2690 1330 3100 1387" stoke="none" fill="#569D3C" />
+			<path d="M 3168 1424 Q 2978 1010 2786 1147 Q 2964 992 3194 1385" stoke="none" fill="#638B53" />
+			<path d="M 3298 1417 Q 3269 1861 3038 1812 Q 3273 1838 3257 1393" stoke="none" fill="#90F078" />
+			<path d="M 3360 1424 Q 3028 1366 2988 1133 Q 3051 1361 3387 1386" stoke="none" fill="#569C48" />
+			<path d="M 3452 1390 Q 3733 1268 3762 1034 Q 3757 1270 3489 1419" stoke="none" fill="#385F2E" />
+			<path d="M 3554 1385 Q 3732 1142 3968 1157 Q 3732 1166 3579 1425" stoke="none" fill="#394E31" />
+			<path d="M 3685 1414 Q 3572 1622 3472 1836 Q 3550 1613 3641 1395" stoke="none" fill="#4C9947" />
+			<path d="M 3753 1427 Q 3331 1516 3304 1282 Q 3354 1512 3766 1382" stoke="none" fill="#82D26D" />
+			<path d="M 3833 1402 Q 3875 1169 3919 937 Q 3898 1172 3879 1408" stoke="none" fill="#57A952" />
+			<path d="M 3976 1404 Q 4001 1642 3971 1876 Q 3978 1640 3929 1406" stoke="none" fill="#5FB057" />
+			<path d="M 4026 1400 Q 4328 1092 4144 943 Q 4341 1073 4072 1410" stoke="none" fill="#99DE8A" />
+			<path d="M 4122 1409 Q 3869 1089 4054 942 Q 3884 1107 4168 1400" stoke="none" fill="#35552A" />
+			<path d="M 4221 1416 Q 4095 1212 4019 989 Q 4117 1203 4262 1394" stoke="none" fill="#3F663B" />
+			<path d="M 4320 1389 Q 4480 891 4652 1052 Q 4464 908 4355 1420" stoke="none" fill="#6DDC67" />
+			<path d="M 4456 1413 Q 4511 1816 4278 1850 Q 4507 1793 4412 1397" stoke="none" fill="#425D3B" />
+			<path d="M 4548 1420 Q 4435 1853 4218 1758 Q 4443 1831 4513 1389" stoke="none" fill="#64AB5B" />
+			<path d="M 4651 1407 Q 4406 1715 4580 1874 Q 4391 1733 4604 1402" stoke="none" fill="#6D9A65" />
+			<path d="M 4704 1418 Q 4466 1246 4466 1010 Q 4490 1245 4743 1392" stoke="none" fill="#7FED65" />
+			<path d="M -14 1487 Q 132 1174 366 1208 Q 130 1197 14 1523" stoke="none" fill="#31632E" />
+			<path d="M 74 1497 Q 70 1203 261 1063 Q 85 1221 118 1513" stoke="none" fill="#73B461" />
+			<path d="M 216 1505 Q 136 1746 185 1977 Q 114 1752 169 1505" stoke="none" fill="#7BE360" />
+			<path d="M 312 1502 Q 171 1811 342 1974 Q 156 1829 265 1508" stoke="none" fill="#577C4D" />
+			<path d="M 375 1484 Q 590 1205 808 1295 Q 582 1227 396 1526" stoke="none" fill="#3F5C3A" />
+			<path d="M 476 1482 Q 978 1634 942 1401 Q 1001 1629 487 1528" stoke="none" fill="#66F65A" />
+			<path d="M 563 1523 Q 370 1380 219 1198 Q 388 1364 593 1487" stoke="none" fill="#B2F79E" />
+			<path d="M 671 1482 Q 906 1414 1141 1438 Q 905 1438 678 1528" stoke="none" fill="#67D056" />
+			<path d="M 759 1485 Q 961 1158 1174 1260 Q 952 1180 783 1525" stoke="none" fill="#3D742A" />
+			<path d="M 862 1482 Q 1119 1301 1329 1410 Q 1110 1322 872 1528" stoke="none" fill="#6CCA54" />
+			<path d="M 987 1510 Q 923 1738 858 1965 Q 900 1733 941 1500" stoke="none" fill="#597E50" />
+			<path d="M 1043 1489 Q 1360 1403 1390 1168 Q 1383 1404 1077 1522" stoke="none" fill="#92E97D" />
+			<path d="M 1173 1522 Q 680 1653 824 1840 Q 662 1668 1140 1489" stoke="none" fill="#5DC94B" />
+			<path d="M 1263 1484 Q 1630 1481 1677 1712 Q 1608 1486 1242 1526" stoke="none" fill="#2B4425" />
+			<path d="M 1362 1525 Q 1062 1556 957 1767 Q 1041 1546 1336 1486" stoke="none" fill="#65B95C" />
+			<path d="M 1428 1490 Q 1542 1258 1750 1144 Q 1555 1278 1464 1520" stoke="none" fill="#A0E987" />
+			<path d="M 1545 1482 Q 1816 1429 2010 1564 Q 1804 1449 1539 1528" stoke="none" fill="#5A844B" />
+			<path d="M 1646 1527 Q 1264 1878 1191 1654 Q 1286 1870 1631 1483" stoke="none" fill="#375831" />
+			<path d="M 1744 1527 Q 1364 1468 1304 1697 Q 1341 1464 1725 1484" stoke="none" fill="#75DE6C" />
+			<path d="M 1841 1526 Q 1634 1766 1405 1708 Q 1639 1743 1821 1484" stoke="none" fill="#356526" />
+			<path d="M 1917 1484 Q 2133 1187 2346 1288 Q 2124 1209 1939 1526" stoke="none" fill="#5B9F53" />
+			<path d="M 2011 1525 Q 1862 1294 1631 1245 Q 1865 1271 2037 1485" stoke="none" fill="#7CE274" />
+			<path d="M 2126 1528 Q 1819 1443 1663 1620 Q 1800 1428 2115 1482" stoke="none" fill="#6FB467" />
+			<path d="M 2228 1526 Q 1873 1497 1797 1720 Q 1850 1490 2206 1484" stoke="none" fill="#8AC27B" />
+			<path d="M 2323 1526 Q 1917 1470 1886 1704 Q 1894 1468 2303 1484" stoke="none" fill="#29471E" />
+			<path d="M 2393 1521 Q 2296 1271 2087 1161 Q 2306 1250 2427 1489" stoke="none" fill="#8AD683" />
+			<path d="M 2483 1504 Q 2532 1270 2521 1034 Q 2555 1267 2530 1506" stoke="none" fill="#88CB71" />
+			<path d="M 2585 1489 Q 3030 1368 2922 1158 Q 3050 1356 2620 1521" stoke="none" fill="#426538" />
+			<path d="M 2700 1529 Q 2322 1752 2228 1535 Q 2343 1741 2697 1482" stoke="none" fill="#528C4E" />
+			<path d="M 2803 1483 Q 3271 1432 3239 1666 Q 3248 1430 2787 1527" stoke="none" fill="#AFFF9E" />
+			<path d="M 2875 1489 Q 3126 1383 3220 1166 Q 3148 1391 2909 1521" stoke="none" fill="#518949" />
+			<path d="M 3012 1504 Q 2770 1934 3002 1977 Q 2766 1957 2965 1506" stoke="none" fill="#67C95A" />
+			<path d="M 3062 1499 Q 2983 1002 3214 1051 Q 2979 1025 3107 1512" stoke="none" fill="#3E7C32" />
+			<path d="M 3204 1508 Q 2935 1838 3128 1974 Q 2922 1858 3158 1502" stoke="none" fill="#35572E" />
+			<path d="M 3271 1483 Q 3586 1183 3730 1371 Q 3568 1198 3284 1528" stoke="none" fill="#2C4C27" />
+			<path d="M 3357 1522 Q 2871 1332 3042 1169 Q 2888 1348 3391 1489" stoke="none" fill="#549649" />
+			<path d="M 3486 1523 Q 3046 1590 3115 1815 Q 3023 1598 3455 1487" stoke="none" fill="#609752" />
+			<path d="M 3589 1511 Q 3636 1813 3454 1963 Q 3620 1796 3544 1500" stoke="none" fill="#386A2C" />
+			<path d="M 3685 1512 Q 3755 1930 3520 1955 Q 3751 1906 3641 1498" stoke="none" fill="#4E793F" />
+			<path d="M 3758 1529 Q 3290 1704 3289 1467 Q 3313 1702 3761 1482" stoke="none" fill="#3F8632" />
+			<path d="M 3843 1525 Q 3432 1475 3465 1241 Q 3456 1477 3869 1486" stoke="none" fill="#487B39" />
+			<path d="M 3972 1493 Q 3969 1983 4194 1910 Q 3978 2005 3932 1517" stoke="none" fill="#254520" />
+			<path d="M 4045 1528 Q 3804 1342 3584 1426 Q 3795 1321 4053 1482" stoke="none" fill="#70C766" />
+			<path d="M 4158 1486 Q 4491 1537 4536 1769 Q 4469 1542 4132 1525" stoke="none" fill="#295523" />
+			<path d="M 4265 1507 Q 4386 1816 4213 1976 Q 4369 1799 4218 1504" stoke="none" fill="#4AAE40" />
+			<path d="M 4315 1508 Q 4189 1258 4274 1038 Q 4212 1266 4361 1502" stoke="none" fill="#569D42" />
+			<path d="M 4416 1519 Q 4125 1365 4148 1130 Q 4149 1366 4453 1491" stoke="none" fill="#94FD79" />
+			<path d="M 4548 1521 Q 4378 2017 4210 1851 Q 4394 1999 4513 1489" stoke="none" fill="#305E26" />
+			<path d="M 4621 1528 Q 4381 1277 4171 1384 Q 4370 1256 4633 1482" stoke="none" fill="#8AF274" />
+			<path d="M 4711 1485 Q 5200 1474 5122 1252 Q 5222 1466 4736 1525" stoke="none" fill="#9CFB7B" />
+			<path d="M 17 1622 Q -88 1988 -321 1950 Q -86 1964 -17 1589" stoke="none" fill="#415839" />
+			<path d="M 119 1608 Q -164 1991 56 2076 Q -171 2013 72 1603" stoke="none" fill="#295421" />
+			<path d="M 216 1604 Q 188 1842 215 2077 Q 165 1846 169 1607" stoke="none" fill="#5FAA59" />
+			<path d="M 306 1622 Q -155 1750 -32 1951 Q -175 1763 271 1589" stoke="none" fill="#253C1C" />
+			<path d="M 409 1606 Q 490 1873 370 2077 Q 469 1863 362 1605" stoke="none" fill="#84F275" />
+			<path d="M 505 1608 Q 664 2057 428 2074 Q 661 2034 458 1603" stoke="none" fill="#4B9B3A" />
+			<path d="M 591 1586 Q 1022 1646 965 1875 Q 998 1641 564 1625" stoke="none" fill="#74AD62" />
+			<path d="M 652 1613 Q 317 1271 524 1158 Q 329 1291 697 1598" stoke="none" fill="#4F9D39" />
+			<path d="M 763 1583 Q 1094 1659 1219 1459 Q 1114 1671 778 1628" stoke="none" fill="#6AB661" />
+			<path d="M 861 1628 Q 566 1663 411 1485 Q 583 1647 873 1583" stoke="none" fill="#7BED5B" />
+			<path d="M 955 1584 Q 1402 1673 1404 1437 Q 1426 1672 972 1627" stoke="none" fill="#4E7E43" />
+			<path d="M 1082 1614 Q 1079 1913 881 2042 Q 1065 1894 1038 1597" stoke="none" fill="#8BC97B" />
+			<path d="M 1161 1629 Q 769 1475 694 1699 Q 746 1469 1152 1582" stoke="none" fill="#89CA81" />
+			<path d="M 1251 1629 Q 1010 1507 782 1571 Q 1002 1485 1255 1582" stoke="none" fill="#1D3B15" />
+			<path d="M 1367 1590 Q 1452 1845 1655 1964 Q 1441 1866 1331 1621" stoke="none" fill="#72D756" />
+			<path d="M 1465 1618 Q 1331 1813 1188 2001 Q 1312 1799 1426 1593" stoke="none" fill="#638B56" />
+			<path d="M 1521 1616 Q 1497 1353 1335 1181 Q 1513 1336 1563 1595" stoke="none" fill="#A2F59C" />
+			<path d="M 1652 1624 Q 1419 2057 1258 1885 Q 1436 2040 1625 1587" stoke="none" fill="#407537" />
+			<path d="M 1746 1585 Q 2094 1604 2148 1834 Q 2071 1611 1723 1626" stoke="none" fill="#2E5C27" />
+			<path d="M 1808 1603 Q 1706 1285 1890 1137 Q 1721 1303 1855 1608" stoke="none" fill="#3E682E" />
+			<path d="M 1948 1594 Q 2060 1801 2167 2012 Q 2040 1813 1907 1617" stoke="none" fill="#68985B" />
+			<path d="M 2018 1628 Q 1802 1436 1570 1478 Q 1797 1413 2030 1583" stoke="none" fill="#396B2C" />
+			<path d="M 2104 1588 Q 2376 1502 2465 1284 Q 2399 1510 2137 1623" stoke="none" fill="#326E2A" />
+			<path d="M 2227 1627 Q 1750 1579 1793 1812 Q 1727 1585 2207 1584" stoke="none" fill="#2F4A2B" />
+			<path d="M 2297 1622 Q 2144 1441 1975 1277 Q 2160 1424 2330 1589" stoke="none" fill="#264425" />
+			<path d="M 2418 1627 Q 1998 1542 1970 1776 Q 1974 1540 2401 1584" stoke="none" fill="#456942" />
+			<path d="M 2483 1604 Q 2313 1179 2545 1135 Q 2319 1202 2530 1607" stoke="none" fill="#50873E" />
+			<path d="M 2626 1602 Q 2844 1920 2664 2073 Q 2828 1903 2579 1609" stoke="none" fill="#78D76D" />
+			<path d="M 2705 1583 Q 2922 1736 3157 1718 Q 2925 1760 2693 1628" stoke="none" fill="#3E7739" />
+			<path d="M 2773 1611 Q 2877 1274 2676 1149 Q 2888 1253 2818 1600" stoke="none" fill="#2F482B" />
+			<path d="M 2883 1584 Q 3188 1239 3329 1428 Q 3170 1254 2901 1627" stoke="none" fill="#346C2E" />
+			<path d="M 2995 1628 Q 2749 1638 2535 1739 Q 2738 1618 2982 1583" stoke="none" fill="#7EDE75" />
+			<path d="M 3088 1629 Q 2745 1878 2618 1679 Q 2764 1864 3081 1582" stoke="none" fill="#548648" />
+			<path d="M 3180 1582 Q 3427 1664 3653 1594 Q 3435 1686 3182 1629" stoke="none" fill="#263A21" />
+			<path d="M 3268 1627 Q 2903 1639 2848 1409 Q 2925 1632 3287 1584" stoke="none" fill="#66AA61" />
+			<path d="M 3374 1582 Q 3723 1409 3846 1610 Q 3703 1422 3374 1629" stoke="none" fill="#7AFF70" />
+			<path d="M 3493 1600 Q 3392 1922 3580 2064 Q 3378 1942 3447 1611" stoke="none" fill="#1C3C1A" />
+			<path d="M 3570 1629 Q 3206 1470 3101 1681 Q 3185 1460 3563 1582" stoke="none" fill="#67F560" />
+			<path d="M 3646 1589 Q 4081 1478 3986 1262 Q 4102 1467 3680 1622" stoke="none" fill="#4D7F40" />
+			<path d="M 3782 1600 Q 4006 1878 3862 2066 Q 3986 1865 3736 1611" stoke="none" fill="#377D2E" />
+			<path d="M 3833 1609 Q 3598 1281 3786 1139 Q 3613 1299 3879 1602" stoke="none" fill="#57923F" />
+			<path d="M 3952 1629 Q 3498 1361 3481 1596 Q 3474 1360 3953 1582" stoke="none" fill="#7DB972" />
+			<path d="M 4047 1582 Q 4283 1582 4520 1578 Q 4285 1605 4050 1629" stoke="none" fill="#458D3A" />
+			<path d="M 4161 1588 Q 4660 1761 4491 1926 Q 4643 1745 4129 1623" stoke="none" fill="#366425" />
+			<path d="M 4241 1582 Q 4479 1624 4713 1594 Q 4483 1647 4242 1629" stoke="none" fill="#529D44" />
+			<path d="M 4319 1591 Q 4403 1320 4621 1228 Q 4414 1341 4357 1620" stoke="none" fill="#A4ED8F" />
+			<path d="M 4422 1586 Q 4884 1579 4831 1349 Q 4907 1573 4447 1625" stoke="none" fill="#4B8B3D" />
+			<path d="M 4544 1625 Q 4233 1650 4137 1866 Q 4211 1641 4518 1586" stoke="none" fill="#5B944D" />
+			<path d="M 4607 1593 Q 4808 1433 4883 1209 Q 4830 1439 4647 1618" stoke="none" fill="#A6FF93" />
+			<path d="M 4719 1629 Q 4468 1623 4262 1507 Q 4478 1602 4728 1582" stoke="none" fill="#6EE862" />
+			<path d="M 12 1686 Q 165 1917 397 1959 Q 162 1940 -12 1726" stoke="none" fill="#213B1F" />
+			<path d="M 113 1722 Q -257 1813 -229 2047 Q -280 1817 79 1690" stoke="none" fill="#40623A" />
+			<path d="M 178 1687 Q 544 1653 566 1418 Q 567 1654 207 1725" stoke="none" fill="#81F174" />
+			<path d="M 269 1694 Q 301 1338 535 1303 Q 306 1361 309 1718" stoke="none" fill="#44713B" />
+			<path d="M 365 1719 Q 333 1197 126 1311 Q 321 1177 405 1693" stoke="none" fill="#63AF4E" />
+			<path d="M 459 1713 Q 445 1468 345 1254 Q 465 1457 504 1699" stoke="none" fill="#61B854" />
+			<path d="M 600 1714 Q 441 1916 424 2152 Q 418 1916 556 1698" stoke="none" fill="#41583A" />
+			<path d="M 651 1708 Q 748 1440 628 1236 Q 767 1427 698 1704" stoke="none" fill="#99E08B" />
+			<path d="M 791 1718 Q 631 1899 532 2113 Q 610 1890 750 1694" stoke="none" fill="#6FBB5C" />
+			<path d="M 887 1693 Q 1020 1889 1126 2101 Q 1000 1901 847 1719" stoke="none" fill="#3B6032" />
+			<path d="M 954 1684 Q 1333 1747 1397 1520 Q 1356 1753 973 1728" stoke="none" fill="#5C834E" />
+			<path d="M 1059 1682 Q 1312 1607 1532 1693 Q 1304 1629 1061 1729" stoke="none" fill="#89E566" />
+			<path d="M 1166 1727 Q 898 1738 726 1900 Q 881 1722 1147 1684" stoke="none" fill="#7FF764" />
+			<path d="M 1243 1684 Q 1462 1443 1686 1518 Q 1455 1465 1262 1727" stoke="none" fill="#67B458" />
+			<path d="M 1373 1703 Q 1179 2145 1413 2173 Q 1177 2169 1326 1709" stoke="none" fill="#71B658" />
+			<path d="M 1450 1683 Q 1768 1984 1909 1794 Q 1787 1997 1441 1729" stoke="none" fill="#7DEA74" />
+			<path d="M 1562 1718 Q 1469 1949 1293 2107 Q 1452 1932 1522 1693" stoke="none" fill="#4D7A3E" />
+			<path d="M 1637 1729 Q 1387 1768 1167 1680 Q 1394 1745 1640 1682" stoke="none" fill="#2E642B" />
+			<path d="M 1713 1715 Q 1783 1236 1549 1272 Q 1778 1213 1756 1697" stoke="none" fill="#8CF873" />
+			<path d="M 1822 1684 Q 2029 1490 2263 1517 Q 2027 1513 1841 1727" stoke="none" fill="#4D753E" />
+			<path d="M 1904 1702 Q 1967 1473 1998 1239 Q 1990 1475 1951 1709" stoke="none" fill="#75A664" />
+			<path d="M 2045 1717 Q 1840 1886 1795 2118 Q 1817 1883 2004 1694" stoke="none" fill="#35662D" />
+			<path d="M 2128 1728 Q 1907 1817 1675 1862 Q 1901 1794 2113 1684" stoke="none" fill="#365B2B" />
+			<path d="M 2194 1699 Q 2211 1439 2362 1257 Q 2230 1453 2239 1713" stoke="none" fill="#A7FF8B" />
+			<path d="M 2295 1721 Q 2250 1362 2015 1341 Q 2251 1339 2332 1691" stoke="none" fill="#384D31" />
+			<path d="M 2386 1707 Q 2255 1436 2379 1235 Q 2276 1447 2433 1704" stoke="none" fill="#7AB776" />
+			<path d="M 2529 1702 Q 2375 2053 2579 2172 Q 2364 2074 2483 1710" stoke="none" fill="#42663E" />
+			<path d="M 2618 1688 Q 2809 1834 2954 2021 Q 2791 1850 2587 1723" stoke="none" fill="#2C3D26" />
+			<path d="M 2694 1729 Q 2449 1708 2239 1599 Q 2459 1686 2704 1683" stoke="none" fill="#477039" />
+			<path d="M 2818 1714 Q 2551 1932 2639 2151 Q 2530 1942 2773 1698" stoke="none" fill="#426C32" />
+			<path d="M 2875 1722 Q 2608 1597 2566 1365 Q 2631 1592 2909 1690" stoke="none" fill="#81D577" />
+			<path d="M 2992 1729 Q 2591 1561 2523 1787 Q 2568 1555 2984 1683" stoke="none" fill="#6CB35F" />
+			<path d="M 3083 1729 Q 2795 1818 2614 1665 Q 2809 1800 3087 1682" stoke="none" fill="#366432" />
+			<path d="M 3165 1723 Q 2697 1571 2838 1382 Q 2716 1584 3197 1689" stoke="none" fill="#4E6E49" />
+			<path d="M 3272 1729 Q 3038 1526 2816 1607 Q 3029 1504 3282 1683" stoke="none" fill="#416A3B" />
+			<path d="M 3397 1707 Q 3584 2142 3350 2177 Q 3579 2119 3350 1705" stoke="none" fill="#4D8148" />
+			<path d="M 3481 1685 Q 3684 1805 3894 1914 Q 3674 1826 3460 1727" stoke="none" fill="#5EBC54" />
+			<path d="M 3572 1683 Q 3893 2011 4025 1816 Q 3913 2024 3561 1729" stoke="none" fill="#84D96A" />
+			<path d="M 3676 1686 Q 3830 2040 4055 1968 Q 3838 2062 3650 1725" stoke="none" fill="#89CD79" />
+			<path d="M 3737 1698 Q 3807 1468 3926 1264 Q 3827 1479 3781 1714" stoke="none" fill="#4C7E3E" />
+			<path d="M 3833 1699 Q 4204 1346 3987 1253 Q 4213 1324 3878 1712" stoke="none" fill="#49773A" />
+			<path d="M 3931 1696 Q 3941 1370 4160 1282 Q 3951 1392 3973 1716" stoke="none" fill="#3B5437" />
+			<path d="M 4034 1688 Q 4254 1236 4415 1408 Q 4237 1253 4063 1724" stoke="none" fill="#66B256" />
+			<path d="M 4150 1729 Q 3862 1651 3684 1806 Q 3846 1634 4140 1683" stoke="none" fill="#539146" />
+			<path d="M 4261 1693 Q 4263 2103 4499 2101 Q 4264 2127 4222 1719" stoke="none" fill="#A6F496" />
+			<path d="M 4318 1719 Q 3978 1520 4084 1308 Q 4000 1529 4358 1693" stoke="none" fill="#7EF074" />
+			<path d="M 4450 1723 Q 4302 1927 4087 2026 Q 4291 1906 4418 1689" stoke="none" fill="#4A743D" />
+			<path d="M 4529 1682 Q 4842 1499 5001 1673 Q 4826 1515 4532 1729" stoke="none" fill="#55874F" />
+			<path d="M 4649 1714 Q 4396 1924 4466 2149 Q 4374 1932 4605 1698" stoke="none" fill="#417033" />
+			<path d="M 4704 1719 Q 4586 1515 4453 1319 Q 4604 1501 4743 1692" stoke="none" fill="#3C7D31" />
+			<path d="M 8 1784 Q 498 1742 441 1971 Q 475 1738 -8 1828" stoke="none" fill="#5FA450" />
+			<path d="M 76 1819 Q 51 1321 -165 1414 Q 40 1300 115 1793" stoke="none" fill="#6AB764" />
+			<path d="M 183 1784 Q 470 1454 629 1628 Q 454 1471 201 1828" stoke="none" fill="#B5FEA6" />
+			<path d="M 310 1796 Q 709 2142 491 2233 Q 699 2121 267 1816" stoke="none" fill="#8DED87" />
+			<path d="M 397 1786 Q 583 2132 798 2035 Q 593 2153 374 1827" stoke="none" fill="#618D52" />
+			<path d="M 478 1830 Q 106 1961 14 1744 Q 127 1951 485 1783" stoke="none" fill="#9CFF7C" />
+			<path d="M 562 1789 Q 746 1315 917 1478 Q 731 1333 594 1823" stoke="none" fill="#578D50" />
+			<path d="M 652 1812 Q 506 1580 556 1349 Q 530 1584 697 1800" stoke="none" fill="#6BF362" />
+			<path d="M 748 1812 Q 628 1584 653 1349 Q 652 1585 794 1800" stoke="none" fill="#243B21" />
+			<path d="M 848 1793 Q 1323 1565 1137 1419 Q 1337 1546 886 1820" stoke="none" fill="#86B376" />
+			<path d="M 969 1829 Q 638 1728 507 1924 Q 617 1716 958 1783" stoke="none" fill="#496C3D" />
+			<path d="M 1067 1784 Q 1398 1737 1511 1944 Q 1378 1749 1053 1829" stoke="none" fill="#78C571" />
+			<path d="M 1136 1818 Q 804 1596 927 1394 Q 824 1607 1177 1795" stoke="none" fill="#72F35A" />
+			<path d="M 1238 1825 Q 1086 1408 878 1519 Q 1074 1388 1267 1788" stoke="none" fill="#8CE776" />
+			<path d="M 1329 1794 Q 1366 1476 1590 1401 Q 1375 1498 1369 1818" stoke="none" fill="#35742B" />
+			<path d="M 1469 1803 Q 1681 2105 1515 2273 Q 1664 2089 1422 1810" stoke="none" fill="#5CC047" />
+			<path d="M 1556 1788 Q 1726 2229 1918 2091 Q 1741 2247 1528 1825" stoke="none" fill="#3B5B35" />
+			<path d="M 1638 1783 Q 1914 1668 2110 1800 Q 1902 1689 1639 1830" stoke="none" fill="#72C56A" />
+			<path d="M 1721 1787 Q 2178 1751 2113 1524 Q 2200 1743 1749 1825" stoke="none" fill="#8FF786" />
+			<path d="M 1824 1828 Q 1569 1801 1385 1652 Q 1583 1782 1839 1784" stoke="none" fill="#409338" />
+			<path d="M 1948 1795 Q 1921 2200 2156 2219 Q 1920 2223 1907 1818" stoke="none" fill="#5BD352" />
+			<path d="M 2022 1830 Q 1695 1585 1553 1774 Q 1675 1572 2026 1783" stoke="none" fill="#8CE66D" />
+			<path d="M 2129 1784 Q 2657 1763 2560 1979 Q 2635 1755 2112 1828" stoke="none" fill="#79D06A" />
+			<path d="M 2195 1797 Q 2187 1282 2405 1374 Q 2179 1305 2238 1816" stoke="none" fill="#608C5A" />
+			<path d="M 2309 1783 Q 2584 1573 2775 1711 Q 2571 1593 2318 1829" stoke="none" fill="#A1DD8F" />
+			<path d="M 2432 1815 Q 2463 2160 2243 2248 Q 2453 2139 2388 1798" stoke="none" fill="#274D22" />
+			<path d="M 2483 1810 Q 2489 1568 2423 1342 Q 2512 1561 2529 1802" stoke="none" fill="#5B8651" />
+			<path d="M 2589 1787 Q 2776 1639 2986 1531 Q 2787 1659 2616 1825" stoke="none" fill="#6DA564" />
+			<path d="M 2722 1805 Q 2543 2116 2715 2278 Q 2528 2134 2675 1807" stoke="none" fill="#6DB761" />
+			<path d="M 2809 1825 Q 2613 2215 2416 2086 Q 2625 2195 2781 1787" stoke="none" fill="#54A448" />
+			<path d="M 2873 1820 Q 2846 1432 2610 1428 Q 2845 1409 2911 1792" stoke="none" fill="#4E833B" />
+			<path d="M 3011 1801 Q 2907 2125 3097 2265 Q 2894 2144 2965 1812" stoke="none" fill="#67D155" />
+			<path d="M 3098 1787 Q 3584 1880 3466 2085 Q 3563 1869 3071 1825" stoke="none" fill="#40623D" />
+			<path d="M 3192 1786 Q 3438 1856 3595 2033 Q 3421 1873 3170 1827" stoke="none" fill="#355532" />
+			<path d="M 3265 1826 Q 3024 1383 2872 1564 Q 3005 1369 3289 1786" stoke="none" fill="#72BC5D" />
+			<path d="M 3361 1826 Q 3002 1788 2975 1554 Q 3025 1784 3386 1786" stoke="none" fill="#2D492A" />
+			<path d="M 3478 1828 Q 3222 1836 3028 1971 Q 3207 1817 3462 1784" stoke="none" fill="#78CD71" />
+			<path d="M 3555 1827 Q 3034 1767 3160 1567 Q 3055 1779 3579 1786" stoke="none" fill="#8AD475" />
+			<path d="M 3667 1783 Q 3913 1784 4129 1879 Q 3905 1806 3659 1829" stoke="none" fill="#45663D" />
+			<path d="M 3741 1791 Q 3876 1305 4065 1447 Q 3862 1324 3777 1821" stoke="none" fill="#22421A" />
+			<path d="M 3838 1791 Q 3927 1504 4155 1442 Q 3935 1527 3874 1821" stoke="none" fill="#74AD5F" />
+			<path d="M 3975 1802 Q 3856 2121 4039 2270 Q 3842 2140 3929 1811" stoke="none" fill="#366729" />
+			<path d="M 4064 1824 Q 3713 1870 3683 2105 Q 3690 1868 4034 1788" stoke="none" fill="#7DC269" />
+			<path d="M 4135 1827 Q 3949 1542 3720 1601 Q 3942 1520 4155 1785" stoke="none" fill="#4A7F35" />
+			<path d="M 4250 1784 Q 4533 1788 4684 1969 Q 4516 1804 4233 1828" stoke="none" fill="#7FB779" />
+			<path d="M 4340 1783 Q 4628 1994 4808 1841 Q 4644 2011 4336 1830" stoke="none" fill="#2A4E27" />
+			<path d="M 4442 1828 Q 4204 1865 3990 1965 Q 4193 1844 4426 1784" stoke="none" fill="#295326" />
+			<path d="M 4543 1786 Q 4733 1927 4929 2060 Q 4721 1948 4518 1826" stoke="none" fill="#6ABA5F" />
+			<path d="M 4604 1800 Q 4675 1575 4747 1350 Q 4698 1581 4650 1812" stoke="none" fill="#5BD554" />
+			<path d="M 4746 1799 Q 5033 2086 4868 2255 Q 5015 2071 4701 1813" stoke="none" fill="#6C9D63" />
+			<path d="M -22 1899 Q 163 1696 151 1460 Q 186 1693 22 1914" stoke="none" fill="#8EE481" />
+			<path d="M 79 1890 Q 373 1801 428 1571 Q 397 1806 113 1923" stoke="none" fill="#3B7E2F" />
+			<path d="M 214 1916 Q -2 2105 7 2340 Q -26 2107 171 1897" stoke="none" fill="#5B8D49" />
+			<path d="M 266 1900 Q 200 1523 426 1455 Q 208 1546 311 1913" stoke="none" fill="#78B65F" />
+			<path d="M 409 1907 Q 281 2163 379 2378 Q 260 2174 362 1906" stoke="none" fill="#4A6F44" />
+			<path d="M 460 1917 Q 74 1600 278 1481 Q 87 1619 503 1896" stoke="none" fill="#75A867" />
+			<path d="M 555 1902 Q 893 1512 667 1443 Q 899 1490 601 1911" stoke="none" fill="#83EC78" />
+			<path d="M 679 1884 Q 929 2105 1138 1995 Q 941 2125 670 1930" stoke="none" fill="#305A2C" />
+			<path d="M 762 1885 Q 994 1633 1209 1731 Q 985 1655 780 1928" stoke="none" fill="#97FF79" />
+			<path d="M 891 1908 Q 960 2179 832 2377 Q 939 2167 844 1905" stoke="none" fill="#82E872" />
+			<path d="M 986 1901 Q 1002 2142 1086 2362 Q 980 2151 941 1913" stoke="none" fill="#82EB74" />
+			<path d="M 1037 1901 Q 1392 1523 1168 1447 Q 1398 1500 1083 1912" stoke="none" fill="#57834E" />
+			<path d="M 1137 1920 Q 1123 1472 891 1516 Q 1118 1449 1176 1893" stoke="none" fill="#23401F" />
+			<path d="M 1242 1927 Q 1030 1557 834 1689 Q 1016 1538 1264 1886" stoke="none" fill="#345130" />
+			<path d="M 1352 1883 Q 1736 1737 1818 1958 Q 1714 1746 1347 1930" stoke="none" fill="#7DA76E" />
+			<path d="M 1460 1888 Q 1721 1975 1825 2187 Q 1701 1986 1432 1926" stoke="none" fill="#5C9250" />
+			<path d="M 1548 1929 Q 1315 1970 1087 2030 Q 1308 1948 1536 1884" stoke="none" fill="#4C6742" />
+			<path d="M 1662 1903 Q 1801 2159 1703 2374 Q 1779 2151 1615 1910" stoke="none" fill="#7DB26D" />
+			<path d="M 1753 1892 Q 1815 2174 2028 2277 Q 1806 2196 1716 1921" stoke="none" fill="#31612C" />
+			<path d="M 1817 1888 Q 2051 1800 2212 1627 Q 2069 1815 1845 1926" stoke="none" fill="#83F772" />
+			<path d="M 1942 1888 Q 2125 2038 2296 2201 Q 2110 2056 1913 1925" stoke="none" fill="#95DB8D" />
+			<path d="M 2024 1930 Q 1786 1877 1552 1909 Q 1782 1854 2024 1883" stoke="none" fill="#4B8A35" />
+			<path d="M 2107 1887 Q 2385 1444 2512 1643 Q 2366 1458 2134 1926" stoke="none" fill="#5CB74D" />
+			<path d="M 2229 1927 Q 2033 2227 1811 2147 Q 2040 2204 2205 1886" stoke="none" fill="#76E76F" />
+			<path d="M 2309 1930 Q 2076 1888 1848 1826 Q 2081 1865 2317 1883" stoke="none" fill="#2F4E25" />
+			<path d="M 2431 1897 Q 2370 2267 2595 2341 Q 2364 2289 2388 1916" stoke="none" fill="#51AD46" />
+			<path d="M 2486 1894 Q 2516 1509 2752 1504 Q 2518 1533 2526 1919" stoke="none" fill="#73B06B" />
+			<path d="M 2584 1921 Q 2521 1400 2322 1527 Q 2507 1380 2621 1893" stoke="none" fill="#72C36D" />
+			<path d="M 2702 1930 Q 2332 1749 2230 1962 Q 2310 1740 2696 1883" stoke="none" fill="#455F3F" />
+			<path d="M 2772 1907 Q 2929 1622 2785 1435 Q 2947 1606 2819 1906" stoke="none" fill="#70D658" />
+			<path d="M 2915 1905 Q 3129 2277 2915 2378 Q 3118 2257 2868 1908" stoke="none" fill="#6BCF5A" />
+			<path d="M 3009 1917 Q 2751 2093 2775 2328 Q 2728 2096 2967 1896" stoke="none" fill="#4E8F43" />
+			<path d="M 3086 1930 Q 2844 1979 2613 1928 Q 2848 1956 3084 1883" stoke="none" fill="#375035" />
+			<path d="M 3162 1921 Q 3093 1660 2895 1531 Q 3105 1640 3200 1892" stoke="none" fill="#88BF74" />
+			<path d="M 3300 1911 Q 3157 2136 3188 2370 Q 3134 2140 3254 1902" stoke="none" fill="#477E36" />
+			<path d="M 3392 1891 Q 3442 2253 3678 2268 Q 3442 2277 3356 1922" stoke="none" fill="#74B168" />
+			<path d="M 3470 1930 Q 3054 2130 2998 1900 Q 3076 2123 3471 1883" stoke="none" fill="#558152" />
+			<path d="M 3547 1919 Q 3371 1735 3321 1504 Q 3394 1729 3587 1894" stoke="none" fill="#3A7133" />
+			<path d="M 3668 1884 Q 3892 2035 4126 1999 Q 3897 2058 3658 1930" stoke="none" fill="#619F51" />
+			<path d="M 3752 1929 Q 3428 1960 3313 1754 Q 3448 1948 3767 1884" stoke="none" fill="#4B723E" />
+			<path d="M 3836 1919 Q 3512 1725 3605 1507 Q 3534 1733 3876 1894" stoke="none" fill="#3A5937" />
+			<path d="M 3942 1885 Q 4150 1762 4380 1707 Q 4157 1785 3962 1928" stoke="none" fill="#84BD70" />
+			<path d="M 4068 1893 Q 4111 2181 4319 2293 Q 4101 2202 4029 1920" stoke="none" fill="#92F277" />
+			<path d="M 4131 1888 Q 4311 1516 4522 1623 Q 4302 1537 4159 1925" stoke="none" fill="#75A268" />
+			<path d="M 4243 1930 Q 3998 1879 3771 1947 Q 3990 1857 4239 1883" stoke="none" fill="#9EFE94" />
+			<path d="M 4320 1892 Q 4493 1729 4638 1543 Q 4512 1742 4356 1922" stoke="none" fill="#57AE4C" />
+			<path d="M 4433 1930 Q 4181 1786 3963 1877 Q 4171 1765 4436 1883" stoke="none" fill="#3B682E" />
+			<path d="M 4512 1892 Q 4979 1706 4818 1533 Q 4995 1689 4549 1921" stoke="none" fill="#84E47F" />
+			<path d="M 4610 1923 Q 4212 1780 4304 1563 Q 4234 1788 4644 1891" stoke="none" fill="#224E1E" />
+			<path d="M 4738 1925 Q 4382 1962 4351 2196 Q 4358 1960 4709 1888" stoke="none" fill="#92EB70" />
+			<path d="M -7 2029 Q -297 1665 -444 1850 Q -316 1652 7 1985" stoke="none" fill="#346C31" />
+			<path d="M 104 2029 Q -270 1942 -347 2165 Q -292 1936 88 1985" stoke="none" fill="#A0F992" />
+			<path d="M 206 1988 Q 383 2146 578 2279 Q 370 2166 179 2026" stoke="none" fill="#406435" />
+			<path d="M 304 2025 Q 80 2133 -63 2321 Q 60 2120 273 1989" stoke="none" fill="#98F77D" />
+			<path d="M 407 1998 Q 338 2359 557 2446 Q 330 2381 363 2016" stoke="none" fill="#7DC170" />
+			<path d="M 459 1999 Q 685 1793 638 1562 Q 707 1787 504 2015" stoke="none" fill="#3C5532" />
+			<path d="M 597 2020 Q 500 2533 309 2394 Q 513 2513 559 1994" stoke="none" fill="#88B779" />
+			<path d="M 674 1983 Q 975 2157 1146 1993 Q 993 2173 675 2031" stoke="none" fill="#80E36E" />
+			<path d="M 754 2024 Q 662 1632 430 1680 Q 656 1609 787 1990" stoke="none" fill="#61A349" />
+			<path d="M 869 2030 Q 606 2145 396 2036 Q 616 2123 866 1984" stoke="none" fill="#2B4626" />
+			<path d="M 974 2028 Q 717 2384 544 2223 Q 733 2366 953 1986" stoke="none" fill="#9DF58A" />
+			<path d="M 1050 1986 Q 1284 1692 1489 1810 Q 1273 1713 1070 2028" stoke="none" fill="#213B18" />
+			<path d="M 1136 2018 Q 950 1828 931 1593 Q 973 1825 1177 1996" stoke="none" fill="#97FE76" />
+			<path d="M 1267 1988 Q 1628 2053 1631 2289 Q 1604 2055 1239 2026" stoke="none" fill="#B0FFA4" />
+			<path d="M 1351 2030 Q 1077 1921 879 2050 Q 1063 1902 1347 1984" stoke="none" fill="#416535" />
+			<path d="M 1454 1985 Q 1684 2055 1885 2179 Q 1672 2076 1437 2029" stoke="none" fill="#304F25" />
+			<path d="M 1533 1985 Q 1941 2061 1978 1827 Q 1964 2063 1551 2029" stoke="none" fill="#597F52" />
+			<path d="M 1646 1985 Q 1867 2069 2084 2162 Q 1859 2091 1631 2029" stoke="none" fill="#6BB059" />
+			<path d="M 1728 1984 Q 2153 2105 2187 1871 Q 2176 2107 1742 2030" stoke="none" fill="#35602F" />
+			<path d="M 1855 2007 Q 1808 2245 1841 2479 Q 1785 2249 1808 2007" stoke="none" fill="#74FF6B" />
+			<path d="M 1948 1995 Q 2032 2220 2168 2413 Q 2013 2235 1907 2019" stoke="none" fill="#65E556" />
+			<path d="M 2010 1988 Q 2187 1656 2409 1735 Q 2180 1679 2038 2026" stoke="none" fill="#639E5E" />
+			<path d="M 2142 1998 Q 2069 2409 2303 2442 Q 2067 2432 2099 2016" stoke="none" fill="#488633" />
+			<path d="M 2196 2018 Q 2234 1613 1999 1589 Q 2235 1589 2238 1996" stoke="none" fill="#31492D" />
+			<path d="M 2323 2028 Q 2109 2128 1888 2211 Q 2100 2107 2303 1986" stoke="none" fill="#65C253" />
+			<path d="M 2426 2024 Q 2112 2100 2068 2332 Q 2089 2097 2393 1990" stoke="none" fill="#50884C" />
+			<path d="M 2513 1984 Q 2984 1901 2960 2136 Q 2960 1900 2500 2030" stoke="none" fill="#5F8B4F" />
+			<path d="M 2614 2028 Q 2317 2032 2186 2229 Q 2297 2020 2591 1986" stoke="none" fill="#2D4526" />
+			<path d="M 2700 1984 Q 2985 2183 3170 2036 Q 3000 2201 2697 2030" stoke="none" fill="#496E43" />
+			<path d="M 2818 2013 Q 2905 2475 2669 2462 Q 2905 2451 2773 2001" stoke="none" fill="#66D94F" />
+			<path d="M 2870 2015 Q 2970 1605 2738 1561 Q 2973 1582 2914 1999" stoke="none" fill="#203F1C" />
+			<path d="M 2972 1990 Q 3230 1896 3331 1683 Q 3252 1905 3004 2024" stoke="none" fill="#6EC969" />
+			<path d="M 3101 1990 Q 3571 2139 3430 2329 Q 3551 2126 3069 2024" stoke="none" fill="#82BC6C" />
+			<path d="M 3186 1984 Q 3452 1966 3643 2105 Q 3439 1985 3176 2030" stoke="none" fill="#569140" />
+			<path d="M 3291 1988 Q 3688 2048 3661 2282 Q 3665 2046 3264 2026" stoke="none" fill="#628E58" />
+			<path d="M 3353 1995 Q 3717 1811 3612 1600 Q 3738 1799 3394 2019" stoke="none" fill="#7AF66A" />
+			<path d="M 3457 2027 Q 2968 1963 3073 1752 Q 2989 1973 3483 1987" stoke="none" fill="#32472E" />
+			<path d="M 3552 2025 Q 3395 1843 3200 1710 Q 3407 1823 3581 1989" stoke="none" fill="#305D27" />
+			<path d="M 3681 2022 Q 3387 2139 3367 2375 Q 3364 2138 3645 1992" stoke="none" fill="#598052" />
+			<path d="M 3772 2027 Q 3291 2031 3359 2257 Q 3268 2039 3747 1987" stoke="none" fill="#32592C" />
+			<path d="M 3843 2026 Q 3338 1939 3466 1741 Q 3358 1951 3869 1988" stoke="none" fill="#334C31" />
+			<path d="M 3974 2017 Q 3838 2215 3757 2437 Q 3815 2208 3931 1997" stoke="none" fill="#31432B" />
+			<path d="M 4072 2012 Q 3759 2343 3958 2470 Q 3747 2363 4026 2002" stoke="none" fill="#294027" />
+			<path d="M 4146 2030 Q 3908 2062 3674 2034 Q 3910 2039 4144 1984" stoke="none" fill="#67A260" />
+			<path d="M 4249 2029 Q 4024 2190 3791 2148 Q 4027 2167 4234 1985" stoke="none" fill="#2B6027" />
+			<path d="M 4326 1987 Q 4794 2004 4747 1773 Q 4816 1999 4350 2027" stoke="none" fill="#3C7736" />
+			<path d="M 4453 2022 Q 3998 2185 4139 2375 Q 3980 2200 4416 1992" stoke="none" fill="#80CD66" />
+			<path d="M 4553 2000 Q 4442 2384 4666 2459 Q 4436 2406 4508 2014" stoke="none" fill="#72C968" />
+			<path d="M 4648 2018 Q 4490 2202 4403 2422 Q 4467 2195 4606 1996" stoke="none" fill="#5C8155" />
+			<path d="M 4746 2001 Q 4951 2250 4847 2462 Q 4929 2241 4701 2013" stoke="none" fill="#53B34D" />
+			<path d="M 23 2112 Q -247 2400 -84 2572 Q -263 2417 -23 2103" stoke="none" fill="#76CC58" />
+			<path d="M 118 2101 Q 405 2400 231 2559 Q 389 2383 73 2114" stoke="none" fill="#3C5636" />
+			<path d="M 212 2094 Q 536 2268 465 2493 Q 513 2262 173 2121" stoke="none" fill="#32482E" />
+			<path d="M 273 2125 Q 56 1998 -64 1795 Q 76 1985 304 2090" stoke="none" fill="#69B951" />
+			<path d="M 394 2129 Q 70 2077 -54 2277 Q 50 2065 377 2085" stoke="none" fill="#79C064" />
+			<path d="M 478 2131 Q 22 2271 15 2034 Q 45 2269 485 2084" stoke="none" fill="#56A03B" />
+			<path d="M 567 2128 Q 375 1986 162 1884 Q 385 1964 589 2087" stoke="none" fill="#68A75B" />
+			<path d="M 685 2128 Q 491 2339 255 2324 Q 491 2316 664 2086" stoke="none" fill="#ABF498" />
+			<path d="M 747 2107 Q 981 1770 787 1636 Q 994 1750 794 2108" stoke="none" fill="#64A15B" />
+			<path d="M 891 2107 Q 1100 2562 865 2579 Q 1097 2538 844 2107" stoke="none" fill="#60B44F" />
+			<path d="M 966 2131 Q 668 2004 495 2165 Q 651 1987 961 2084" stoke="none" fill="#488132" />
+			<path d="M 1075 2126 Q 580 2192 691 2401 Q 560 2204 1045 2089" stoke="none" fill="#72E152" />
+			<path d="M 1180 2109 Q 975 2400 1130 2578 Q 958 2417 1133 2106" stoke="none" fill="#9BE394" />
+			<path d="M 1275 2100 Q 1175 2491 1402 2555 Q 1169 2514 1230 2115" stoke="none" fill="#69A553" />
+			<path d="M 1363 2088 Q 1564 2216 1734 2381 Q 1549 2234 1336 2127" stoke="none" fill="#46613D" />
+			<path d="M 1432 2088 Q 1675 2010 1827 1829 Q 1694 2024 1459 2126" stoke="none" fill="#81D578" />
+			<path d="M 1530 2127 Q 1339 1730 1141 1859 Q 1325 1711 1554 2087" stoke="none" fill="#24461D" />
+			<path d="M 1630 2129 Q 1150 2162 1201 1931 Q 1173 2166 1647 2086" stoke="none" fill="#5FA844" />
+			<path d="M 1755 2095 Q 1748 2556 1980 2510 Q 1754 2578 1715 2120" stoke="none" fill="#84DD7B" />
+			<path d="M 1846 2126 Q 1672 2297 1457 2395 Q 1661 2276 1817 2089" stoke="none" fill="#9BFF7C" />
+			<path d="M 1928 2084 Q 2248 2295 2399 2113 Q 2267 2309 1927 2131" stoke="none" fill="#9AE694" />
+			<path d="M 2025 2084 Q 2505 1898 2495 2134 Q 2481 1898 2023 2131" stoke="none" fill="#66F55B" />
+			<path d="M 2100 2118 Q 1888 1925 1902 1689 Q 1911 1925 2141 2096" stoke="none" fill="#71A468" />
+			<path d="M 2199 2122 Q 2130 1848 1919 1742 Q 2139 1827 2235 2092" stoke="none" fill="#468041" />
+			<path d="M 2337 2108 Q 2338 2346 2298 2579 Q 2315 2343 2290 2107" stoke="none" fill="#517B44" />
+			<path d="M 2420 2086 Q 2706 2122 2829 2324 Q 2687 2135 2399 2128" stoke="none" fill="#4F9A3B" />
+			<path d="M 2497 2129 Q 2151 2141 2074 1918 Q 2173 2132 2516 2086" stoke="none" fill="#7AB473" />
+			<path d="M 2626 2109 Q 2458 2370 2570 2578 Q 2438 2382 2579 2106" stoke="none" fill="#3C8733" />
+			<path d="M 2687 2087 Q 2895 1753 3103 1864 Q 2885 1774 2711 2128" stoke="none" fill="#6BC957" />
+			<path d="M 2773 2116 Q 2499 1862 2630 1665 Q 2519 1874 2817 2099" stoke="none" fill="#264520" />
+			<path d="M 2914 2115 Q 2538 2417 2732 2551 Q 2525 2437 2870 2099" stoke="none" fill="#73A36A" />
+			<path d="M 2973 2125 Q 2512 2011 2627 1804 Q 2533 2021 3003 2089" stoke="none" fill="#407B31" />
+			<path d="M 3062 2115 Q 3102 1824 2930 1662 Q 3117 1806 3107 2100" stoke="none" fill="#79BE60" />
+			<path d="M 3167 2126 Q 2867 2049 2806 1821 Q 2889 2042 3195 2089" stoke="none" fill="#AFED9A" />
+			<path d="M 3275 2131 Q 3039 2009 2808 2060 Q 3033 1987 3280 2084" stoke="none" fill="#5D9F51" />
+			<path d="M 3394 2120 Q 2946 2340 3117 2503 Q 2931 2358 3354 2095" stoke="none" fill="#62CA5A" />
+			<path d="M 3475 2130 Q 2984 1978 3010 2213 Q 2961 1982 3465 2084" stoke="none" fill="#5DB350" />
+			<path d="M 3569 2131 Q 3104 1913 3097 2149 Q 3081 1913 3565 2084" stoke="none" fill="#528B4F" />
+			<path d="M 3648 2089 Q 3803 1874 4030 1811 Q 3810 1897 3678 2126" stoke="none" fill="#314B2B" />
+			<path d="M 3757 2131 Q 3511 1962 3291 2049 Q 3501 1940 3762 2084" stoke="none" fill="#3C632E" />
+			<path d="M 3832 2109 Q 3681 1825 3824 1637 Q 3701 1838 3879 2106" stoke="none" fill="#30502A" />
+			<path d="M 3935 2092 Q 4312 1989 4268 1757 Q 4335 1983 3970 2123" stoke="none" fill="#2F542A" />
+			<path d="M 4071 2114 Q 4012 2345 3911 2559 Q 3991 2336 4026 2100" stoke="none" fill="#9AE292" />
+			<path d="M 4147 2131 Q 3838 1972 3675 2142 Q 3820 1956 4143 2084" stoke="none" fill="#3B6A2B" />
+			<path d="M 4256 2126 Q 4030 2567 3868 2395 Q 4046 2550 4227 2089" stoke="none" fill="#4B7840" />
+			<path d="M 4339 2131 Q 4062 2000 3867 2133 Q 4048 1981 4337 2084" stoke="none" fill="#93DD75" />
+			<path d="M 4422 2127 Q 3983 2086 4035 1856 Q 4007 2090 4447 2087" stoke="none" fill="#83D36D" />
+			<path d="M 4554 2113 Q 4652 2510 4423 2567 Q 4645 2487 4508 2102" stoke="none" fill="#80D071" />
+			<path d="M 4604 2110 Q 4442 1832 4577 1638 Q 4462 1844 4650 2105" stoke="none" fill="#82BD75" />
+			<path d="M 4729 2130 Q 4405 2415 4266 2224 Q 4423 2401 4718 2085" stoke="none" fill="#376B29" />
+			<path d="M 1 2184 Q 242 2296 470 2238 Q 248 2319 -1 2231" stoke="none" fill="#2D4A2B" />
+			<path d="M 114 2223 Q -134 2345 -205 2570 Q -157 2339 78 2193" stoke="none" fill="#31462C" />
+			<path d="M 207 2226 Q 37 2619 -171 2508 Q 47 2598 177 2190" stoke="none" fill="#87C875" />
+			<path d="M 285 2231 Q 0 1964 -175 2124 Q -17 1948 293 2185" stoke="none" fill="#40663A" />
+			<path d="M 408 2202 Q 338 2492 498 2666 Q 322 2509 362 2213" stoke="none" fill="#40813B" />
+			<path d="M 470 2228 Q 9 2211 67 1982 Q 32 2216 493 2187" stoke="none" fill="#315B22" />
+			<path d="M 554 2209 Q 739 1870 544 1737 Q 751 1850 601 2206" stoke="none" fill="#446641" />
+			<path d="M 652 2215 Q 446 1981 528 1759 Q 469 1988 697 2200" stoke="none" fill="#68A352" />
+			<path d="M 794 2212 Q 512 2503 679 2671 Q 496 2521 748 2203" stoke="none" fill="#58A143" />
+			<path d="M 848 2221 Q 835 1787 601 1818 Q 831 1764 887 2194" stoke="none" fill="#87CD6D" />
+			<path d="M 944 2194 Q 1027 1716 1238 1824 Q 1018 1737 983 2221" stoke="none" fill="#88E271" />
+			<path d="M 1043 2224 Q 912 2022 735 1866 Q 927 2004 1077 2192" stoke="none" fill="#7EB370" />
+			<path d="M 1135 2199 Q 1102 1744 1336 1772 Q 1100 1768 1178 2217" stoke="none" fill="#7DCC76" />
+			<path d="M 1268 2190 Q 1615 2273 1616 2510 Q 1591 2275 1238 2226" stoke="none" fill="#6CC252" />
+			<path d="M 1373 2205 Q 1535 2480 1404 2676 Q 1515 2468 1326 2210" stoke="none" fill="#8DFF6A" />
+			<path d="M 1458 2228 Q 1264 2373 1041 2450 Q 1255 2351 1434 2188" stoke="none" fill="#559243" />
+			<path d="M 1550 2230 Q 1336 2400 1101 2376 Q 1337 2377 1534 2186" stoke="none" fill="#63B44F" />
+			<path d="M 1624 2189 Q 2012 2158 2014 1922 Q 2035 2157 1653 2226" stoke="none" fill="#88ED7D" />
+			<path d="M 1753 2193 Q 1962 2352 2025 2580 Q 1940 2359 1716 2222" stoke="none" fill="#8AE27F" />
+			<path d="M 1811 2196 Q 1913 1978 2065 1798 Q 1931 1993 1852 2219" stoke="none" fill="#638E5C" />
+			<path d="M 1946 2193 Q 2221 2333 2231 2569 Q 2197 2335 1910 2223" stoke="none" fill="#44823B" />
+			<path d="M 2038 2189 Q 2218 2343 2398 2495 Q 2204 2361 2010 2226" stoke="none" fill="#579546" />
+			<path d="M 2112 2230 Q 1907 2104 1682 2033 Q 1913 2081 2129 2186" stoke="none" fill="#4F8D3D" />
+			<path d="M 2195 2200 Q 2216 1942 2368 1761 Q 2235 1956 2239 2215" stoke="none" fill="#62A849" />
+			<path d="M 2294 2194 Q 2350 1805 2585 1822 Q 2349 1828 2333 2221" stoke="none" fill="#2B4623" />
+			<path d="M 2433 2203 Q 2735 2622 2504 2670 Q 2729 2599 2387 2212" stoke="none" fill="#87C17E" />
+			<path d="M 2487 2194 Q 2551 1847 2787 1828 Q 2554 1871 2525 2222" stoke="none" fill="#78E56D" />
+			<path d="M 2599 2184 Q 2835 2115 3070 2142 Q 2834 2139 2606 2231" stoke="none" fill="#294224" />
+			<path d="M 2689 2229 Q 2287 2249 2269 2013 Q 2311 2246 2709 2186" stoke="none" fill="#97F48A" />
+			<path d="M 2772 2207 Q 2904 1949 2803 1736 Q 2925 1938 2819 2208" stoke="none" fill="#68B655" />
+			<path d="M 2915 2203 Q 2825 2492 2979 2671 Q 2808 2509 2869 2212" stoke="none" fill="#2C4526" />
+			<path d="M 2968 2219 Q 2574 1952 2753 1799 Q 2590 1970 3009 2196" stoke="none" fill="#439F3D" />
+			<path d="M 3063 2216 Q 2704 1883 2911 1769 Q 2716 1903 3106 2199" stoke="none" fill="#43793C" />
+			<path d="M 3158 2210 Q 3097 1971 3135 1738 Q 3120 1974 3204 2205" stoke="none" fill="#619056" />
+			<path d="M 3300 2213 Q 3002 2512 3179 2669 Q 2988 2530 3254 2203" stoke="none" fill="#1F3E1A" />
+			<path d="M 3383 2186 Q 3607 2526 3806 2398 Q 3621 2545 3364 2229" stoke="none" fill="#61EA55" />
+			<path d="M 3494 2207 Q 3550 2452 3485 2679 Q 3527 2447 3447 2208" stoke="none" fill="#325D2D" />
+			<path d="M 3560 2230 Q 3265 1896 3113 2077 Q 3246 1882 3573 2185" stoke="none" fill="#79F16D" />
+			<path d="M 3656 2185 Q 4024 1844 4112 2063 Q 4002 1854 3670 2230" stoke="none" fill="#7CD762" />
+			<path d="M 3782 2202 Q 3737 2471 3869 2667 Q 3718 2485 3737 2213" stoke="none" fill="#5FB94D" />
+			<path d="M 3846 2229 Q 3505 2242 3423 2021 Q 3526 2233 3865 2186" stoke="none" fill="#5DA549" />
+			<path d="M 3937 2226 Q 3714 2108 3586 1910 Q 3733 2095 3967 2189" stoke="none" fill="#557D52" />
+			<path d="M 4072 2212 Q 4170 2553 3966 2672 Q 4157 2534 4025 2204" stoke="none" fill="#2D4F22" />
+			<path d="M 4125 2195 Q 4191 1924 4397 1809 Q 4203 1944 4165 2220" stoke="none" fill="#527148" />
+			<path d="M 4220 2218 Q 4130 1999 4037 1782 Q 4152 1989 4263 2198" stoke="none" fill="#203F1E" />
+			<path d="M 4360 2216 Q 4115 2422 4174 2650 Q 4092 2429 4316 2200" stoke="none" fill="#6ACE63" />
+			<path d="M 4453 2193 Q 4500 2528 4731 2574 Q 4496 2551 4416 2223" stoke="none" fill="#2D4027" />
+			<path d="M 4511 2195 Q 4724 2043 4796 1818 Q 4747 2049 4550 2221" stoke="none" fill="#AAF39F" />
+			<path d="M 4604 2209 Q 4406 1873 4599 1737 Q 4420 1891 4651 2206" stoke="none" fill="#90D687" />
+			<path d="M 4716 2186 Q 4973 2183 5168 2050 Q 4987 2202 4731 2230" stoke="none" fill="#6AD754" />
+			<path d="M 5 2285 Q 227 2464 458 2418 Q 232 2486 -5 2331" stoke="none" fill="#81C87B" />
+			<path d="M 73 2305 Q 392 1889 161 1841 Q 396 1866 119 2311" stoke="none" fill="#609457" />
+			<path d="M 213 2297 Q 171 2753 406 2729 Q 175 2776 171 2319" stoke="none" fill="#85FF5F" />
+			<path d="M 304 2326 Q 147 2674 -77 2604 Q 153 2651 274 2290" stoke="none" fill="#74A463" />
+			<path d="M 407 2317 Q 61 2555 204 2744 Q 43 2571 363 2299" stoke="none" fill="#4D7B49" />
+			<path d="M 460 2298 Q 692 2121 690 1885 Q 715 2120 503 2319" stoke="none" fill="#57B64A" />
+			<path d="M 559 2295 Q 810 2154 848 1921 Q 833 2157 597 2322" stoke="none" fill="#7AB872" />
+			<path d="M 695 2296 Q 904 2479 913 2715 Q 881 2481 654 2320" stoke="none" fill="#3B5D2E" />
+			<path d="M 791 2296 Q 774 2733 1010 2715 Q 777 2756 750 2320" stoke="none" fill="#9EF48D" />
+			<path d="M 858 2330 Q 571 1940 430 2130 Q 551 1927 876 2286" stoke="none" fill="#62CD4D" />
+			<path d="M 987 2311 Q 690 2689 909 2777 Q 682 2711 940 2305" stoke="none" fill="#B1FFA6" />
+			<path d="M 1041 2295 Q 1108 1831 1328 1920 Q 1101 1854 1079 2321" stoke="none" fill="#80F26D" />
+			<path d="M 1145 2329 Q 694 2304 747 2074 Q 717 2309 1168 2288" stoke="none" fill="#467640" />
+			<path d="M 1247 2285 Q 1505 2076 1710 2193 Q 1494 2097 1259 2331" stoke="none" fill="#82FF74" />
+			<path d="M 1362 2328 Q 1186 2580 951 2561 Q 1187 2556 1337 2288" stoke="none" fill="#2B3B25" />
+			<path d="M 1426 2321 Q 1229 2141 1197 1907 Q 1252 2137 1466 2296" stoke="none" fill="#4B893F" />
+			<path d="M 1520 2300 Q 1471 1849 1707 1866 Q 1471 1873 1564 2316" stoke="none" fill="#324F29" />
+			<path d="M 1640 2285 Q 1893 2243 2109 2340 Q 1885 2265 1637 2332" stoke="none" fill="#395E35" />
+			<path d="M 1718 2325 Q 1627 1896 1404 1972 Q 1619 1874 1752 2292" stoke="none" fill="#83BC77" />
+			<path d="M 1827 2285 Q 2255 2462 2296 2229 Q 2278 2465 1835 2331" stoke="none" fill="#45A63C" />
+			<path d="M 1938 2287 Q 2119 2542 2353 2512 Q 2123 2565 1917 2329" stoke="none" fill="#63B051" />
+			<path d="M 2016 2330 Q 1790 2259 1577 2156 Q 1799 2238 2032 2286" stoke="none" fill="#85D97F" />
+			<path d="M 2097 2305 Q 2414 1884 2182 1840 Q 2417 1861 2144 2311" stoke="none" fill="#324A2D" />
+			<path d="M 2206 2329 Q 1763 2317 1802 2084 Q 1786 2320 2228 2287" stoke="none" fill="#528045" />
+			<path d="M 2336 2303 Q 2615 2636 2419 2768 Q 2600 2617 2290 2313" stoke="none" fill="#60CA54" />
+			<path d="M 2391 2294 Q 2455 1965 2688 1927 Q 2460 1988 2429 2322" stoke="none" fill="#97E291" />
+			<path d="M 2494 2328 Q 2049 2302 2098 2071 Q 2072 2306 2518 2288" stoke="none" fill="#71C454" />
+			<path d="M 2589 2327 Q 2165 2266 2218 2035 Q 2189 2270 2616 2289" stoke="none" fill="#234020" />
+			<path d="M 2701 2285 Q 3089 2124 3169 2346 Q 3067 2133 2697 2332" stoke="none" fill="#3D7339" />
+			<path d="M 2813 2323 Q 2532 2434 2488 2666 Q 2509 2431 2777 2293" stoke="none" fill="#AFFC92" />
+			<path d="M 2869 2300 Q 3220 2020 3045 1862 Q 3235 2002 2914 2316" stoke="none" fill="#9DF78B" />
+			<path d="M 2972 2291 Q 3411 2198 3325 1978 Q 3433 2188 3005 2325" stoke="none" fill="#2E642B" />
+			<path d="M 3103 2322 Q 2976 2525 2804 2687 Q 2959 2509 3066 2294" stoke="none" fill="#48813F" />
+			<path d="M 3161 2296 Q 3207 1835 3432 1909 Q 3201 1858 3201 2321" stoke="none" fill="#A3EB8E" />
+			<path d="M 3272 2331 Q 3005 2061 2817 2204 Q 2989 2043 3283 2285" stoke="none" fill="#87EB72" />
+			<path d="M 3375 2285 Q 3627 2251 3844 2342 Q 3619 2273 3372 2332" stoke="none" fill="#7ADE6C" />
+			<path d="M 3462 2286 Q 3981 2377 3915 2150 Q 4003 2369 3478 2330" stoke="none" fill="#2E722A" />
+			<path d="M 3583 2325 Q 3239 2406 3234 2643 Q 3215 2407 3550 2292" stoke="none" fill="#589054" />
+			<path d="M 3642 2320 Q 3354 2119 3433 1896 Q 3377 2126 3684 2297" stoke="none" fill="#8BDB7D" />
+			<path d="M 3780 2319 Q 3621 2505 3544 2728 Q 3599 2498 3738 2297" stoke="none" fill="#AFFF9D" />
+			<path d="M 3869 2327 Q 3474 2342 3469 2578 Q 3450 2343 3842 2289" stoke="none" fill="#435A3B" />
+			<path d="M 3971 2322 Q 3910 2701 3674 2689 Q 3910 2678 3933 2294" stoke="none" fill="#7BF764" />
+			<path d="M 4037 2329 Q 3868 2041 3635 2081 Q 3863 2018 4060 2287" stoke="none" fill="#54704A" />
+			<path d="M 4166 2320 Q 4059 2532 3915 2720 Q 4039 2519 4125 2297" stoke="none" fill="#628556" />
+			<path d="M 4261 2295 Q 4277 2712 4513 2694 Q 4280 2735 4222 2322" stoke="none" fill="#274B1E" />
+			<path d="M 4343 2331 Q 3928 2637 3876 2406 Q 3950 2631 4333 2285" stoke="none" fill="#77CC66" />
+			<path d="M 4445 2287 Q 4669 2666 4855 2521 Q 4685 2684 4424 2329" stoke="none" fill="#72DD66" />
+			<path d="M 4531 2285 Q 4834 2157 5002 2323 Q 4818 2174 4530 2332" stoke="none" fill="#5AA44C" />
+			<path d="M 4612 2326 Q 4376 2209 4272 1997 Q 4397 2198 4643 2290" stoke="none" fill="#5C8D4D" />
+			<path d="M 4714 2287 Q 4995 2286 5151 2109 Q 5014 2301 4733 2329" stoke="none" fill="#8DFD69" />
+			<path d="M 22 2415 Q -294 2700 -124 2864 Q -310 2717 -22 2402" stoke="none" fill="#9CFA8A" />
+			<path d="M 113 2424 Q -24 2896 -218 2760 Q -12 2876 78 2393" stoke="none" fill="#334C31" />
+			<path d="M 182 2430 Q -20 2309 -235 2210 Q -12 2288 202 2387" stoke="none" fill="#384E31" />
+			<path d="M 276 2389 Q 534 2336 687 2155 Q 553 2350 301 2428" stoke="none" fill="#A5F796" />
+			<path d="M 401 2391 Q 597 2537 727 2734 Q 578 2551 369 2426" stoke="none" fill="#87E16F" />
+			<path d="M 491 2387 Q 992 2375 914 2598 Q 969 2368 472 2430" stoke="none" fill="#61D54E" />
+			<path d="M 580 2385 Q 977 2677 1048 2452 Q 1000 2683 576 2432" stoke="none" fill="#87F773" />
+			<path d="M 698 2408 Q 902 2818 675 2880 Q 895 2795 651 2409" stoke="none" fill="#8EE584" />
+			<path d="M 793 2400 Q 791 2665 938 2850 Q 773 2680 749 2417" stoke="none" fill="#34672B" />
+			<path d="M 848 2395 Q 987 2204 1138 2022 Q 1006 2218 886 2422" stoke="none" fill="#2F4E25" />
+			<path d="M 973 2430 Q 722 2723 528 2589 Q 735 2703 955 2387" stoke="none" fill="#437640" />
+			<path d="M 1037 2414 Q 1115 2119 951 1949 Q 1131 2102 1083 2403" stoke="none" fill="#6CB452" />
+			<path d="M 1170 2427 Q 834 2459 776 2688 Q 811 2454 1142 2390" stoke="none" fill="#306929" />
+			<path d="M 1275 2400 Q 1247 2699 1433 2845 Q 1234 2718 1231 2417" stoke="none" fill="#B7F9A1" />
+			<path d="M 1335 2390 Q 1595 2324 1730 2130 Q 1615 2336 1363 2427" stoke="none" fill="#6EEB64" />
+			<path d="M 1466 2397 Q 1813 2617 1684 2815 Q 1792 2606 1425 2420" stoke="none" fill="#B4F49E" />
+			<path d="M 1519 2413 Q 1599 2127 1447 1946 Q 1616 2111 1565 2404" stoke="none" fill="#70BD5A" />
+			<path d="M 1623 2390 Q 1795 2220 2003 2109 Q 1807 2240 1653 2427" stoke="none" fill="#78F966" />
+			<path d="M 1713 2418 Q 1744 2097 1540 1979 Q 1755 2076 1756 2399" stoke="none" fill="#6AA25F" />
+			<path d="M 1809 2415 Q 1807 2166 1700 1955 Q 1827 2154 1854 2402" stoke="none" fill="#547249" />
+			<path d="M 1912 2426 Q 1692 2300 1575 2095 Q 1711 2288 1943 2391" stoke="none" fill="#516E47" />
+			<path d="M 2043 2422 Q 1774 2562 1758 2798 Q 1751 2562 2005 2395" stoke="none" fill="#478E39" />
+			<path d="M 2138 2393 Q 2570 2570 2432 2763 Q 2550 2558 2103 2424" stoke="none" fill="#2E4426" />
+			<path d="M 2194 2402 Q 2118 2031 2341 1953 Q 2127 2053 2240 2415" stoke="none" fill="#7AB774" />
+			<path d="M 2329 2391 Q 2759 2519 2657 2732 Q 2737 2510 2297 2426" stoke="none" fill="#73DA64" />
+			<path d="M 2428 2423 Q 2222 2570 2125 2785 Q 2200 2561 2391 2394" stoke="none" fill="#2E5E2A" />
+			<path d="M 2508 2385 Q 2986 2203 2977 2439 Q 2962 2203 2505 2432" stoke="none" fill="#7FC667" />
+			<path d="M 2624 2400 Q 2547 2795 2778 2847 Q 2543 2818 2581 2417" stoke="none" fill="#517248" />
+			<path d="M 2679 2396 Q 2729 2107 2941 2003 Q 2740 2128 2719 2421" stoke="none" fill="#76AE69" />
+			<path d="M 2799 2432 Q 2415 2262 2329 2481 Q 2393 2254 2792 2385" stoke="none" fill="#61CE57" />
+			<path d="M 2889 2385 Q 3126 2383 3361 2361 Q 3129 2407 2894 2432" stoke="none" fill="#73D767" />
+			<path d="M 2970 2423 Q 2697 2278 2691 2042 Q 2720 2277 3006 2394" stoke="none" fill="#26441F" />
+			<path d="M 3067 2393 Q 3168 2098 3401 2059 Q 3173 2120 3102 2424" stoke="none" fill="#66B94A" />
+			<path d="M 3188 2431 Q 2812 2770 2730 2548 Q 2834 2761 3174 2386" stoke="none" fill="#35522C" />
+			<path d="M 3301 2406 Q 3456 2685 3320 2878 Q 3436 2673 3254 2411" stoke="none" fill="#A5EA8D" />
+			<path d="M 3396 2417 Q 3001 2722 3201 2848 Q 2990 2742 3352 2400" stoke="none" fill="#6FFF60" />
+			<path d="M 3456 2390 Q 3869 2361 3848 2126 Q 3892 2358 3484 2427" stoke="none" fill="#72FB65" />
+			<path d="M 3567 2385 Q 3802 2400 4038 2410 Q 3803 2423 3567 2432" stoke="none" fill="#97E38E" />
+			<path d="M 3671 2430 Q 3443 2663 3223 2578 Q 3450 2641 3655 2387" stoke="none" fill="#62EA58" />
+			<path d="M 3781 2418 Q 3481 2620 3568 2840 Q 3459 2630 3738 2399" stoke="none" fill="#3D5932" />
+			<path d="M 3871 2426 Q 3637 2525 3498 2716 Q 3617 2512 3841 2391" stoke="none" fill="#547349" />
+			<path d="M 3961 2430 Q 3566 2356 3515 2586 Q 3543 2352 3943 2387" stoke="none" fill="#73D251" />
+			<path d="M 4072 2406 Q 3894 2759 4098 2878 Q 3883 2780 4025 2411" stoke="none" fill="#85DA71" />
+			<path d="M 4122 2411 Q 3976 2142 4096 1939 Q 3997 2153 4168 2406" stoke="none" fill="#4E9346" />
+			<path d="M 4262 2420 Q 4196 2673 4011 2820 Q 4180 2655 4221 2397" stoke="none" fill="#27401D" />
+			<path d="M 4318 2396 Q 4594 2249 4595 2013 Q 4617 2248 4358 2421" stoke="none" fill="#7CBF71" />
+			<path d="M 4418 2392 Q 4754 2312 4769 2076 Q 4778 2312 4451 2425" stoke="none" fill="#78B66D" />
+			<path d="M 4519 2429 Q 4058 2396 4124 2170 Q 4081 2402 4543 2388" stoke="none" fill="#478333" />
+			<path d="M 4604 2414 Q 4703 2090 4512 1951 Q 4716 2070 4650 2403" stoke="none" fill="#5CDA51" />
+			<path d="M 4745 2419 Q 4729 2924 4512 2830 Q 4737 2902 4702 2398" stoke="none" fill="#2A3C25" />
+		</g>
+		<g id="project-01.puzzle-01">
+			<rect x="911" y="1488" width="189" height="189" stroke="none" fill="#FFFE64" />
+			<rect x="1100" y="1488" width="189" height="189" stroke="none" fill="#FFFE75" />
+			<rect x="1289" y="1488" width="189" height="189" stroke="none" fill="#F6F568" />
+			<rect x="722" y="1299" width="189" height="189" stroke="none" fill="#FFFE7A" />
+			<rect x="911" y="1299" width="189" height="189" stroke="none" fill="#F2F277" />
+			<rect x="1100" y="1299" width="189" height="189" stroke="none" fill="#F2F278" />
+			<rect x="1289" y="1299" width="189" height="189" stroke="none" fill="#FDFC7D" />
+			<rect x="1478" y="1299" width="189" height="189" stroke="none" fill="#F7F774" />
+			<rect x="722" y="1110" width="189" height="189" stroke="none" fill="#FFFE68" />
+			<rect x="911" y="1110" width="189" height="189" stroke="none" fill="#FFFE86" />
+			<rect x="1100" y="1110" width="189" height="189" stroke="none" fill="#FFFE62" />
+			<rect x="1289" y="1110" width="189" height="189" stroke="none" fill="#F9F866" />
+			<rect x="1478" y="1110" width="189" height="189" stroke="none" fill="#FFFE62" />
+			<rect x="722" y="921" width="189" height="189" stroke="none" fill="#FFFE66" />
+			<rect x="911" y="921" width="189" height="189" stroke="none" fill="#FBF960" />
+			<rect x="1100" y="921" width="189" height="189" stroke="none" fill="#F5F461" />
+			<rect x="1289" y="921" width="189" height="189" stroke="none" fill="#F6F57E" />
+			<rect x="1478" y="921" width="189" height="189" stroke="none" fill="#FCFB6E" />
+			<rect x="911" y="732" width="189" height="189" stroke="none" fill="#FFFE5D" />
+			<rect x="1100" y="732" width="189" height="189" stroke="none" fill="#FFFE78" />
+			<rect x="1289" y="732" width="189" height="189" stroke="none" fill="#FFFE60" />
+			<path d="M 534 1866 L 534 1913 Q 534 2055 676 2055 L 912 2055 L 912 2102 Q 912 2244 1054 2244 L 1337 2244 Q 1479 2244 1479 2102 L 1479 2055 L 1715 2055 Q 1857 2055 1857 1913 L 1857 1866 L 1904 1866 Q 2046 1866 2046 1724 L 2046 1488 L 2093 1488 Q 2235 1488 2235 1346 L 2235 1063 Q 2235 921 2093 921 L 2046 921 L 2046 685 Q 2046 543 1904 543 L 1857 543 L 1857 496 Q 1857 354 1715 354 L 1479 354 L 1479 307 Q 1479 165 1337 165 L 1054 165 Q 912 165 912 307 L 912 354 L 676 354 Q 534 354 534 496 L 534 543 L 487 543 Q 345 543 345 685 L 345 921 L 298 921 Q 156 921 156 1063 L 156 1346 Q 156 1488 298 1488 L 345 1488 L 345 1724 Q 345 1866 487 1866 L 534 1866M 912 1488 L 959 1488 Q 1101 1488 1101 1630 L 1101 1677 L 1290 1677 L 1290 1630 Q 1290 1488 1432 1488 L 1479 1488 L 1479 1441 Q 1479 1299 1621 1299 L 1668 1299 L 1668 1110 L 1621 1110 Q 1479 1110 1479 968 L 1479 921 L 1432 921 Q 1290 921 1290 779 L 1290 732 L 1101 732 L 1101 779 Q 1101 921 959 921 L 912 921 L 912 968 Q 912 1110 770 1110 L 723 1110 L 723 1299 L 770 1299 Q 912 1299 912 1441 L 912 1488" stroke="none" fill="white" fill-rule="evenodd" stroke-linecap="round" />
+			<path d="M 534 1866 L 534 1913 Q 534 2055 676 2055 L 912 2055 L 912 2102 Q 912 2244 1054 2244 L 1337 2244 Q 1479 2244 1479 2102 L 1479 2055 L 1715 2055 Q 1857 2055 1857 1913 L 1857 1866 L 1904 1866 Q 2046 1866 2046 1724 L 2046 1488 L 2093 1488 Q 2235 1488 2235 1346 L 2235 1063 Q 2235 921 2093 921 L 2046 921 L 2046 685 Q 2046 543 1904 543 L 1857 543 L 1857 496 Q 1857 354 1715 354 L 1479 354 L 1479 307 Q 1479 165 1337 165 L 1054 165 Q 912 165 912 307 L 912 354 L 676 354 Q 534 354 534 496 L 534 543 L 487 543 Q 345 543 345 685 L 345 921 L 298 921 Q 156 921 156 1063 L 156 1346 Q 156 1488 298 1488 L 345 1488 L 345 1724 Q 345 1866 487 1866 L 534 1866" stroke="black" stroke-width="10" fill="none" stroke-linecap="round" />
+			<path d="M 912 1488 L 959 1488 Q 1101 1488 1101 1630 L 1101 1677 L 1290 1677 L 1290 1630 Q 1290 1488 1432 1488 L 1479 1488 L 1479 1441 Q 1479 1299 1621 1299 L 1668 1299 L 1668 1110 L 1621 1110 Q 1479 1110 1479 968 L 1479 921 L 1432 921 Q 1290 921 1290 779 L 1290 732 L 1101 732 L 1101 779 Q 1101 921 959 921 L 912 921 L 912 968 Q 912 1110 770 1110 L 723 1110 L 723 1299 L 770 1299 Q 912 1299 912 1441 L 912 1488" stroke="black" stroke-width="10" fill="none" stroke-linecap="round" />
+			<path d="M 156 1299 L 2235 1299 M 345 1488 L 2046 1488 M 345 1677 L 2046 1677 M 534 1866 L 1857 1866 M 912 2055 L 1479 2055 M 1290 2244 L 1290 165 M 1479 2055 L 1479 354 M 1668 2055 L 1668 354 M 1857 1866 L 1857 543 M 2046 1488 L 2046 921 M 2235 1110 L 156 1110 M 2046 921 L 345 921 M 2046 732 L 345 732 M 1857 543 L 534 543 M 1479 354 L 912 354 M 1101 165 L 1101 2244 M 912 354 L 912 2055 M 723 354 L 723 2055 M 534 543 L 534 1866 M 345 921 L 345 1488" stroke="black" stroke-width="2" fill="none" stroke-linecap="round" />
+			<path d="M 1290 1677 L 1479 1677 L 1479 2055 M 1479 1488 L 1857 1488 L 1857 1866 M 1668 1299 L 2046 1299 L 2046 1488 M 1668 1110 L 1668 921 L 2046 921 M 1479 921 L 1479 543 L 1857 543 M 1290 732 L 1290 354 L 1479 354 M 1101 732 L 912 732 L 912 354 M 912 921 L 534 921 L 534 543 M 723 1110 L 345 1110 L 345 921 M 723 1299 L 723 1488 L 345 1488 M 912 1488 L 912 1866 L 534 1866 M 1101 1677 L 1101 2055 L 912 2055" stroke="black" stroke-width="10" fill="none" stroke-linecap="round" />
+			<path d="M 1101 1677 L 912 1677 M 912 1866 L 912 2055 M 912 1488 L 723 1488 M 534 1488 L 534 1677 M 534 1677 L 534 1866 M 723 1299 L 534 1299 M 534 1299 L 345 1299 M 345 1299 L 345 1488 M 1668 1299 L 1668 1488 M 1857 1488 L 2046 1488 M 1479 1488 L 1479 1677 M 1479 1866 L 1668 1866 M 1668 1866 L 1857 1866 M 1290 1677 L 1290 1866 M 1290 1866 L 1290 2055 M 1290 2055 L 1479 2055 M 1290 732 L 1479 732 M 1479 543 L 1479 354 M 1479 921 L 1668 921 M 1857 921 L 1857 732 M 1857 732 L 1857 543 M 1668 1110 L 1857 1110 M 1857 1110 L 2046 1110 M 2046 1110 L 2046 921 M 723 1110 L 723 921 M 534 921 L 345 921 M 912 921 L 912 732 M 912 543 L 723 543 M 723 543 L 534 543 M 1101 732 L 1101 543 M 1101 543 L 1101 354 M 1101 354 L 912 354" stroke="black" stroke-width="10" fill="none" stroke-linecap="round" stroke-dasharray="18.900000000000002 37.800000000000004" />
+			<text x="439" y="826" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">4</text>
+			<text x="439" y="1016" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">3</text>
+			<text x="439" y="1204" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">9</text>
+			<text x="439" y="1394" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">5</text>
+			<text x="439" y="1772" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">1</text>
+			<text x="628" y="638" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">8</text>
+			<text x="628" y="826" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">2</text>
+			<text x="628" y="1582" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">9</text>
+			<text x="628" y="1772" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">4</text>
+			<text x="817" y="448" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">4</text>
+			<text x="817" y="826" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">6</text>
+			<text x="817" y="1016" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">5</text>
+			<text x="817" y="1394" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">2</text>
+			<text x="1006" y="260" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">3</text>
+			<text x="1006" y="826" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">7</text>
+			<text x="1006" y="1582" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">2</text>
+			<text x="1006" y="1960" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">8</text>
+			<text x="1006" y="2150" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">9</text>
+			<text x="1195" y="260" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">4</text>
+			<text x="1195" y="638" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">2</text>
+			<text x="1195" y="1772" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">5</text>
+			<text x="1195" y="2150" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">1</text>
+			<text x="1384" y="260" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">9</text>
+			<text x="1384" y="448" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">7</text>
+			<text x="1384" y="1582" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">1</text>
+			<text x="1384" y="1772" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">3</text>
+			<text x="1573" y="826" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">8</text>
+			<text x="1573" y="1016" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">6</text>
+			<text x="1573" y="1960" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">4</text>
+			<text x="1762" y="1016" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">2</text>
+			<text x="1762" y="1204" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">5</text>
+			<text x="1762" y="1394" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">3</text>
+			<text x="1762" y="1772" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">8</text>
+			<text x="1762" y="1960" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">6</text>
+			<text x="1951" y="638" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">5</text>
+			<text x="1951" y="826" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">9</text>
+			<text x="1951" y="1204" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">1</text>
+			<text x="1951" y="1394" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">4</text>
+			<text x="2140" y="1016" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">8</text>
+			<text x="2140" y="1204" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">6</text>
+			<g class="fade-wrapper">
+				<g class="animated-group">
+					<text x="250" y="1016" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">4<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.075; 0.24166666666666664; 0.325; 0.4916666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.075; 0.24166666666666664; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="250" y="1204" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">2<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.056249999999999994; 0.22291666666666665; 0.30624999999999997; 0.47291666666666665; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.056249999999999994; 0.22291666666666665; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="250" y="1394" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">8<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0375; 0.20416666666666666; 0.28750000000000003; 0.4541666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.0375; 0.20416666666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="439" y="638" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">7<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.13125; 0.29791666666666666; 0.38125000000000003; 0.5479166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.13125; 0.29791666666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="439" y="1582" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">8<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0375; 0.20416666666666666; 0.28750000000000003; 0.4541666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.0375; 0.20416666666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="628" y="448" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">3<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.16874999999999998; 0.33541666666666664; 0.41875; 0.5854166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.16874999999999998; 0.33541666666666664; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="628" y="1016" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">1<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.11249999999999999; 0.2791666666666667; 0.3625; 0.5291666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.11249999999999999; 0.2791666666666667; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="628" y="1204" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">7<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.09375; 0.26041666666666663; 0.34375; 0.5104166666666666; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.09375; 0.26041666666666663; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="628" y="1394" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">6<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.075; 0.24166666666666664; 0.325; 0.4916666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.075; 0.24166666666666664; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="628" y="1960" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">5<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.01875; 0.18541666666666665; 0.26875; 0.4354166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.01875; 0.18541666666666665; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="817" y="638" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">9<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.16874999999999998; 0.33541666666666664; 0.41875; 0.5854166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.16874999999999998; 0.33541666666666664; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="817" y="1582" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">3<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.075; 0.24166666666666664; 0.325; 0.4916666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.075; 0.24166666666666664; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="817" y="1772" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">7<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.056249999999999994; 0.22291666666666665; 0.30624999999999997; 0.47291666666666665; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.056249999999999994; 0.22291666666666665; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="817" y="1960" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">1<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0375; 0.20416666666666666; 0.28750000000000003; 0.4541666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.0375; 0.20416666666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1006" y="448" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">5<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.20624999999999996; 0.3729166666666666; 0.45625; 0.6229166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.20624999999999996; 0.3729166666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1006" y="638" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">1<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.1875; 0.35416666666666663; 0.4375; 0.6041666666666666; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.1875; 0.35416666666666663; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1006" y="1772" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">6<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.075; 0.24166666666666664; 0.325; 0.4916666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.075; 0.24166666666666664; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1195" y="448" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">8<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.22499999999999998; 0.3916666666666666; 0.4749999999999999; 0.6416666666666666; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.22499999999999998; 0.3916666666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1195" y="1960" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">7<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.075; 0.24166666666666664; 0.325; 0.4916666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.075; 0.24166666666666664; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1384" y="638" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">6<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.22499999999999998; 0.3916666666666666; 0.4749999999999999; 0.6416666666666666; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.22499999999999998; 0.3916666666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1384" y="826" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">5<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.20624999999999996; 0.3729166666666666; 0.45625; 0.6229166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.20624999999999996; 0.3729166666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1384" y="1960" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">2<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.09375; 0.26041666666666663; 0.34375; 0.5104166666666666; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.09375; 0.26041666666666663; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1384" y="2150" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">4<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.075; 0.24166666666666664; 0.325; 0.4916666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.075; 0.24166666666666664; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1573" y="448" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">2<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.2625; 0.4291666666666667; 0.5125000000000001; 0.6791666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.2625; 0.4291666666666667; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1573" y="638" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">3<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.24375; 0.41041666666666665; 0.49374999999999997; 0.6604166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.24375; 0.41041666666666665; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1573" y="1394" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">1<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.16874999999999998; 0.33541666666666664; 0.41875; 0.5854166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.16874999999999998; 0.33541666666666664; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1573" y="1582" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">5<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.15; 0.31666666666666665; 0.39999999999999997; 0.5666666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.15; 0.31666666666666665; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1573" y="1772" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">9<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.13125; 0.29791666666666666; 0.38125000000000003; 0.5479166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.13125; 0.29791666666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1762" y="448" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">9<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.28125; 0.44791666666666663; 0.53125; 0.6979166666666666; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.28125; 0.44791666666666663; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1762" y="638" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">4<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.2625; 0.4291666666666667; 0.5125000000000001; 0.6791666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.2625; 0.4291666666666667; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1762" y="826" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">1<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.24375; 0.41041666666666665; 0.49374999999999997; 0.6604166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.24375; 0.41041666666666665; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1762" y="1582" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">7<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.16874999999999998; 0.33541666666666664; 0.41875; 0.5854166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.16874999999999998; 0.33541666666666664; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1951" y="1016" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">7<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.24375; 0.41041666666666665; 0.49374999999999997; 0.6604166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.24375; 0.41041666666666665; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1951" y="1582" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">6<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.1875; 0.35416666666666663; 0.4375; 0.6041666666666666; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.1875; 0.35416666666666663; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="1951" y="1772" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">2<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.16874999999999998; 0.33541666666666664; 0.41875; 0.5854166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.16874999999999998; 0.33541666666666664; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="2140" y="1394" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">9<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.22499999999999998; 0.3916666666666666; 0.4749999999999999; 0.6416666666666666; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.22499999999999998; 0.3916666666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+				</g>
+			</g>
+		</g>
+		<g id="project-01.puzzle-02">
+			<rect x="3245" y="1488" width="189" height="189" stroke="none" fill="#FFFE78" />
+			<rect x="3434" y="1488" width="189" height="189" stroke="none" fill="#F5F46B" />
+			<rect x="3623" y="1488" width="189" height="189" stroke="none" fill="#FFFE75" />
+			<rect x="3056" y="1299" width="189" height="189" stroke="none" fill="#FCFB59" />
+			<rect x="3245" y="1299" width="189" height="189" stroke="none" fill="#F8F76F" />
+			<rect x="3434" y="1299" width="189" height="189" stroke="none" fill="#FFFE66" />
+			<rect x="3623" y="1299" width="189" height="189" stroke="none" fill="#FCFB5A" />
+			<rect x="3812" y="1299" width="189" height="189" stroke="none" fill="#FBFA66" />
+			<rect x="3056" y="1110" width="189" height="189" stroke="none" fill="#F3F257" />
+			<rect x="3245" y="1110" width="189" height="189" stroke="none" fill="#FFFE5F" />
+			<rect x="3434" y="1110" width="189" height="189" stroke="none" fill="#FCFB5C" />
+			<rect x="3623" y="1110" width="189" height="189" stroke="none" fill="#FFFE6C" />
+			<rect x="3812" y="1110" width="189" height="189" stroke="none" fill="#FFFE85" />
+			<rect x="3056" y="921" width="189" height="189" stroke="none" fill="#FFFE74" />
+			<rect x="3245" y="921" width="189" height="189" stroke="none" fill="#FFFE6B" />
+			<rect x="3434" y="921" width="189" height="189" stroke="none" fill="#FFFE69" />
+			<rect x="3623" y="921" width="189" height="189" stroke="none" fill="#F3F27F" />
+			<rect x="3812" y="921" width="189" height="189" stroke="none" fill="#F8F775" />
+			<rect x="3245" y="732" width="189" height="189" stroke="none" fill="#F7F67B" />
+			<rect x="3434" y="732" width="189" height="189" stroke="none" fill="#FFFE76" />
+			<rect x="3623" y="732" width="189" height="189" stroke="none" fill="#FDFC60" />
+			<path d="M 2867 1866 L 2867 1913 Q 2867 2055 3009 2055 L 3245 2055 L 3245 2102 Q 3245 2244 3387 2244 L 3670 2244 Q 3812 2244 3812 2102 L 3812 2055 L 4048 2055 Q 4190 2055 4190 1913 L 4190 1866 L 4237 1866 Q 4379 1866 4379 1724 L 4379 1488 L 4426 1488 Q 4568 1488 4568 1346 L 4568 1063 Q 4568 921 4426 921 L 4379 921 L 4379 685 Q 4379 543 4237 543 L 4190 543 L 4190 496 Q 4190 354 4048 354 L 3812 354 L 3812 307 Q 3812 165 3670 165 L 3387 165 Q 3245 165 3245 307 L 3245 354 L 3009 354 Q 2867 354 2867 496 L 2867 543 L 2820 543 Q 2678 543 2678 685 L 2678 921 L 2631 921 Q 2489 921 2489 1063 L 2489 1346 Q 2489 1488 2631 1488 L 2678 1488 L 2678 1724 Q 2678 1866 2820 1866 L 2867 1866M 3245 1488 L 3292 1488 Q 3434 1488 3434 1630 L 3434 1677 L 3623 1677 L 3623 1630 Q 3623 1488 3765 1488 L 3812 1488 L 3812 1441 Q 3812 1299 3954 1299 L 4001 1299 L 4001 1110 L 3954 1110 Q 3812 1110 3812 968 L 3812 921 L 3765 921 Q 3623 921 3623 779 L 3623 732 L 3434 732 L 3434 779 Q 3434 921 3292 921 L 3245 921 L 3245 968 Q 3245 1110 3103 1110 L 3056 1110 L 3056 1299 L 3103 1299 Q 3245 1299 3245 1441 L 3245 1488" stroke="none" fill="white" fill-rule="evenodd" stroke-linecap="round" />
+			<path d="M 2867 1866 L 2867 1913 Q 2867 2055 3009 2055 L 3245 2055 L 3245 2102 Q 3245 2244 3387 2244 L 3670 2244 Q 3812 2244 3812 2102 L 3812 2055 L 4048 2055 Q 4190 2055 4190 1913 L 4190 1866 L 4237 1866 Q 4379 1866 4379 1724 L 4379 1488 L 4426 1488 Q 4568 1488 4568 1346 L 4568 1063 Q 4568 921 4426 921 L 4379 921 L 4379 685 Q 4379 543 4237 543 L 4190 543 L 4190 496 Q 4190 354 4048 354 L 3812 354 L 3812 307 Q 3812 165 3670 165 L 3387 165 Q 3245 165 3245 307 L 3245 354 L 3009 354 Q 2867 354 2867 496 L 2867 543 L 2820 543 Q 2678 543 2678 685 L 2678 921 L 2631 921 Q 2489 921 2489 1063 L 2489 1346 Q 2489 1488 2631 1488 L 2678 1488 L 2678 1724 Q 2678 1866 2820 1866 L 2867 1866" stroke="black" stroke-width="10" fill="none" stroke-linecap="round" />
+			<path d="M 3245 1488 L 3292 1488 Q 3434 1488 3434 1630 L 3434 1677 L 3623 1677 L 3623 1630 Q 3623 1488 3765 1488 L 3812 1488 L 3812 1441 Q 3812 1299 3954 1299 L 4001 1299 L 4001 1110 L 3954 1110 Q 3812 1110 3812 968 L 3812 921 L 3765 921 Q 3623 921 3623 779 L 3623 732 L 3434 732 L 3434 779 Q 3434 921 3292 921 L 3245 921 L 3245 968 Q 3245 1110 3103 1110 L 3056 1110 L 3056 1299 L 3103 1299 Q 3245 1299 3245 1441 L 3245 1488" stroke="black" stroke-width="10" fill="none" stroke-linecap="round" />
+			<path d="M 2489 1299 L 4568 1299 M 2678 1488 L 4379 1488 M 2678 1677 L 4379 1677 M 2867 1866 L 4190 1866 M 3245 2055 L 3812 2055 M 3623 2244 L 3623 165 M 3812 2055 L 3812 354 M 4001 2055 L 4001 354 M 4190 1866 L 4190 543 M 4379 1488 L 4379 921 M 4568 1110 L 2489 1110 M 4379 921 L 2678 921 M 4379 732 L 2678 732 M 4190 543 L 2867 543 M 3812 354 L 3245 354 M 3434 165 L 3434 2244 M 3245 354 L 3245 2055 M 3056 354 L 3056 2055 M 2867 543 L 2867 1866 M 2678 921 L 2678 1488" stroke="black" stroke-width="2" fill="none" stroke-linecap="round" />
+			<path d="M 3623 1677 L 3812 1677 L 3812 2055 M 3812 1488 L 4190 1488 L 4190 1866 M 4001 1299 L 4379 1299 L 4379 1488 M 4001 1110 L 4001 921 L 4379 921 M 3812 921 L 3812 543 L 4190 543 M 3623 732 L 3623 354 L 3812 354 M 3434 732 L 3245 732 L 3245 354 M 3245 921 L 2867 921 L 2867 543 M 3056 1110 L 2678 1110 L 2678 921 M 3056 1299 L 3056 1488 L 2678 1488 M 3245 1488 L 3245 1866 L 2867 1866 M 3434 1677 L 3434 2055 L 3245 2055" stroke="black" stroke-width="10" fill="none" stroke-linecap="round" />
+			<path d="M 3434 1677 L 3245 1677 M 3245 1866 L 3245 2055 M 3245 1488 L 3056 1488 M 2867 1488 L 2867 1677 M 2867 1677 L 2867 1866 M 3056 1299 L 2867 1299 M 2867 1299 L 2678 1299 M 2678 1299 L 2678 1488 M 4001 1299 L 4001 1488 M 4190 1488 L 4379 1488 M 3812 1488 L 3812 1677 M 3812 1866 L 4001 1866 M 4001 1866 L 4190 1866 M 3623 1677 L 3623 1866 M 3623 1866 L 3623 2055 M 3623 2055 L 3812 2055 M 3623 732 L 3812 732 M 3812 543 L 3812 354 M 3812 921 L 4001 921 M 4190 921 L 4190 732 M 4190 732 L 4190 543 M 4001 1110 L 4190 1110 M 4190 1110 L 4379 1110 M 4379 1110 L 4379 921 M 3056 1110 L 3056 921 M 2867 921 L 2678 921 M 3245 921 L 3245 732 M 3245 543 L 3056 543 M 3056 543 L 2867 543 M 3434 732 L 3434 543 M 3434 543 L 3434 354 M 3434 354 L 3245 354" stroke="black" stroke-width="10" fill="none" stroke-linecap="round" stroke-dasharray="18.900000000000002 37.800000000000004" />
+			<text x="2584" y="1204" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">8</text>
+			<text x="2584" y="1394" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">5</text>
+			<text x="2773" y="638" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">2</text>
+			<text x="2773" y="826" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">6</text>
+			<text x="2773" y="1016" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">9</text>
+			<text x="2962" y="638" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">8</text>
+			<text x="2962" y="826" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">1</text>
+			<text x="2962" y="1016" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">7</text>
+			<text x="2962" y="1204" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">4</text>
+			<text x="3151" y="638" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">5</text>
+			<text x="3151" y="826" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">4</text>
+			<text x="3151" y="1394" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">6</text>
+			<text x="3151" y="1582" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">9</text>
+			<text x="3151" y="1772" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">8</text>
+			<text x="3340" y="448" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">6</text>
+			<text x="3340" y="638" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">7</text>
+			<text x="3340" y="1582" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">2</text>
+			<text x="3340" y="2150" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">8</text>
+			<text x="3529" y="260" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">2</text>
+			<text x="3529" y="1772" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">6</text>
+			<text x="3529" y="1960" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">3</text>
+			<text x="3718" y="260" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">3</text>
+			<text x="3718" y="826" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">8</text>
+			<text x="3718" y="1582" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">7</text>
+			<text x="3718" y="1772" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">9</text>
+			<text x="3718" y="1960" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">5</text>
+			<text x="3907" y="1394" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">4</text>
+			<text x="3907" y="1772" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">1</text>
+			<text x="4096" y="448" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">5</text>
+			<text x="4096" y="638" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">6</text>
+			<text x="4096" y="826" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">9</text>
+			<text x="4096" y="1394" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">7</text>
+			<text x="4096" y="1960" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">4</text>
+			<text x="4285" y="638" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">1</text>
+			<text x="4285" y="826" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">7</text>
+			<text x="4285" y="1582" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">8</text>
+			<text x="4285" y="1772" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">5</text>
+			<text x="4474" y="1016" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">2</text>
+			<text x="4474" y="1394" font-size="94px" font-family="Verdana" fill="#111111" text-anchor="middle" dominant-baseline="central">3</text>
+			<g class="fade-wrapper">
+				<g class="animated-group">
+					<text x="2584" y="1016" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">6<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.075; 0.24166666666666664; 0.325; 0.4916666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.075; 0.24166666666666664; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="2773" y="1204" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">3<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.075; 0.24166666666666664; 0.325; 0.4916666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.075; 0.24166666666666664; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="2773" y="1394" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">1<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.056249999999999994; 0.22291666666666665; 0.30624999999999997; 0.47291666666666665; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.056249999999999994; 0.22291666666666665; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="2773" y="1582" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">4<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0375; 0.20416666666666666; 0.28750000000000003; 0.4541666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.0375; 0.20416666666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="2773" y="1772" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">7<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.01875; 0.18541666666666665; 0.26875; 0.4354166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.01875; 0.18541666666666665; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="2962" y="448" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">9<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.16874999999999998; 0.33541666666666664; 0.41875; 0.5854166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.16874999999999998; 0.33541666666666664; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="2962" y="1394" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">2<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.075; 0.24166666666666664; 0.325; 0.4916666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.075; 0.24166666666666664; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="2962" y="1582" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">5<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.056249999999999994; 0.22291666666666665; 0.30624999999999997; 0.47291666666666665; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.056249999999999994; 0.22291666666666665; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="2962" y="1772" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">3<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0375; 0.20416666666666666; 0.28750000000000003; 0.4541666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.0375; 0.20416666666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="2962" y="1960" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">6<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.01875; 0.18541666666666665; 0.26875; 0.4354166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.01875; 0.18541666666666665; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="3151" y="448" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">2<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.1875; 0.35416666666666663; 0.4375; 0.6041666666666666; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.1875; 0.35416666666666663; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="3151" y="1016" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">3<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.13125; 0.29791666666666666; 0.38125000000000003; 0.5479166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.13125; 0.29791666666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="3151" y="1960" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">7<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0375; 0.20416666666666666; 0.28750000000000003; 0.4541666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.0375; 0.20416666666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="3340" y="260" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">5<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.22499999999999998; 0.3916666666666666; 0.4749999999999999; 0.6416666666666666; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.22499999999999998; 0.3916666666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="3340" y="826" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">3<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.16874999999999998; 0.33541666666666664; 0.41875; 0.5854166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.16874999999999998; 0.33541666666666664; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="3340" y="1772" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">4<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.075; 0.24166666666666664; 0.325; 0.4916666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.075; 0.24166666666666664; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="3340" y="1960" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">1<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.056249999999999994; 0.22291666666666665; 0.30624999999999997; 0.47291666666666665; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.056249999999999994; 0.22291666666666665; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="3529" y="448" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">8<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.22499999999999998; 0.3916666666666666; 0.4749999999999999; 0.6416666666666666; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.22499999999999998; 0.3916666666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="3529" y="638" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">9<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.20624999999999996; 0.3729166666666666; 0.45625; 0.6229166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.20624999999999996; 0.3729166666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="3529" y="2150" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">7<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.056249999999999994; 0.22291666666666665; 0.30624999999999997; 0.47291666666666665; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.056249999999999994; 0.22291666666666665; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="3718" y="448" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">1<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.24375; 0.41041666666666665; 0.49374999999999997; 0.6604166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.24375; 0.41041666666666665; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="3718" y="638" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">4<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.22499999999999998; 0.3916666666666666; 0.4749999999999999; 0.6416666666666666; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.22499999999999998; 0.3916666666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="3718" y="2150" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">2<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.075; 0.24166666666666664; 0.325; 0.4916666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.075; 0.24166666666666664; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="3907" y="448" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">7<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.2625; 0.4291666666666667; 0.5125000000000001; 0.6791666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.2625; 0.4291666666666667; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="3907" y="638" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">3<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.24375; 0.41041666666666665; 0.49374999999999997; 0.6604166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.24375; 0.41041666666666665; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="3907" y="826" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">2<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.22499999999999998; 0.3916666666666666; 0.4749999999999999; 0.6416666666666666; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.22499999999999998; 0.3916666666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="3907" y="1016" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">5<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.20624999999999996; 0.3729166666666666; 0.45625; 0.6229166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.20624999999999996; 0.3729166666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="3907" y="1582" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">6<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.15; 0.31666666666666665; 0.39999999999999997; 0.5666666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.15; 0.31666666666666665; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="3907" y="1960" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">8<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.11249999999999999; 0.2791666666666667; 0.3625; 0.5291666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.11249999999999999; 0.2791666666666667; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="4096" y="1016" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">8<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.22499999999999998; 0.3916666666666666; 0.4749999999999999; 0.6416666666666666; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.22499999999999998; 0.3916666666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="4096" y="1204" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">1<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.20624999999999996; 0.3729166666666666; 0.45625; 0.6229166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.20624999999999996; 0.3729166666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="4096" y="1582" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">3<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.16874999999999998; 0.33541666666666664; 0.41875; 0.5854166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.16874999999999998; 0.33541666666666664; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="4096" y="1772" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">2<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.15; 0.31666666666666665; 0.39999999999999997; 0.5666666666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.15; 0.31666666666666665; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="4285" y="1016" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">4<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.24375; 0.41041666666666665; 0.49374999999999997; 0.6604166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.24375; 0.41041666666666665; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="4285" y="1204" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">6<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.22499999999999998; 0.3916666666666666; 0.4749999999999999; 0.6416666666666666; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.22499999999999998; 0.3916666666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="4285" y="1394" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">9<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.20624999999999996; 0.3729166666666666; 0.45625; 0.6229166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.20624999999999996; 0.3729166666666666; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+					<text x="4474" y="1204" font-size="567px" font-family="Segoe Script, cursive" font-weight="bold" fill="#111111" text-anchor="middle" dominant-baseline="central">5<animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.24375; 0.41041666666666665; 0.49374999999999997; 0.6604166666666667; 1" dur="3s" repeatCount="0" fill="freeze" />
+						<animate attributeName="font-size" values="567px; 567px; 141.75px; 141.75px" keyTimes="0; 0.24375; 0.41041666666666665; 1.0" dur="3s" repeatCount="0" fill="freeze" />
+					</text>
+				</g>
+			</g>
+		</g>
+		<rect class="svg-trigger" x="0" y="0" width="4724" height="2409" fill-opacity="0" pointer-events="all" />
+	</g>
+	<g class="static-group" />
+</svg>

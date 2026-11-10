@@ -1,0 +1,39 @@
+{% assign current_lang = page.lang | default: "en" %}
+
+{% if current_lang == "nl" %}
+  {% assign projects_url = "/nl/projects/" %}
+  {% assign list_url = "/nl/project-list/" %}
+  {% assign tags_url = "/nl/tags/" %}
+  {% assign projects_label = "Overzicht" %}
+  {% assign list_label = "Lijst" %}
+  {% assign tags_label = "Op label" %}
+{% else %}
+  {% assign projects_url = "/en/projects/" %}
+  {% assign list_url = "/en/project-list/" %}
+  {% assign tags_url = "/en/tags/" %}
+  {% assign projects_label = "Overview" %}
+  {% assign list_label = "List" %}
+  {% assign tags_label = "By tag" %}
+{% endif %}
+
+{% assign current_view = page.translation_key %}
+
+<nav class="project-view-switch" aria-label="Project navigation">
+  <a href="{{ projects_url }}"
+     class="project-view-switch__link{% if current_view == 'projects' %} is-active{% endif %}"
+     {% if current_view == 'projects' %}aria-current="page"{% endif %}>
+    {{ projects_label }}
+  </a>
+
+  <a href="{{ list_url }}"
+     class="project-view-switch__link{% if current_view == 'project_list' %} is-active{% endif %}"
+     {% if current_view == 'project_list' %}aria-current="page"{% endif %}>
+    {{ list_label }}
+  </a>
+
+  <a href="{{ tags_url }}"
+     class="project-view-switch__link{% if current_view == 'tags' %} is-active{% endif %}"
+     {% if current_view == 'tags' %}aria-current="page"{% endif %}>
+    {{ tags_label }}
+  </a>
+</nav>

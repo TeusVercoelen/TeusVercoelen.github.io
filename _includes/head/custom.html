@@ -1,0 +1,15 @@
+
+<!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+<meta name="site-language" content="{{ page.lang | default: 'en' }}">
+<meta name="translation-key" content="{{ page.translation_key | default: '' }}">
+<meta name="current-page-url" content="{{ page.url | relative_url }}">
+
+{% include translation-map.html %}
+
+<script defer src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/language.js' | relative_url }}"></script>

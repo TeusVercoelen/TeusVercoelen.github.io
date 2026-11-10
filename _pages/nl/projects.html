@@ -1,0 +1,132 @@
+---
+title: "Projecten"
+layout: single
+permalink: /nl/projects/
+author_profile: true
+translation_key: projects
+lang: nl
+---
+
+Dit is een overzicht van projecten waar ik aan gewerkt heb. Voor meer informatie over een project, klik op de titel of afbeelding.
+
+<div class="project-navigation">
+  {% include project-view-switch.html %}
+
+  <div class="project-sort">
+    <button
+      type="button"
+      class="project-sort__button"
+      id="project-sort-button"
+      aria-expanded="false"
+      aria-controls="project-sort-menu">
+      <i class="fas fa-sort" aria-hidden="true"></i>
+      Sort
+    </button>
+
+    <div class="project-sort__menu" id="project-sort-menu" hidden>
+      <button type="button" data-sort="featured" class="is-active">Featured</button>
+      <button type="button" data-sort="started-asc">Started (old-new)</button>
+      <button type="button" data-sort="started-desc">Started (new-old)</button>
+      <button type="button" data-sort="updated-asc">Updated (old-new)</button>
+      <button type="button" data-sort="updated-desc">Updated (new-old)</button>
+      <button type="button" data-sort="title-asc">Alphabetically (A-Z)</button>
+      <button type="button" data-sort="title-desc">Alphabetically (Z-A)</button>
+    </div>
+  </div>
+</div>
+
+{% assign sorted_projects = site.projects | sort: "order" %}
+
+<div id="projects-list">
+  {% for project in sorted_projects %}
+    {% assign project_lang = project.lang | default: "nl" %}
+
+    {% if project_lang == "nl" %}
+
+      <article class="archive__item"
+        data-order="{{ project.order | default: 999999 }}"
+        data-title="{{ project.title | downcase | escape }}"
+        data-started="{% if project.started %}{{ project.started | date: '%Y-%m-%d' }}{% endif %}"
+        data-updated="{% assign updated_date = project.last_modified_at | default: project.date | default: project.started %}{{ updated_date | date: '%Y-%m-%d' }}">
+
+        <h2 class="archive__item-title">
+          <a href="{{ project.url | relative_url }}">
+            {{ project.title }}
+          </a>
+        </h2>
+
+        <hr>
+
+        {% if project.description %}
+          {% assign updated_date = project.last_modified_at | default: project.date %}
+          <div class="project__description">
+            {% if project.started %}
+              {% assign start_year = project.started | date: "%Y" %}
+            {% else %}
+              {% assign start_year = nil %}
+            {% endif %}
+
+            {% if project.last_modified_at %}
+              {% assign updated_year = project.last_modified_at | date: "%Y" %}
+            {% elsif project.date %}
+              {% assign updated_year = project.date | date: "%Y" %}
+            {% else %}
+              {% assign updated_year = start_year %}
+            {% endif %}
+
+            {% if start_year and updated_year %}
+              <strong class="project__years">
+                {% if start_year == updated_year %}
+                  {{ start_year }}
+                {% else %}
+                  {{ start_year }}–{{ updated_year }}
+                {% endif %}
+              </strong>
+            {% endif %}
+
+            <span class="project__description-text">
+              {{ project.description }}
+            </span>
+          </div>
+        {% endif %}
+        
+        <div class="archive__item-teaser">
+          <a href="{{ project.url | relative_url }}">
+            {% if project.svg %}
+              <div class="archive__item-svg">
+                {% include {{ project.svg }} %}
+              </div>
+            {% elsif project.image %}
+              <img
+                src="{{ project.image | relative_url }}"
+                alt="{{ project.image_alt | default: project.title }}"
+              >
+            {% endif %}
+          </a>
+        </div>
+
+        {% if project.tags %}
+          <div class="page__taxonomy">
+            <strong>
+              <i class="fas fa-tags" aria-hidden="true"></i>
+              Tags:
+            </strong>
+            <span itemprop="keywords">
+              {% for tag in project.tags %}
+                <a href="{{ '/en/tags/' | relative_url }}#{{ tag | slugify }}"
+                  class="page__taxonomy-item">
+                  {{ tag }}
+                </a>
+              {% endfor %}
+            </span>
+          </div>
+        {% endif %}
+
+      </article>
+
+    {% endif %}
+  {% endfor %}
+</div>
+
+<script defer src="{{ '/assets/js/project-sort.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/trigger-svg.js' | relative_url }}"></script>
