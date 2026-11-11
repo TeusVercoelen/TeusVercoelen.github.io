@@ -1,0 +1,199 @@
+
+/* ==========================================================================
+   Navigation theme colors
+   ========================================================================== */
+
+/* Pagination */
+.pagination {
+  li a {
+    color: var(--color-text-body) !important;
+    border-color: color-mix(in srgb, var(--color-background-body) 25%, var(--color-border));
+
+    &:hover {
+      color: var(--color-text-body);
+    }
+
+    &.current,
+    &.current.disabled {
+      color: var(--color-text-body);
+      background: var(--color-muted);
+    }
+
+    &.disabled {
+      color: var(--color-debug);
+    }
+  }
+
+  &--pager {
+    color: var(--color-text-body) !important;
+    border-color: var(--color-border);
+
+    &:hover {
+      color: var(--color-text-body);
+      background-color: var(--color-button-hover);
+    }
+
+    &.disabled {
+      color: var(--color-text-muted) !important;
+    }
+  }
+}
+
+.page__content + .pagination,
+.page__meta + .pagination,
+.page__share + .pagination,
+.page__comments + .pagination {
+  border-top-color: var(--color-border);
+}
+
+/* Greedy navigation */
+.greedy-nav {
+  background: var(--color-background-masthead);
+
+  a {
+    color: var(--color-text-masthead);
+
+    &:hover {
+      color: var(--color-text-masthead);
+    }
+  }
+
+  .visible-links a:before {
+    background: var(--color-accent);
+  }
+
+  .hidden-links {
+    background: var(--color-background-masthead);
+    border-color: var(--color-border);
+    box-shadow:
+      0 2px 4px color-mix(in srgb, var(--color-background-body) 16%, transparent),
+      0 2px 10px color-mix(in srgb, var(--color-background-body) 12%, transparent);
+
+    a:hover {
+      color: var(--color-text-masthead);
+      background: var(--color-button-hover);
+    }
+
+    &::before {
+      border-color: var(--color-border) transparent;
+    }
+
+    &::after {
+      border-color: var(--color-border) transparent;
+    }
+
+    li {
+      border-bottom-color: var(--color-border);
+    }
+  }
+}
+
+/* Mobile navigation list */
+.nav__list {
+  @include breakpoint(max-width $large - 1px) {
+    label {
+      color: var(--color-text-body);
+      border-color: var(--color-border);
+
+      &::before,
+      &::after {
+        background-color: var(--color-text-body);
+      }
+
+      &:hover {
+        color: var(--color-text-body);
+        border-color: var(--color-border);
+        background-color: var(--color-button-hover);
+
+        &::before,
+        &::after {
+          background-color: var(--color-text-body);
+        }
+      }
+    }
+
+    input:checked + label {
+      color: var(--color-text-inverted);
+      background-color: var(--color-button-primary);
+
+      &::before,
+      &::after {
+        background-color: var(--color-text-inverted);
+      }
+    }
+  }
+}
+
+/* Table of contents */
+.toc {
+  color: var(--color-text-body);
+  background-color: var(--color-background-body);
+  border-color: var(--color-border);
+
+  .nav__title {
+    color: var(--color-text-inverted);
+    background: var(--color-button-primary);
+  }
+
+  .active a {
+    color: var(--color-text-inverted);
+    background-color: var(--color-button-primary);
+  }
+}
+
+.toc__menu {
+  a {
+    color: var(--color-text-body);
+    border-bottom-color: var(--color-border);
+
+    &:hover {
+      color: var(--color-text-link);
+    }
+  }
+}
+
+.nav__sub-title {
+  border-bottom-color: var(--color-border);
+}
+
+/* Greedy navigation toggle */
+.greedy-nav__toggle {
+  color: var(--color-accent);
+  background-color: var(--color-background-masthead);
+
+  border-color: var(--color-background-masthead);
+
+  &::before,
+  &::after {
+    background-color: var(--color-background-masthead);
+  }
+
+  .navicon,
+  .navicon::before,
+  .navicon::after {
+    background-color: var(--color-text-masthead);
+  }
+
+  &:hover {
+    .navicon,
+    .navicon::before,
+    .navicon::after {
+      background-color: var(--color-accent);
+    }
+  }
+
+  &.close {
+    .navicon {
+      background-color: var(--color-background-masthead);
+    }
+    .navicon::before,
+    .navicon::after {
+      background-color: var(--color-accent);
+    }
+  }
+}
+
+.greedy-nav__toggle::before {
+  background-color: var(--color-background-masthead);
+}
+

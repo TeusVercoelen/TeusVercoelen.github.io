@@ -1,0 +1,26 @@
+
+/* ==========================================================
+   LIGHT THEME
+========================================================== */
+
+:root {
+
+  --color-background-body:        #ffffff;  // Main, author profile/sidebar
+  --color-background-masthead:    #CEE8F3;  // Masthead, greedy nav hidden link menu
+  --color-background-footer:      #41AFD0;  // Footer
+  --color-border:                 #596575;  // Borders, horizontal lines, vertical lines
+  --color-accent:                 #41AFD0;  // Masthead selection animation line, greedy nav toggle
+  --color-button-primary:         #41AFD0;  // Project view switch selected, author more information, submit form
+  --color-button-secondary:       #ffffff;  // Project view switch not selected, project sort
+  --color-button-hover:           #cccccc;  //
+  --color-text-heading-primary:   #222831;  // # Headings on pages
+  --color-text-heading-secondary: #222831;  // ## Headings on pages
+  --color-text-body:              #222831;  // Text/icons on pages, author profile/sidebar, buttons, tags
+  --color-text-masthead:          #222831;  // Website title, subtitle, pagelinks, theme button
+  --color-text-footer:            #ffffff;  // Text on footer, links excluded
+  --color-text-inverted:          #ffffff;  // Text on primary buttons
+  --color-text-link:              #1b67ae;  // Links, excluding headers, tags, author links, page links
+  --color-text-muted:             #596575;  // Text on previous/next button when unavailable
+  --color-debug:                  #f79c00; 
+  
+}

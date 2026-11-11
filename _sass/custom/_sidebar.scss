@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Sidebar theme colors
+   ========================================================================== */
+
+/* Author avatar */
+.author__avatar img {
+  @include breakpoint($large) {
+    border-color: var(--color-border);
+  }
+}
+
+/* Author links dropdown */
+.author__urls {
+  color: var(--color-text-body);
+  border-color: var(--color-background-body);
+  background-color: var(--color-background-body);
+  box-shadow:
+    0 2px 4px color-mix(in srgb, var(--color-background-body) 16%, transparent),
+    0 2px 10px color-mix(in srgb, var(--color-background-body) 12%, transparent);
+
+  &::before {
+    border-color: var(--color-background-body) transparent;
+  }
+
+  &::after {
+    border-color: var(--color-background-body) transparent;
+  }
+
+  a {
+    color: var(--color-text-body);
+
+    &:hover {
+      color: var(--color-text-body);
+    }
+  }
+
+  @include breakpoint($large) {
+    background-color: var(--color-background-body);
+  }
+}

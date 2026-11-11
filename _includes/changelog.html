@@ -3,141 +3,137 @@
 
 <div class="changelog">
   {% for entry in sorted_entries %}
-    {% unless entry.name == "template.md" %}
+    {% assign title_key = "title_" | append: current_lang %}
+    {% assign entry_title = entry[title_key] %}
 
-      {% assign title_key = "title_" | append: current_lang %}
-      {% assign entry_title = entry[title_key] %}
+    <section class="changelog__entry">
 
-      <section class="changelog__entry">
+      <h3 class="changelog__date">
+        {{ entry.date | date: "%-d %B %Y" }}{% if entry_title != "" %} &mdash; {{ entry_title }}{% endif %}
+      </h3>
 
-        <h3 class="changelog__date">
-          {{ entry.date | date: "%-d %B %Y" }}{% if entry_title != "" %} &mdash; {{ entry_title }}{% endif %}
-        </h3>
+      {% assign description_key = "description_" | append: current_lang %}
+      {% assign entry_description = entry[description_key] | default: "" | strip %}
 
-        {% assign description_key = "description_" | append: current_lang %}
-        {% assign entry_description = entry[description_key] | default: "" | strip %}
+      {% if entry_description != "" %}
+        <p class="changelog__description">
+          {{ entry_description | markdownify }}
+        </p>
+      {% endif %}
 
-        {% if entry_description != "" %}
-          <p class="changelog__description">
-            {{ entry_description | markdownify }}
-          </p>
-        {% endif %}
+      <div class="changelog__timeline">
 
-        <div class="changelog__timeline">
+        {% assign categories = "pages_added,pages_removed,changes_made,translations_added,visual_changes,bugs_fixed" | split: "," %}
 
-          {% assign categories = "pages_added,pages_removed,changes_made,translations_added,visual_changes,bugs_fixed" | split: "," %}
+        {% for category in categories %}
 
-          {% for category in categories %}
+          {% assign field_name = category | append: "_" | append: current_lang %}
+          {% assign items = entry[field_name] %}
+          {% assign count = items | size %}
 
-            {% assign field_name = category | append: "_" | append: current_lang %}
-            {% assign items = entry[field_name] %}
-            {% assign count = items | size %}
+          {% if count > 0 %}
 
-            {% if count > 0 %}
+            {% case category %}
 
-              {% case category %}
+              {% when "pages_added" %}
+                <div class="changelog__category">
+                  <p>
+                    <i class="fas fa-plus" aria-hidden="true"></i>
+                    <strong>
+                      {% if current_lang == "nl" %}
+                        {{ count }} nieuwe {% if count == 1 %}pagina{% else %}pagina's{% endif %} toegevoegd
+                      {% else %}
+                        {{ count }} new page{% if count != 1 %}s{% endif %} added
+                      {% endif %}
+                    </strong>
+                  </p>
+                </div>
 
-                {% when "pages_added" %}
-                  <div class="changelog__category">
-                    <p>
-                      <i class="fas fa-plus" aria-hidden="true"></i>
-                      <strong>
-                        {% if current_lang == "nl" %}
-                          {{ count }} nieuwe {% if count == 1 %}pagina{% else %}pagina's{% endif %} toegevoegd
-                        {% else %}
-                          {{ count }} new page{% if count != 1 %}s{% endif %} added
-                        {% endif %}
-                      </strong>
-                    </p>
-                  </div>
+              {% when "pages_removed" %}
+                <div class="changelog__category">
+                  <p>
+                    <i class="fas fa-minus" aria-hidden="true"></i>
+                    <strong>
+                      {% if current_lang == "nl" %}
+                        {{ count }} {% if count == 1 %}pagina{% else %}pagina's{% endif %} verwijderd
+                      {% else %}
+                        {{ count }} page{% if count != 1 %}s{% endif %} removed
+                      {% endif %}
+                    </strong>
+                  </p>
+                </div>
 
-                {% when "pages_removed" %}
-                  <div class="changelog__category">
-                    <p>
-                      <i class="fas fa-minus" aria-hidden="true"></i>
-                      <strong>
-                        {% if current_lang == "nl" %}
-                          {{ count }} {% if count == 1 %}pagina{% else %}pagina's{% endif %} verwijderd
-                        {% else %}
-                          {{ count }} page{% if count != 1 %}s{% endif %} removed
-                        {% endif %}
-                      </strong>
-                    </p>
-                  </div>
+              {% when "changes_made" %}
+                <div class="changelog__category">
+                  <p>
+                    <i class="fas fa-pen" aria-hidden="true"></i>
+                    <strong>
+                      {% if current_lang == "nl" %}
+                        {{ count }} wijziging{% if count != 1 %}en{% endif %} aangebracht
+                      {% else %}
+                        {{ count }} change{% if count != 1 %}s{% endif %} made
+                      {% endif %}
+                    </strong>
+                  </p>
+                </div>
 
-                {% when "changes_made" %}
-                  <div class="changelog__category">
-                    <p>
-                      <i class="fas fa-pen" aria-hidden="true"></i>
-                      <strong>
-                        {% if current_lang == "nl" %}
-                          {{ count }} wijziging{% if count != 1 %}en{% endif %} aangebracht
-                        {% else %}
-                          {{ count }} change{% if count != 1 %}s{% endif %} made
-                        {% endif %}
-                      </strong>
-                    </p>
-                  </div>
+              {% when "translations_added" %}
+                <div class="changelog__category">
+                  <p>
+                    <i class="fas fa-language" aria-hidden="true"></i>
+                    <strong>
+                      {% if current_lang == "nl" %}
+                        {{ count }} vertaling{% if count != 1 %}en{% endif %} toegevoegd
+                      {% else %}
+                        {{ count }} translation{% if count != 1 %}s{% endif %} added
+                      {% endif %}
+                    </strong>
+                  </p>
+                </div>
 
-                {% when "translations_added" %}
-                  <div class="changelog__category">
-                    <p>
-                      <i class="fas fa-language" aria-hidden="true"></i>
-                      <strong>
-                        {% if current_lang == "nl" %}
-                          {{ count }} vertaling{% if count != 1 %}en{% endif %} toegevoegd
-                        {% else %}
-                          {{ count }} translation{% if count != 1 %}s{% endif %} added
-                        {% endif %}
-                      </strong>
-                    </p>
-                  </div>
+              {% when "visual_changes" %}
+                <div class="changelog__category">
+                  <p>
+                    <i class="fas fa-palette" aria-hidden="true"></i>
+                    <strong>
+                      {% if current_lang == "nl" %}
+                        {{ count }} visuele wijziging{% if count != 1 %}en{% endif %} aangebracht
+                      {% else %}
+                        {{ count }} visual change{% if count != 1 %}s{% endif %} made
+                      {% endif %}
+                    </strong>
+                  </p>
+                </div>
 
-                {% when "visual_changes" %}
-                  <div class="changelog__category">
-                    <p>
-                      <i class="fas fa-palette" aria-hidden="true"></i>
-                      <strong>
-                        {% if current_lang == "nl" %}
-                          {{ count }} visuele wijziging{% if count != 1 %}en{% endif %} aangebracht
-                        {% else %}
-                          {{ count }} visual change{% if count != 1 %}s{% endif %} made
-                        {% endif %}
-                      </strong>
-                    </p>
-                  </div>
+              {% when "bugs_fixed" %}
+                <div class="changelog__category">
+                  <p>
+                    <i class="fas fa-bug" aria-hidden="true"></i>
+                    <strong>
+                      {% if current_lang == "nl" %}
+                        {{ count }} {% if count == 1 %}bug opgelost{% else %}bugs opgelost{% endif %}
+                      {% else %}
+                        {{ count }} bug{% if count != 1 %}s{% endif %} fixed
+                      {% endif %}
+                    </strong>
+                  </p>
+                </div>
 
-                {% when "bugs_fixed" %}
-                  <div class="changelog__category">
-                    <p>
-                      <i class="fas fa-bug" aria-hidden="true"></i>
-                      <strong>
-                        {% if current_lang == "nl" %}
-                          {{ count }} {% if count == 1 %}bug opgelost{% else %}bugs opgelost{% endif %}
-                        {% else %}
-                          {{ count }} bug{% if count != 1 %}s{% endif %} fixed
-                        {% endif %}
-                      </strong>
-                    </p>
-                  </div>
+            {% endcase %}
 
-              {% endcase %}
+          <ul class="changelog__items">
+            {% for item in items %}
+              <li>
+                {{ item | markdownify }}
+              </li>
+            {% endfor %}
+          </ul>
 
-            <ul class="changelog__items">
-              {% for item in items %}
-                <li>
-                  {{ item | markdownify }}
-                </li>
-              {% endfor %}
-            </ul>
+          {% endif %}
 
-            {% endif %}
+        {% endfor %}
 
-          {% endfor %}
-
-        </div>
-      </section>
-
-    {% endunless %}
+      </div>
+    </section>
   {% endfor %}
 </div>

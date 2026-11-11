@@ -1,0 +1,163 @@
+
+/* ==========================================================
+   GENERAL LINKS
+========================================================== */
+
+body,
+#main {
+  background-color: var(--color-background-body);
+}
+
+.page__content a {
+  color: inherit;
+
+  &:hover {
+    color: var(--color-text-body);
+  }
+}
+
+/* ==========================================================
+   MOBILE LAYOUT
+========================================================== */
+
+@media (max-width: 767px) {
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #main .sidebar {
+    order: 2;
+    border-top: 1px solid var(--color-border);
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  #main .archive,
+  #main .page {
+    order: 1;
+  }
+
+  #footer.page__footer {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    min-height: 0 !important;
+  }
+}
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+.page__footer {
+  background-color: var(--color-background-footer);
+  color: var(--color-text-footer);
+  padding-top: 0.5em !important;
+  padding-bottom: 0.5em !important;
+}
+
+.page__footer a,
+.page__footer a:visited {
+  color: var(--color-text-link);
+}
+
+.page__footer a:hover,
+.page__footer a:focus {
+  color: var(--color-text-link);
+}
+
+.page__footer footer {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.page__footer-copyright {
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  color: var(--color-text-footer);
+}
+
+
+.page__footer {
+  background-color: var(--color-background-footer);
+  color: var(--color-footer-text);
+
+  a {
+    color: var(--color-text-link);
+
+    &:hover {
+      color: var(--color-text-link);
+    }
+  }
+
+  .fas,
+  .fab,
+  .far,
+  .fal {
+    color: var(--color-text-footer);
+  }
+}
+
+
+/* Masthead */
+.masthead {
+  border-bottom-color: var(--color-border);
+}
+
+%tab-focus {
+  outline-color: var(--color-debug);
+}
+
+/* ==========================================================================
+   Main body background and text colors
+   ========================================================================== */
+
+/* Main background */
+body,
+#main {
+  background-color: var(--color-background-body);
+}
+
+/* General body text */
+body,
+#main,
+.page,
+.archive,
+.page__content {
+  color: var(--color-text-body);
+}
+
+/* Headings */
+h1 {
+  color: var(--color-text-heading-primary);
+}
+
+h2 {
+  color: var(--color-text-heading-secondary);
+}
+
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-text-body)
+}
+
+/* Body content */
+p,
+li,
+dl,
+dt,
+dd,
+blockquote {
+  color: var(--color-text-body);
+}

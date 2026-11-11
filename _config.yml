@@ -125,7 +125,7 @@ author:
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
     - label: "Contact form"
-      icon: "fas fa-fw fa-square-envelope"
+      icon: "fas fa-fw fa-paper-plane"
       url: "/en/contact/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"

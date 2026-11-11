@@ -1,0 +1,114 @@
+
+/* ==========================================================================
+   Page theme colors
+   ========================================================================== */
+
+/* Page title */
+.page__title a {
+  color: var(--color-text-heading-primary);
+}
+
+/* Content */
+.page__content {
+  h2 {
+    border-bottom-color: var(--color-border);
+  }
+
+  :not(pre) > code {
+    background: var(--color-background-masthead);
+  }
+
+  a:not(.btn):hover img {
+    box-shadow: 0 0 10px color-mix(
+      in srgb,
+      var(--color-background-body) 25%,
+      transparent
+    );
+  }
+}
+
+/* Hero overlay */
+.page__hero--overlay {
+  a,
+  .page__title,
+  .page__meta,
+  .page__lead,
+  .btn {
+    color: var(--color-text-body);
+    text-shadow: 1px 1px 4px color-mix(
+      in srgb,
+      var(--color-background-body) 50%,
+      transparent
+    );
+  }
+}
+
+/* Hero image caption */
+.page__hero-caption {
+  color: var(--color-text-body);
+  background: var(--color-background-masthead);
+
+  a {
+    color: var(--color-text-link);
+  }
+}
+
+/* Social sharing */
+.page__share {
+  border-top-color: var(--color-border);
+}
+
+/* Page metadata */
+.page__meta {
+  color: var(--color-text-muted);
+}
+
+/* Taxonomy */
+.page__taxonomy-item {
+  border-color: color-mix(
+    in srgb,
+    var(--color-background-body) 25%,
+    var(--color-border)
+  );
+
+  &:hover {
+    color: var(--color-text-body);
+  }
+}
+
+.taxonomy__section:not(:last-child) {
+  border-bottom-color: var(--color-border);
+}
+
+.taxonomy__title,
+.taxonomy__count {
+  color: var(--color-text-muted);
+}
+
+.taxonomy__index a {
+  border-bottom-color: var(--color-border);
+}
+
+.back-to-top {
+  color: var(--color-text-muted);
+}
+
+/* Comments */
+.page__comments-title {
+  border-top-color: var(--color-border);
+}
+
+.comment:not(:last-child) {
+  border-bottom-color: var(--color-border);
+}
+
+.comment__avatar {
+  @include breakpoint($large) {
+    border-color: var(--color-border);
+  }
+}
+
+/* Related content */
+.page__related {
+  border-top-color: var(--color-border);
+}

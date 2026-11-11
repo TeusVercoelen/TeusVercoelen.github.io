@@ -1,0 +1,297 @@
+
+/* ==========================================================
+   PROJECT OVERVIEW
+========================================================== */
+
+.archive__item-title {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  margin-bottom: 0 !important;
+  line-height: 1.1;
+
+  a {
+    color: var(--color-headind-secondary);
+    text-decoration: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.archive__item {
+  margin-bottom: 3em;
+  color: var(--color-text-body);
+}
+
+.archive__item p {
+  margin-top: 0;
+  margin-bottom: 0.25em;
+}
+
+.archive__item .page__taxonomy-item {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  color: var(--color-text-body);
+}
+
+.archive__item hr {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  border: 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.archive__item-teaser {
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+
+  img {
+    display: block;
+  }
+}
+
+/* ==========================================================
+   INDIVIDUAL PROJECT PAGES
+========================================================== */
+
+.pagination--pager {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: var(--color-background-body);
+  color: var(--color-text-body);
+  border-color: var(--color-border);
+}
+
+nav.pagination {
+  margin-top: 1em !important;
+  margin-bottom: 0 !important;
+  padding-top: 1em !important;
+  padding-bottom: 1em !important;
+}
+
+.archive__item-svg {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.archive__item-svg svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.static-group {
+  opacity: 1;
+}
+
+.fade-wrapper {
+  opacity: 0;
+}
+
+.project-navigation {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 1em;
+}
+
+.project-navigation .project-view-switch,
+.project-navigation .project-sort {
+  margin-bottom: 1.5em;
+}
+
+/* ==========================================================
+   PROJECT VIEW SWITCH
+========================================================== */
+
+.project-view-switch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 2em;
+}
+
+.project-view-switch__link {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: 5px;
+  background-color: var(--color-button-secondary);
+  color: var(--color-text-body) !important;
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.project-view-switch__link:hover {
+  background-color: var(--color-button-hover);
+  color: var(--color-text-body);
+  text-decoration: none !important;
+}
+
+.project-view-switch__link.is-active {
+  background-color: var(--color-button-primary);
+  border-color: var(--color-border);
+  color: var(--color-text-inverted) !important;
+  font-weight: bold;
+}
+
+/* ==========================================================
+   TAXONOMY
+========================================================== */
+
+.page__date strong {
+  margin-right: 0.25em;
+}
+
+.project__description {
+  display: block;
+  margin: 0 0 1em;
+  margin-bottom: 0.5em;
+  color: var(--color-text-body);
+}
+
+.project__years {
+  float: left;
+  margin-right: 1.2em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: var(--color-text-body);
+}
+
+.project-tag-section__title {
+  margin-top: 0 !important;
+  margin-bottom: 0.4em !important;
+  padding-top: 0 !important;
+  line-height: 1.3;
+  color: var(--color-text-heading-secondary);
+}
+
+.project-tag-section {
+  margin-top: 0 !important;
+  margin-bottom: 0.8em;
+  padding-top: 0 !important;
+}
+
+/* ==========================================================
+   PROJECT SORTING
+========================================================== */
+
+.project-sort {
+  position: relative;
+  display: inline-block;
+  margin: 0 0 1.5em;
+}
+
+.project-sort__button {
+  padding: 8px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: 5px;
+  background: var(--color-button-secondary);
+  color: var(--color-text-body);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9em;
+  font-weight: inherit;
+  line-height: inherit;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.project-sort__button:hover {
+  background-color: var(--color-button-hover);
+  color: var(--color-text-body);
+}
+
+.project-sort__menu {
+  position: absolute;
+  top: calc(100% + 5px);
+  right: 0;
+  left: auto;
+  z-index: 20;
+  min-width: 240px;
+  box-sizing: border-box;
+  padding: 5px 0;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background: var(--color-background-body);
+  box-shadow: 0 3px 8px var(--color-background-body);
+}
+
+.project-sort__menu[hidden] {
+  display: none;
+}
+
+.project-sort__menu button {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  border: 0;
+  background: transparent;
+  color: var(--color-text-body);
+  text-align: left;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.project-sort__menu button:hover,
+.project-sort__menu button.is-active {
+  background-color: var(--color-button-hover);
+  font-weight: 600;
+}
+
+/* ==========================================================
+   PROJECT LIST
+========================================================== */
+
+.project-list-item {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr);
+  column-gap: 20px;
+  align-items: baseline;
+  margin-bottom: 0.5em;
+  border-bottom: none;
+  color: var(--color-text-body);
+}
+
+.project-list-item__year {
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  color: var(--color-text-body);
+  font-size: 0.85em;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.project-list-item__title {
+  margin: 0 0 0.05em;
+  padding-bottom: 0 !important;
+  border-bottom: none !important;
+  font-size: 1.25em !important;
+  line-height: 1.3;
+  color: var(--color-text-body);
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--color-text-body);
+    text-decoration: none;
+  }
+}
+
+.project-list-item__description {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.5;
+  color: var(--color-text-body);
+}

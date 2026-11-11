@@ -10,6 +10,12 @@
   {% assign locale = "nl_NL" %}
 {% endif %}
 
+{% assign about_url = '/en/about' %}
+
+{% if current_lang == "nl" %}
+  {% assign about_url = '/nl/about' %}
+{% endif %}
+
 {% assign author = page.author | default: page.authors[0] | default: site.author %}
 {% assign author = site.data.authors[author] | default: author %}
 
@@ -25,7 +31,7 @@
 
   {% if author.avatar %}
     <div class="author__avatar">
-      <a href="{{ author.home | default: '/' | absolute_url }}">
+      <a href="{{ about_url | absolute_url }}">
         <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" itemprop="image" class="u-photo">
       </a>
     </div>
@@ -33,7 +39,7 @@
 
   <div class="author__content">
     <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="{{ author.home | default: '/' | absolute_url }}" itemprop="url">{{ author.name }}</a>
+      <a class="u-url" rel="me" href="{{ about_url | absolute_url }}" itemprop="url">{{ author.name }}</a>
     </h3>
 
     {% if localized_bio %}
@@ -54,14 +60,14 @@
 
         {% if localized_job_title %}
           <li>
-            <i class="fas fa-fw fa-briefcase" aria-hidden="true"></i>
+            <i class="fas fa-fw fa-briefcase" aria-hidden="true"></i> 
             <span>{{ localized_job_title }}</span>
           </li>
         {% endif %}
 
         {% if localized_employer %}
           <li>
-            <i class="fas fa-fw fa-building" aria-hidden="true"></i>
+            <i class="fas fa-fw fa-briefcase" aria-hidden="true"></i>
             <span>{{ localized_employer }}</span>
           </li>
         {% endif %}

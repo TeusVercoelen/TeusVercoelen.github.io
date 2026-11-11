@@ -1,0 +1,168 @@
+/* ==========================================
+   Font families
+   ========================================== */
+
+/* General typography */
+body, input, textarea, select,
+code, pre,
+.page__content {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+button,
+.project-view-switch__link,
+#project-sort-button {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* Headers */
+.archive__item-title,
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Author profile */
+.author__content,
+.author__content p,
+.author__bio,
+.author__urls,
+.author__urls li,
+.author__urls a {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Masthead and navigation */
+.author__name,
+.masthead,
+.masthead a,
+.masthead__inner-wrap,
+.site-title,
+.site-subtitle,
+.greedy-nav,
+.greedy-nav a {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.site-subtitle {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+/* Footer */
+.page__footer,
+.page__footer a,
+.page__footer p,
+.page__footer li,
+.page__footer-follow,
+.page__footer-copyright {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Taxonomy */
+.page__date,
+.project__years,
+strong {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+time,
+.archive__item {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+/* ==========================================
+   General typography
+   ========================================== */
+
+body {
+  font-size: $font-body;
+}
+
+.page__content p {
+  font-size: $font-paragraph;
+}
+
+.page__content li {
+  font-size: $font-list;
+}
+
+.page__content blockquote {
+  font-size: $font-blockquote;
+}
+
+
+/* ==========================================
+   Author profile
+   ========================================== */
+
+.author__content {
+  font-size: $font-author-content;
+}
+
+.author__urls {
+  font-size: $font-author-urls;
+}
+
+
+/* ==========================================
+   Project archive
+   ========================================== */
+
+.archive__item-title {
+  font-size: $font-project-title;
+}
+
+.archive__item p {
+  font-size: $font-project-description;
+}
+
+.archive__item .page__taxonomy-item {
+  font-size: $font-project-tags;
+}
+
+
+/* ==========================================
+   Individual project pages
+   ========================================== */
+
+.layout--single .page__content {
+  font-size: $font-project-content;
+}
+
+.layout--single .page__content h2 {
+  font-size: $font-project-h2;
+}
+
+.layout--single .page__content h3 {
+  font-size: $font-project-h3;
+}
+
+
+/* ==========================================
+   Language icon
+   ========================================== */
+
+#language-icon {
+  font-size: $font-language-icon;
+  line-height: 1;
+}

@@ -1,0 +1,26 @@
+
+/* ==========================================================
+   DARK THEME
+========================================================== */
+
+html[data-theme="dark"] {
+
+  --color-background-body:        #181E2A;  // Main, author profile/sidebar
+  --color-background-masthead:    #1C2230;  // Masthead, greedy nav hidden link menu
+  --color-background-footer:      #121620;  // Footer
+  --color-border:                 #777777;  // Borders, horizontal lines, vertical lines
+  --color-accent:                 #41AFD0;  // Masthead selection animation line, greedy nav toggle
+  --color-button-primary:         #41AFD0;  // Project view switch selected, author more information, submit form
+  --color-button-secondary:       #181E2A;  // Project view switch not selected, project sort
+  --color-button-hover:           #242d3d;  //
+  --color-text-heading-primary:   #e8e8e8;  // # Headings on pages
+  --color-text-heading-secondary: #e8e8e8;  // ## Headings on pages
+  --color-text-body:              #e8e8e8;  // Text/icons on pages, author profile/sidebar, buttons, tags
+  --color-text-masthead:          #e8e8e8;  // Website title, subtitle, pagelinks, theme button
+  --color-text-footer:            #e8e8e8;  // Text on footer, links excluded
+  --color-text-inverted:          #e8e8e8;  // Text on primary buttons
+  --color-text-link:              #4f85dc;  // Links, excluding headers, tags, author links, page links
+  --color-text-muted:             #777777;  // Text on previous/next button when unavailable
+  --color-debug:                  #f79c00; 
+
+}
