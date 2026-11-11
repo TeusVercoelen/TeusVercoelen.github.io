@@ -161,3 +161,34 @@ dd,
 blockquote {
   color: var(--color-text-body);
 }
+
+/* Scrollbar */
+* {
+  scrollbar-color: var(--color-border) var(--color-background-scrollbar);
+  scrollbar-width: thin;
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-border);
+  border: 2px solid var(--color-background-body);
+  border-radius: 5px;
+  -webkit-appearance: none;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-text-muted);
+}
+
+::-webkit-scrollbar-thumb:active,
+::-webkit-scrollbar:active {
+  background-color: var(--color-accent) !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
