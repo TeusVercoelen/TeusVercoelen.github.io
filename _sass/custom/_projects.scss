@@ -134,7 +134,7 @@ nav.pagination {
 
 .project-view-switch__link.is-active {
   background-color: var(--color-button-primary);
-  border-color: var(--color-border);
+  border-color: var(--color-button-primary);
   color: var(--color-text-inverted) !important;
   font-weight: bold;
 }

@@ -3,3 +3,9 @@
   background-color: var(--color-background-masthead);
   border-bottom-color: var(--color-border);
 }
+
+#language-icon {
+    display: inline-block;
+    vertical-align: baseline;
+    transform: translateY(0.05em);
+}
