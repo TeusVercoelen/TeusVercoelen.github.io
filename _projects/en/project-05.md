@@ -14,7 +14,7 @@ permalink: /en/projects/project-05/
 author_profile: true
 classes: wide
 started: 2021-08-01
-order: 3
+order: 4
 ---
 
 For this project, an algorithm was written to recreate simple images using fixed points on a frame and yarn suspended between them. This algorithm functions as follows:

@@ -4,6 +4,7 @@ description: "Een natuurkundige simulatie en optimalisatie voor trebuchets."
 tags:
   - Python
   - Simulation
+svg: "/svgs/project-04-teaser.svg"
 image: 
 image_alt: "Illustration of Project One"
 lang: nl
@@ -12,7 +13,7 @@ permalink: /nl/projects/project-04/
 author_profile: true
 classes: wide
 started: 2024-07-01
-order: 3
+order: 5
 ---
 
 <span style="color:#999999">&#91;<i>Deze pagina is nog in ontwikkeling.</i>&#93;</span>

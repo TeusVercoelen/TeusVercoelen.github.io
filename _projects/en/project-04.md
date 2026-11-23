@@ -4,6 +4,7 @@ description: "A physics simulation and optimization for trebuchets."
 tags:
   - Python
   - Simulation
+svg: "/svgs/project-04-teaser.svg"
 image: 
 image_alt: "Illustration of Project One"
 lang: en
@@ -12,7 +13,7 @@ permalink: /en/projects/project-04/
 author_profile: true
 classes: wide
 started: 2024-07-01
-order: 3
+order: 2
 ---
 
 <span style="color:#999999">&#91;<i>This page is a work in progress.</i>&#93;</span>

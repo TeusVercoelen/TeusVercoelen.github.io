@@ -13,7 +13,7 @@ permalink: /en/projects/project-02/
 author_profile: true
 classes: wide
 started: 2026-10-01
-order: 2
+order: 3
 ---
 
 <span style="color:#999999">&#91;<i>This page is a work in progress.</i>&#93;</span>
