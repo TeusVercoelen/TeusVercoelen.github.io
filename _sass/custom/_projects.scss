@@ -103,6 +103,13 @@ nav.pagination {
   margin-bottom: 1.5em;
 }
 
+.page__content.e-content svg {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
 /* ==========================================================
    PROJECT VIEW SWITCH
 ========================================================== */

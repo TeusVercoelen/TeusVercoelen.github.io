@@ -1,0 +1,158 @@
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  });
+</script>
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script>
+(function () {
+  function updateMathScrollGaps() {
+    document.querySelectorAll(".math-scroll").forEach(function (box) {
+      var display = box.querySelector(".MathJax_Display");
+      if (!display) return;
+
+      var displayRect = display.getBoundingClientRect();
+      var rightmost = displayRect.right;
+
+      display.querySelectorAll("*").forEach(function (el) {
+        var rect = el.getBoundingClientRect();
+        rightmost = Math.max(rightmost, rect.right);
+      });
+
+      var overflow = Math.max(0, rightmost - displayRect.right);
+
+      box.style.setProperty(
+        "--math-overflow",
+        Math.ceil(overflow) + "px"
+      );
+    });
+  }
+
+  var scheduled = false;
+
+  function scheduleUpdate() {
+    if (scheduled) return;
+
+    scheduled = true;
+
+    requestAnimationFrame(function () {
+      scheduled = false;
+      updateMathScrollGaps();
+    });
+  }
+
+  function initialize() {
+    if (!window.MathJax || !MathJax.Hub) return;
+
+    MathJax.Hub.Queue(function () {
+      scheduleUpdate();
+
+      if ("ResizeObserver" in window) {
+        var resizeObserver = new ResizeObserver(scheduleUpdate);
+
+        document.querySelectorAll(
+          ".math-scroll .MathJax_Display, .math-scroll .MathJax"
+        ).forEach(function (el) {
+          resizeObserver.observe(el);
+        });
+      }
+
+      var mutationObserver = new MutationObserver(scheduleUpdate);
+
+      document.querySelectorAll(".math-scroll").forEach(function (box) {
+        mutationObserver.observe(box, {
+          childList: true,
+          subtree: true
+        });
+      });
+
+      window.addEventListener("resize", scheduleUpdate);
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initialize);
+  } else {
+    initialize();
+  }
+})();
+</script>
+
+<script>
+(function () {
+  function sizeMathFrames() {
+    document.querySelectorAll(
+      ".page__content .MathJax_Display:not(.math-scroll .MathJax_Display) > .MathJax"
+    ).forEach(function (math) {
+      var frame = math.getBoundingClientRect();
+      var rightmost = frame.left;
+
+      math.querySelectorAll("*").forEach(function (el) {
+        rightmost = Math.max(
+          rightmost,
+          el.getBoundingClientRect().right
+        );
+      });
+
+      var width = Math.ceil(rightmost - frame.left);
+
+      math.style.setProperty(
+        "--math-content-width",
+        width + "px"
+      );
+    });
+  }
+
+  function initialize() {
+    if (!window.MathJax || !MathJax.Hub) return;
+
+    MathJax.Hub.Queue(function () {
+      sizeMathFrames();
+
+      if ("ResizeObserver" in window) {
+        var observer = new ResizeObserver(sizeMathFrames);
+
+        document.querySelectorAll(
+          ".page__content .MathJax_Display:not(.math-scroll .MathJax_Display)"
+        ).forEach(function (el) {
+          observer.observe(el);
+        });
+      }
+
+      window.addEventListener("resize", sizeMathFrames);
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initialize);
+  } else {
+    initialize();
+  }
+})();
+</script>
+
+<script>
+(function () {
+  function revealMathContent() {
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        document.documentElement.classList.remove("mathjax-pending");
+      });
+    });
+  }
+
+  if (window.MathJax && MathJax.Hub) {
+    MathJax.Hub.Queue(revealMathContent);
+  } else {
+    document.documentElement.classList.remove("mathjax-pending");
+  }
+})();
+</script>

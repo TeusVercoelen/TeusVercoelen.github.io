@@ -166,3 +166,18 @@ body {
   font-size: $font-language-icon;
   line-height: 1;
 }
+
+
+/* MathJax typography */
+.MathJax {
+  font-size: $font-math-inline !important;
+}
+
+.MathJax_Display {
+  font-size: $font-math-display !important;
+}
+
+.MathJax,
+.MathJax_Display {
+  font-weight: 50 !important;
+}

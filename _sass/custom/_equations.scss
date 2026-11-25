@@ -1,0 +1,87 @@
+
+/* ==========================================================
+   HORIZONTALLY SCROLLABLE EQUATIONS
+========================================================== */
+
+.math-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+
+  margin: 1em 0;
+  padding: 0.5em 0;
+
+  /* Independent space before the equation */
+  &::before {
+    content: "";
+    display: block;
+    flex: 0 0 1.5rem;
+    height: 1px;
+  }
+
+  /* Trailing space, including detected math overflow */
+  &::after {
+    content: "";
+    display: block;
+    flex: 0 0 calc(1.5rem + var(--math-overflow, 0px));
+    height: 1px;
+  }
+
+  /* Center when it fits; auto margins become zero on overflow */
+  .MathJax_Display {
+    display: block !important;
+    flex: 0 0 auto !important;
+    width: max-content !important;
+    min-width: 0 !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    padding: 0 !important;
+    text-align: left !important;
+  }
+
+  .MathJax {
+    text-align: left !important;
+  }
+
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    black 1.5rem,
+    black calc(100% - 1.5rem),
+    transparent 100%
+  );
+
+  mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    black 1.5rem,
+    black calc(100% - 1.5rem),
+    transparent 100%
+  );
+}
+
+
+/* ==========================================================
+   NON-SCROLLABLE MATHJAX DISPLAYS
+========================================================== */
+
+/* Non-scrollable equations */
+.page__content .MathJax_Display:not(.math-scroll .MathJax_Display) {
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.page__content .MathJax_Display:not(.math-scroll .MathJax_Display) > .MathJax {
+  display: inline-block !important;
+  width: var(--math-content-width, max-content) !important;
+  max-width: none !important;
+  text-align: left !important;
+}
