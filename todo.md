@@ -8,3 +8,6 @@
 - Add teaser play possibility for mobile view
 - <s>Remove rectangle in top left corner in landscape view on mobile.</s>
 - <s>Remove vertical line in changelog and add horizontal line as divider.</s>
+- <s>Trebuchet page width mobile.</s>
+- <s>White default background.</s>
+- Author profile link

@@ -104,6 +104,7 @@ The free body diagram and kinetic diagram of the counter weight are shown below.
 
 The sums of forces along the x- and y-axis acting on the counter weight, as well as the sum of moments acting on it ...
 
+<div class="math-scroll">
 $$
 \begin{aligned}
 \sum M_{cw} :\quad & -F_{cw_x}\ell_{cw}\cos{\psi} - F_{cw_y}\ell_{cw}\sin{\psi} = I_{cw}\ddot{\psi} \\
@@ -111,6 +112,7 @@ $$
 \sum F_y :\quad & F_{cw_y} - m_{cw}g = m_{cw}\ddot{y}_{cw} 
 \end{aligned}
 $$
+</div>
 
 ... lead to the equations of motion 1:
 
@@ -128,6 +130,7 @@ The free body diagram and kinetic diagram of the arm are shown below.
 
 Sum of moments acting on the arm ...
 
+<div class="math-scroll">
 $$
 \sum M_O :\quad
 T\ell_A\sin{\left(\theta-\phi\right)}
@@ -136,8 +139,7 @@ T\ell_A\sin{\left(\theta-\phi\right)}
 + m_a g \ell_{cg}\sin{\theta}
 = I_{a_O}\ddot{\theta}
 $$
-
->
+</div>
 
 ... leads to equation of motion 2:
 
@@ -155,6 +157,7 @@ $$
 
 The sums of forces along the x- and y-axis acting on the projectile ...
 
+<div class="math-scroll">
 $$
 \begin{aligned}
 \sum F_x :\quad &
@@ -163,8 +166,7 @@ $$
 T\cos{\phi} + N - m_p g - D_y = m_p\ddot{y}_p
 \end{aligned}
 $$
-
->
+</div>
 
 ... lead to equations of motion 3 and 4:
 
@@ -190,6 +192,7 @@ $$
 
 The aerodynamic drag force components a long the x- and y-axis are determined as follows:
 
+<div class="math-scroll">
 $$
 D = C_D\frac{1}{2}\rho V^2S
 \qquad
@@ -197,15 +200,18 @@ D = C_D\frac{1}{2}\rho V^2S
 \qquad
 V = \sqrt{\dot{x}_p^2+\dot{y}_p^2}
 $$
+</div>
 
 >
 
+<div class="math-scroll">
 $$
 \begin{aligned}
 D_x &= \frac{\dot{x}_p}{V}D = C_D\frac{1}{2}\rho\dot{x}_p VS & 
 D_y &= \frac{\dot{y}_p}{V}D = C_D\frac{1}{2}\rho\dot{y}_p VS
 \end{aligned}
 $$
+</div>
 
 Finally, a constraint is added to ensure that the projectile does not accelarate through the ground during the initial phase of it's launch.
 

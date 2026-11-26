@@ -121,6 +121,10 @@ body,
    Main body background and text colors
    ========================================================================== */
 
+html {
+  background-color: var(--color-background-body);
+}
+
 /* Main background */
 body,
 #main {
