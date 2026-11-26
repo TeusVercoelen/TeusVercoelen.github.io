@@ -13,7 +13,7 @@ permalink: /nl/projects/project-04/
 author_profile: true
 classes: wide
 started: 2024-07-01
-order: 5
+order: 1
 ---
 
 <span style="color:#999999">&#91;<i>Deze pagina is nog in ontwikkeling en alleen beschikbaar in het engels.</i>&#93;</span>

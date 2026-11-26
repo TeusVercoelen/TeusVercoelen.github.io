@@ -1,47 +1,97 @@
+function getSvgAnimationDuration(svg) {
+  const animation = svg.querySelector("[dur]");
+
+  if (!animation) return null;
+
+  const dur = animation.getAttribute("dur").trim();
+
+  if (dur.endsWith("ms")) {
+    return parseFloat(dur);
+  }
+
+  if (dur.endsWith("s")) {
+    return parseFloat(dur) * 1000;
+  }
+
+  // Bare number: seconds
+  return parseFloat(dur) * 1000;
+}
+
+
 document.addEventListener("DOMContentLoaded", () => {
-  document.querySelectorAll(".teaser-svg").forEach(svg => {
-    const trigger = svg.querySelector(".svg-trigger");
+  const isTouch = window.matchMedia(
+    "(hover: none) and (pointer: coarse)"
+  );
+
+  document.querySelectorAll(".archive__item-teaser").forEach(teaser => {
+    const svg = teaser.querySelector(".teaser-svg");
+    const trigger = svg?.querySelector(".svg-trigger");
+    const playButton = teaser.querySelector(".teaser-play-button");
+
+    if (!svg || !trigger) return;
+
     const staticGroups = svg.querySelectorAll(".static-group");
     const fadeWrappers = svg.querySelectorAll(".fade-wrapper");
 
-    if (!trigger || !staticGroups.length || !fadeWrappers.length) return;
+    if (!staticGroups.length || !fadeWrappers.length) return;
 
     let fadeTimeout;
+    let animationTimeout;
+    let isPlaying = false;
 
-    svg.pauseAnimations();
-    svg.setCurrentTime(0);
+    // Automatically detect the SVG animation duration.
+    const animationDuration = getSvgAnimationDuration(svg);
 
-    trigger.addEventListener("mouseenter", () => {
+    function startAnimation() {
+      if (isPlaying) return;
+
+      isPlaying = true;
+
       clearTimeout(fadeTimeout);
+      clearTimeout(animationTimeout);
 
-      // Immediately disable transitions
       [...staticGroups, ...fadeWrappers].forEach(group => {
         group.style.transition = "none";
       });
 
-      // Immediately switch visibility
-      staticGroups.forEach(group => group.style.opacity = "0");
-      fadeWrappers.forEach(wrapper => wrapper.style.opacity = "1");
+      staticGroups.forEach(group => {
+        group.style.opacity = "0";
+      });
 
-      // Restart SVG animation from the beginning
+      fadeWrappers.forEach(wrapper => {
+        wrapper.style.opacity = "1";
+      });
+
       svg.setCurrentTime(0);
       svg.unpauseAnimations();
-    });
 
-    trigger.addEventListener("mouseleave", () => {
+      if (playButton) {
+        playButton.hidden = true;
+      }
+    }
+
+    function finishAnimation() {
+      if (!isPlaying) return;
+
+      isPlaying = false;
+
+      clearTimeout(animationTimeout);
+
       svg.pauseAnimations();
 
-      // Enable fade transitions
       [...staticGroups, ...fadeWrappers].forEach(group => {
         group.style.transition = "opacity 500ms ease";
       });
 
       requestAnimationFrame(() => {
-        staticGroups.forEach(group => group.style.opacity = "1");
-        fadeWrappers.forEach(wrapper => wrapper.style.opacity = "0");
-      });
+        staticGroups.forEach(group => {
+          group.style.opacity = "1";
+        });
 
-      clearTimeout(fadeTimeout);
+        fadeWrappers.forEach(wrapper => {
+          wrapper.style.opacity = "0";
+        });
+      });
 
       fadeTimeout = setTimeout(() => {
         svg.setCurrentTime(0);
@@ -49,7 +99,37 @@ document.addEventListener("DOMContentLoaded", () => {
         [...staticGroups, ...fadeWrappers].forEach(group => {
           group.style.transition = "none";
         });
+
+        if (playButton && isTouch.matches) {
+          playButton.hidden = false;
+        }
       }, 500);
-    });
+    }
+
+    // Initial state
+    svg.pauseAnimations();
+    svg.setCurrentTime(0);
+
+    if (isTouch.matches && playButton) {
+      playButton.addEventListener("click", () => {
+        if (animationDuration === null) {
+          console.warn(
+            "Could not determine SVG animation duration:",
+            svg
+          );
+          return;
+        }
+
+        startAnimation();
+
+        animationTimeout = setTimeout(
+          finishAnimation,
+          animationDuration
+        );
+      });
+    } else {
+      trigger.addEventListener("mouseenter", startAnimation);
+      trigger.addEventListener("mouseleave", finishAnimation);
+    }
   });
 });

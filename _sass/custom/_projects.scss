@@ -146,42 +146,6 @@ nav.pagination {
   font-weight: bold;
 }
 
-/* ==========================================================
-   TAXONOMY
-========================================================== */
-
-.page__date strong {
-  margin-right: 0.25em;
-}
-
-.project__description {
-  display: block;
-  margin: 0 0 1em;
-  margin-bottom: 0.5em;
-  color: var(--color-text-body);
-}
-
-.project__years {
-  float: left;
-  margin-right: 1.2em;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  color: var(--color-text-body);
-}
-
-.project-tag-section__title {
-  margin-top: 0 !important;
-  margin-bottom: 0.4em !important;
-  padding-top: 0 !important;
-  line-height: 1.3;
-  color: var(--color-text-heading-secondary);
-}
-
-.project-tag-section {
-  margin-top: 0 !important;
-  margin-bottom: 0.8em;
-  padding-top: 0 !important;
-}
 
 /* ==========================================================
    PROJECT SORTING
@@ -250,6 +214,44 @@ nav.pagination {
   font-weight: 600;
 }
 
+
+/* ==========================================================
+   TAXONOMY
+========================================================== */
+
+.page__date strong {
+  margin-right: 0.25em;
+}
+
+.project__description {
+  display: block;
+  margin: 0 0 1em;
+  margin-bottom: 0.5em;
+  color: var(--color-text-body);
+}
+
+.project__years {
+  float: left;
+  margin-right: 1.2em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: var(--color-text-body);
+}
+
+.project-tag-section__title {
+  margin-top: 0 !important;
+  margin-bottom: 0.4em !important;
+  padding-top: 0 !important;
+  line-height: 1.3;
+  color: var(--color-text-heading-secondary);
+}
+
+.project-tag-section {
+  margin-top: 0 !important;
+  margin-bottom: 0.8em;
+  padding-top: 0 !important;
+}
+
 /* ==========================================================
    PROJECT LIST
 ========================================================== */
@@ -301,4 +303,51 @@ nav.pagination {
   font-size: 1em;
   line-height: 1.5;
   color: var(--color-text-body);
+}
+
+/* ==========================================================
+   TEASER PLAY BUTTON
+========================================================== */
+
+.teaser-play-button {
+  display: none;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .teaser-play-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    z-index: 10;
+
+    width: 3rem;
+    height: 3rem;
+    box-sizing: border-box;
+
+    padding: 0;
+    background: transparent;
+    border: none;
+
+    color: var(--color-playbutton-fill);
+    font-size: 2.5rem;
+    line-height: 1;
+
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+  .teaser-play-button i {
+    display: block;
+    line-height: 1;
+
+    -webkit-text-stroke: 1px var(--color-playbutton-border);
+  }
+
+  .teaser-play-button[hidden] {
+    display: none;
+  }
 }

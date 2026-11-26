@@ -103,6 +103,16 @@ Dit is een overzicht van projecten waar ik aan gewerkt heb. Voor meer informatie
               >
             {% endif %}
           </a>
+
+          {% if project.svg %}
+            <button
+              class="teaser-play-button"
+              type="button"
+              aria-label="Play animation"
+            >
+              <i class="fa fa-play" aria-hidden="true"></i>
+            </button>
+          {% endif %}
         </div>
 
         {% if project.tags %}

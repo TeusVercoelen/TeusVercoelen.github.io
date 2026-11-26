@@ -12,7 +12,7 @@ permalink: /nl/projects/project-01/
 author_profile: true
 classes: wide
 started: 2023-07-01
-order: 1
+order: 2
 ---
 
 <span style="color:#999999">&#91;<i>Deze pagina is nog in ontwikkeling en alleen beschikbaar in het engels.</i>&#93;</span>

@@ -103,6 +103,16 @@ This is an overview of projects I have worked on. You can click any title or ima
               >
             {% endif %}
           </a>
+
+          {% if project.svg %}
+            <button
+              class="teaser-play-button"
+              type="button"
+              aria-label="Play animation"
+            >
+              <i class="fa fa-play" aria-hidden="true"></i>
+            </button>
+          {% endif %}
         </div>
 
         {% if project.tags %}
