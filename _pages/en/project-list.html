@@ -6,35 +6,12 @@ author_profile: true
 translation_key: project_list
 lang: en
 classes: wide
+sort_menu: sort-menus/projects_en.html
 ---
 
 This is a list of projects I have worked on. You can click any title for more information about the project.
 
-<div class="project-navigation">
-    {% include project-view-switch.html %}
-
-    <div class="project-sort">
-        <button
-            type="button"
-            class="project-sort__button"
-            id="project-sort-button"
-            aria-expanded="false"
-            aria-controls="project-sort-menu">
-            <i class="fas fa-sort" aria-hidden="true"></i>
-            Sort
-        </button>
-
-        <div class="project-sort__menu" id="project-sort-menu" hidden>
-            <button type="button" data-sort="featured" class="is-active">Featured</button>
-            <button type="button" data-sort="started-asc">Started (old-new)</button>
-            <button type="button" data-sort="started-desc">Started (new-old)</button>
-            <button type="button" data-sort="updated-asc">Updated (old-new)</button>
-            <button type="button" data-sort="updated-desc">Updated (new-old)</button>
-            <button type="button" data-sort="title-asc">Alphabetically (A-Z)</button>
-            <button type="button" data-sort="title-desc">Alphabetically (Z-A)</button>
-        </div>
-    </div>
-</div>
+{% include project-navigation.html %}
 
 {% assign current_lang = page.lang | default: "en" %}
 {% assign sorted_projects = site.projects | where: "lang", current_lang | sort: "order" %}

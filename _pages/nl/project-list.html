@@ -6,35 +6,12 @@ author_profile: true
 translation_key: project_list
 lang: nl
 classes: wide
+sort_menu: sort-menus/projects_nl.html
 ---
 
 Dit zijn de projecten waar ik aan gewerkt heb. Voor meer informatie over een project, klik op de titel.
 
-<div class="project-navigation">
-  {% include project-view-switch.html %}
-
-  <div class="project-sort">
-    <button
-      type="button"
-      class="project-sort__button"
-      id="project-sort-button"
-      aria-expanded="false"
-      aria-controls="project-sort-menu">
-      <i class="fas fa-sort" aria-hidden="true"></i>
-      Sorteer
-    </button>
-
-    <div class="project-sort__menu" id="project-sort-menu" hidden>
-      <button type="button" data-sort="featured" class="is-active">Uitgelicht</button>
-      <button type="button" data-sort="started-asc">Gestart (oud-nieuw)</button>
-      <button type="button" data-sort="started-desc">Gestart (nieuw-oud)</button>
-      <button type="button" data-sort="updated-asc">Bijgewerkt (oud-nieuw)</button>
-      <button type="button" data-sort="updated-desc">Bijgewerkt (nieuw-oud)</button>
-      <button type="button" data-sort="title-asc">Alfabetisch (A-Z)</button>
-      <button type="button" data-sort="title-desc">Alfabetisch (Z-A)</button>
-    </div>
-  </div>
-</div>
+{% include project-navigation.html %}
 
 {% assign current_lang = page.lang | default: "nl" %}
 {% assign sorted_projects = site.projects | where: "lang", current_lang | sort: "order" %}

@@ -111,17 +111,19 @@ nav.pagination {
 }
 
 /* ==========================================================
-   PROJECT VIEW SWITCH
+   PROJECT NAVIGATION
 ========================================================== */
 
-.project-view-switch {
+.project-navigation {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: 10px;
   margin: 0 0 2em;
 }
 
-.project-view-switch__link {
+.project-navigation__link {
   display: inline-block;
   padding: 8px 16px;
   border: 1px solid var(--color-border);
@@ -130,22 +132,24 @@ nav.pagination {
   color: var(--color-text-body) !important;
   text-decoration: none;
   font-size: 0.9em;
+  font-family: inherit;
+  line-height: inherit;
+  cursor: pointer;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-.project-view-switch__link:hover {
+.project-navigation__link:hover {
   background-color: var(--color-button-hover);
   color: var(--color-text-body);
   text-decoration: none !important;
 }
 
-.project-view-switch__link.is-active {
+.project-navigation__link.is-active {
   background-color: var(--color-button-primary);
   border-color: var(--color-button-primary);
   color: var(--color-text-inverted) !important;
   font-weight: bold;
 }
-
 
 /* ==========================================================
    PROJECT SORTING
@@ -154,42 +158,49 @@ nav.pagination {
 .project-sort {
   position: relative;
   display: inline-block;
-  margin: 0 0 1.5em;
 }
 
 .project-sort__button {
-  padding: 8px 16px;
-  border: 1px solid var(--color-border);
-  border-radius: 5px;
-  background: var(--color-button-secondary);
-  color: var(--color-text-body);
-  cursor: pointer;
-  font-family: inherit;
-  font-size: 0.9em;
-  font-weight: inherit;
-  line-height: inherit;
-  box-sizing: border-box;
-  vertical-align: middle;
-}
-
-.project-sort__button:hover {
-  background-color: var(--color-button-hover);
-  color: var(--color-text-body);
+  margin: 0;
 }
 
 .project-sort__menu {
   position: absolute;
   top: calc(100% + 5px);
-  right: 0;
-  left: auto;
+  left: 0;
+  right: auto;
   z-index: 20;
+
   min-width: 240px;
   box-sizing: border-box;
   padding: 5px 0;
+
   border: 1px solid var(--color-border);
   border-radius: 4px;
   background: var(--color-background-body);
   box-shadow: 0 3px 8px var(--color-background-body);
+}
+
+.project-sort__menu[hidden] {
+  display: none;
+}
+
+.project-sort__menu button {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  border: 0;
+  background: transparent;
+  color: var(--color-text-body);
+  text-align: left;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.project-sort__menu button:hover,
+.project-sort__menu button.is-active {
+  background-color: var(--color-button-hover);
+  font-weight: 600;
 }
 
 .project-sort__menu[hidden] {

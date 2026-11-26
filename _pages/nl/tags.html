@@ -6,30 +6,12 @@ author_profile: true
 translation_key: tags
 lang: nl
 classes: wide
+sort_menu: sort-menus/tags_nl.html
 ---
 
 Dit zijn de projecten waar ik aan gewerkt heb, gesorteerd op label. Voor meer informatie over een project, klik op de titel.
 
-<div class="project-navigation">
-  {% include project-view-switch.html %}
-
-  <div class="project-sort">
-    <button
-      type="button"
-      class="project-sort__button"
-      id="tag-sort-button"
-      aria-expanded="false"
-      aria-controls="tag-sort-menu">
-      <i class="fas fa-sort" aria-hidden="true"></i>
-      Sort
-    </button>
-
-    <div class="project-sort__menu" id="tag-sort-menu" hidden>
-      <button type="button" data-sort="asc" class="is-active">Alfabetisch (A-Z)</button>
-      <button type="button" data-sort="desc">Alfabetisch (Z-A)</button>
-    </div>
-  </div>
-</div>
+{% include project-navigation.html %}
 
 {% assign current_lang = page.lang | default: "en" %}
 {% assign all_tags = "" %}
