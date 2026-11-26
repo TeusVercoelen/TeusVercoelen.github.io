@@ -1,13 +1,14 @@
 # To do
-- Organize view/sort button arrangement for mobile view.
+- <s>Organize view/sort button arrangement for mobile view.</s>
 - Back to project overview button.
 - Make 'Work in progress' and 'Only available in [language]' elements.
 - <s>Slightly lower language switch button.</s>
 - Make previous/next buttons work with selected sorting.
 - Add filter with include/exclude tags.
-- Add teaser play possibility for mobile view
+- <s>Add teaser play possibility for mobile view.</s>
 - <s>Remove rectangle in top left corner in landscape view on mobile.</s>
 - <s>Remove vertical line in changelog and add horizontal line as divider.</s>
 - <s>Trebuchet page width mobile.</s>
 - <s>White default background.</s>
-- Author profile link
+- <s>Author profile link.</s>
+- <s>Text underline color.</s>

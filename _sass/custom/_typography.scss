@@ -169,15 +169,21 @@ body {
 
 
 /* MathJax typography */
-.MathJax {
-  font-size: $font-math-inline !important;
-}
+// .MathJax {
+//   font-size: $font-math-inline !important;
+// }
 
 .MathJax_Display {
   font-size: $font-math-display !important;
 }
 
-.MathJax,
-.MathJax_Display {
-  font-weight: 50 !important;
-}
+// /* MathJax typography */
+// .MathJax {
+//   font-family: "Fira Sans", sans-serif !important;
+//   font-size: $font-math-inline !important;
+// }
+
+// .MathJax_Display {
+//   font-family: "Fira Sans", sans-serif !important;
+//   font-size: $font-math-display !important;
+// }

@@ -31,7 +31,7 @@ $$
 
 ## Kinematic relations
 
-An abstract representation of the system is shown below. The arm, which spans from $$A$$ to $$B$$, pivots around $$O$$ with angle $$\theta$$ and has its center of gravity located in $$cg$$. Connected at $$B$$ is the counter weight, which pivots with angle $$\psi$$ and has its center of gravity located at $$cw$$. Lastly, the projectile is connected to $$A$$. It pivots with angle $$\phi$$ and has its center of gravity located at $$p$$. Dimensions are defined by $$\ell_{A}$$, $$\ell_{B}$$, $$\ell_{cg}$$, $$\ell_{cw}$$ and $$\ell_{s}$$.
+An abstract representation of the system is shown below. The arm, which spans from $A$ to $B$, pivots around $O$ with angle $\theta$ and has its center of gravity located in $cg$. Connected at $B$ is the counter weight, which pivots with angle $\psi$ and has its center of gravity located at $cw$. Lastly, the projectile is connected to $A$. It pivots with angle $\phi$ and has its center of gravity located at $p$. Dimensions are defined by $\ell_{A}$, $\ell_{B}$, $\ell_{cg}$, $\ell_{cw}$ and $\ell_{s}$.
 
 {% include /svgs/project-04-01.svg %}
 
@@ -39,7 +39,7 @@ From this definition of the geometry, the kinematic relations for the arm, count
 
 ### Arm
 
-Described below are the kinematic relations for the arm, which relate angle $$\theta$$ and its derivative to cartesian coordinates $$x_{cg}$$ and $$y_{cg}$$ and their derivatives.
+Described below are the kinematic relations for the arm, which relate angle $\theta$ and its derivative to cartesian coordinates $x_{cg}$ and $y_{cg}$ and their derivatives.
 
 <div class="math-scroll">
 $$
@@ -55,7 +55,7 @@ $$
 
 ### Counterweight
 
-Described below are the kinematic relations for the counter weight, which relate angles $$\theta$$ and $$\psi$$ and its derivative to cartesian coordinates $$x_{cw}$$ and $$y_{cw}$$ and their derivatives.
+Described below are the kinematic relations for the counter weight, which relate angles $\theta$ and $\psi$ and its derivative to cartesian coordinates $x_{cw}$ and $y_{cw}$ and their derivatives.
 
 <div class="math-scroll">
 $$
@@ -75,7 +75,7 @@ $$
 
 ### Projectile
 
-Described below are the kinematic relations for the projectile, which relate angles $$\theta$$ and $$\phi$$ and its derivative to cartesian coordinates $$x_{p}$$ and $$y_{p}$$ and their derivatives.
+Described below are the kinematic relations for the projectile, which relate angles $\theta$ and $\phi$ and its derivative to cartesian coordinates $x_{p}$ and $y_{p}$ and their derivatives.
 
 <div class="math-scroll">
 $$
@@ -102,7 +102,7 @@ The free body diagram and kinetic diagram of the counter weight are shown below.
     {% include /svgs/project-04-02.svg %}
 </div>
 
-The sums of forces along the x- and y-axis acting on the counter weight, as well as the sum of moments acting on it ...
+From these diagram the sums of forces along the x- and y-axis acting on the counter weight, as well as the sum of moments acting on it is derived.
 
 <div class="math-scroll">
 $$
@@ -114,7 +114,7 @@ $$
 $$
 </div>
 
-... lead to the equations of motion 1:
+Together these lead to the equation of motion 1.
 
 <div class="math-scroll">
 $$
@@ -128,7 +128,7 @@ The free body diagram and kinetic diagram of the arm are shown below.
 
 {% include /svgs/project-04-03.svg %}
 
-Sum of moments acting on the arm ...
+From these diagrams the sum of moments acting on the arm is derived.
 
 <div class="math-scroll">
 $$
@@ -141,7 +141,7 @@ T\ell_A\sin{\left(\theta-\phi\right)}
 $$
 </div>
 
-... leads to equation of motion 2:
+This leads to equation of motion 2.
 
 <div class="math-scroll">
 $$
@@ -151,11 +151,13 @@ $$
 
 ### Projectile
 
+The free body diagram and kinetic diagram of the projectile are shown below.
+
 <div style="width: 66%; margin: 0 auto;">
     {% include /svgs/project-04-04.svg %}
 </div>
 
-The sums of forces along the x- and y-axis acting on the projectile ...
+From these diagrams, the sums of forces along the x- and y-axis acting on the projectile are derived.
 
 <div class="math-scroll">
 $$
@@ -168,7 +170,7 @@ T\cos{\phi} + N - m_p g - D_y = m_p\ddot{y}_p
 $$
 </div>
 
-... lead to equations of motion 3 and 4:
+These lead to equations of motion 3 and 4.
 
 <div class="math-scroll">
 $$
@@ -190,7 +192,7 @@ $$
 $$
 </div>
 
-The aerodynamic drag force components a long the x- and y-axis are determined as follows:
+The aerodynamic drag force components a long the $x$- and $y$-axis are determined as follows:
 
 <div class="math-scroll">
 $$
@@ -207,7 +209,7 @@ $$
 <div class="math-scroll">
 $$
 \begin{aligned}
-D_x &= \frac{\dot{x}_p}{V}D = C_D\frac{1}{2}\rho\dot{x}_p VS & 
+D_x &= \frac{\dot{x}_p}{V}D = C_D\frac{1}{2}\rho\dot{x}_p VS \quad & \quad
 D_y &= \frac{\dot{y}_p}{V}D = C_D\frac{1}{2}\rho\dot{y}_p VS
 \end{aligned}
 $$
@@ -227,16 +229,15 @@ $$
 $$
 </div>
 
-## System of equations
-The seven equations of motion are combined into a linear system with a state vector containing the tension of the sling, $$T$$, the normal force acting on the projectile, $$N$$, and the angular accelerations of the arm, sling and counter weight, $$\ddot{\theta}$$, $$\ddot{\phi}$$ and $$\ddot{\psi}$$.
+## Model progression
 
-This system of equations is solved to obtain the state vector. Angular accelarations $$\ddot{\theta}$$, $$\ddot{\phi}$$ and $$\ddot{\psi}$$ are used to determine angular velocities $$\dot{\theta}$$, $$\dot{\phi}$$ and $$\dot{\psi}$$ and angles $$\theta$$, $$\phi$$ and $$\psi$$ using a Runge-Kutta-4 time stepping scheme. Forces $$T$$ and $$N$$ are used to determine stage progression.
+The model progresses through three stages. Firstly, the projectile is dragged over the ground. Next, it is lifted up and finally it is released. 
 
-When $$N$$ is found to be negative, progression to stage 2 occurs, in which the vertical constraint on the projectile is released. When $$T$$ is found to be negative, or wben $$\phi$$ exceeds target angle $$\phi_\mathrm{target}$$, progression to stage 3 occurs, in which the projectile and sling are no longer taken into account. 
+To determine the motion of the system, the five equations of motion are combined into a linear system of equations. This system of equations is solved to obtain a state vector containing the tension in the sling, $T$, the normal force acting on the projectile, $N$, and the angular accelerations of the arm, sling and counter weight, $\ddot{\theta}$, $\ddot{\phi}$ and $\ddot{\psi}$. Angular accelarations $\ddot{\theta}$, $\ddot{\phi}$ and $\ddot{\psi}$ are used to determine angular velocities $\dot{\theta}$, $\dot{\phi}$ and $\dot{\psi}$ and angles $\theta$, $\phi$ and $\psi$ using a Runge-Kutta-4 time stepping scheme. Forces $T$ and $N$ are used to determine stage progression.
 
-### Stage 1 − grounded
+### Stage 1 − Grounded
 
-The systems of equatons for stage 1 is as follows:
+In stage 1, all equations of motion are taken into account. Subsequently, the system of equations for this stage is as follows:
 
 <div class="math-scroll">
 $$
@@ -271,9 +272,9 @@ N \\
 $$
 </div>
 
-### Stage 2 − connected
+### Stage 2 − Connected
 
-In stage 2, equation of motion 5 is replaced by setting $$N$$ to 0. 
+When $$N$$ is found to be negative, progression to stage 2 occurs, in which the vertical constraint on the projectile is removed. Consequently, equation of motion 5 is replaced by setting $N$ to 0. 
 
 <div class="math-scroll">
 $$
@@ -308,9 +309,44 @@ N \\
 $$
 </div>
 
-### Stage 3 − disconnected
+### Stage 3 − Disconnected
 
-In stage 3, equations of motion 3 and 5 are replaced by setting $$T$$ and $$\ddot{\phi}$$ to 0.
+In stage 3, the projectile is released and modelled seperately from the remainder of the system. Release of the projectile occurs when the sling slips off the pin at the end of the arm, which is determined by the grazing angle, $$\alpha$$.
+
+$$\alpha = \phi+\delta-\theta-\pi$$
+
+A schematic representation of this is show below. 
+
+{% include /svgs/project-04-05.svg %}
+
+For $\lvert\alpha\rvert \geq \pi/2$, as is the case for the left figure, the sling is seated on both the pin and the end of the arm. In this case $T$ is counteracted by $N$. The sling cannot slip of the pin.
+
+For $\lvert\alpha\rvert < \pi/2$, as is the case for the right figure, $T$ is counteracted by $N$ normal to the pin and by $C_{f_p}N\hspace{0.25em}$ tangential to the pin. 
+
+$$
+\begin{aligned}
+\sum F_\perp &: \quad T\sin|\alpha| = N \\
+\sum F_\parallel &: \quad T\cos\alpha \leq C_{f_p}N 
+\end{aligned}
+$$
+
+From this force balance follows the first release condition.
+
+$$|\alpha| < \pi/2 \quad\land\quad C_{f_p} < \frac{1}{|\tan\alpha|}$$
+
+As the sling can only be loaded in tension, the projectile disengages when $T$ becomes negative. This is the second release condition.
+
+$$T < 0$$
+
+When either release condition is met, the model progresses to stage 3, where the projectile is modelled seperately from the arm and counter weight. The acceleration of the projectile is as follows:
+
+$$
+\begin{aligned}
+\ddot{x}_p &= -\frac{D_x}{m_p} \quad & \quad \ddot{y}_p &= -g - \frac{D_x}{m_p}
+\end{aligned}
+$$
+
+To model the remainder of the system without the projectile and sling, equations of motion 3 and 5 are replaced by setting $T$ and $\ddot{\phi}$ to 0, leading to the following system of equations:
 
 <div class="math-scroll">
 $$
@@ -345,11 +381,13 @@ N \\
 $$
 </div>
 
+
+
 ## Verification
 
-The obtained motion of the system results from a force balance approach. To verified this motion, the total energy in the system can be tracked to verify that it remains constant. 
+The obtained motion of the system results from a force balance approach. To verify this motion, the total energy in the system can be tracked to verify that it remains constant. 
 
-The total energy in the system consists of potential energy ...
+The total energy in the system consists of potential energy,
 
 <div class="math-scroll">
 $$
@@ -361,7 +399,7 @@ E_{p_{cw}} &= g m_{cw} y_{cw}
 $$
 </div>
 
-... kinetic energy, both translational and rotational, ... 
+kinetic energy, both translational and rotational, 
 
 <div class="math-scroll">
 $$
@@ -375,7 +413,7 @@ E_{k_{cw}} &= \frac{1}{2}m_{cw}\left(\dot{x}_{cw}^2+\dot{y}_{cw}^2\right)
 $$
 </div>
 
-... and energy losses due to friction and aerodynamic drag.
+and energy losses due to friction and aerodynamic drag.
 
 <div class="math-scroll">
 $$
