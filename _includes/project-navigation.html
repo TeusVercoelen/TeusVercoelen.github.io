@@ -7,6 +7,7 @@
   {% assign projects_label = "Overzicht" %}
   {% assign list_label = "Lijst" %}
   {% assign tags_label = "Op label" %}
+  {% assign sort_label = "Sorteer" %}
 {% else %}
   {% assign projects_url = "/en/projects/" %}
   {% assign list_url = "/en/project-list/" %}
@@ -14,6 +15,7 @@
   {% assign projects_label = "Overview" %}
   {% assign list_label = "List" %}
   {% assign tags_label = "By tag" %}
+  {% assign sort_label = "Sort" %}
 {% endif %}
 
 {% assign current_view = page.translation_key %}
@@ -47,7 +49,7 @@
         aria-expanded="false"
         aria-controls="project-sort-menu">
         <i class="fas fa-sort" aria-hidden="true"></i>
-        Sort
+        {{ sort_label }}
       </button>
 
       {% include {{ page.sort_menu }} %}
