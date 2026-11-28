@@ -20,7 +20,7 @@ order: 1
 
 Back in 2024, after building a model trebuchet using rough guidelines I'd found on the internet, I wondered what the ideal shape of a basic trebuchet is. I started working on this trebuchet simulation in Python, which can be used with a genetic optimization algorithm to optimize certain parameters of the model. 
 
-The result of such an optimization is show below. In this example, the angle of the release pin and the lengths of the long arm and sling are optimized to maximize projectile distance. The mass of the counterweight and projectile are held constant at 50 kg and 1000 kg respectively.
+A visual representation of the result of such an optimization is show below. In this example, the angle of the release pin and the lengths of the long arm and sling are optimized to maximize projectile distance. The mass of the counterweight and projectile are held constant at 50 kg and 1000 kg respectively.
 
 <div id="project-svg"></div>
 
