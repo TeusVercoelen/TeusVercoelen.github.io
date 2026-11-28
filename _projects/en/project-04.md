@@ -18,9 +18,30 @@ order: 1
 
 <span style="color:#999999">&#91;<i>This page is a work in progress.</i>&#93;</span>
 
-$$
-\renewcommand{\phi}{\varphi}
-$$
+Back in 2024, after building a model trebuchet using rough guidelines I'd found on the internet, I wondered what the ideal shape of a basic trebuchet is. I started working on this trebuchet simulation in Python, which can be used with a genetic optimization algorithm to optimize certain parameters of the model. 
+
+The result of such an optimization is show below. In this example, the angle of the release pin and the lengths of the long arm and sling are optimized to maximize projectile distance. The mass of the counterweight and projectile are held constant at 50 kg and 1000 kg respectively.
+
+<div id="project-svg"></div>
+
+<template id="project-svg-template">
+    {% include svgs/project-04-06.svg %}
+</template>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(() => {
+        const template = document.getElementById("project-svg-template");
+        const container = document.getElementById("project-svg");
+
+        container.appendChild(template.content.cloneNode(true));
+    }, 2000);
+});
+</script>
+
+>
+
+For the optimization,  a single-objective genetic algorithm from [**pyMOO**](https://pymoo.org/) was used. More details about the physics model can found below.
 
 ## Assumptions
 
@@ -31,11 +52,11 @@ $$
 
 ## Kinematic relations
 
-An abstract representation of the system is shown below. The arm, which spans from $A$ to $B$, pivots around $O$ with angle $\theta$ and has its center of gravity located in $cg$. Connected at $B$ is the counter weight, which pivots with angle $\psi$ and has its center of gravity located at $cw$. Lastly, the projectile is connected to $A$. It pivots with angle $\phi$ and has its center of gravity located at $p$. Dimensions are defined by $\ell_{A}$, $\ell_{B}$, $\ell_{cg}$, $\ell_{cw}$ and $\ell_{s}$.
+An abstract representation of the system is shown below. The arm, which spans from $A$ to $B$, pivots around $O$ with angle $\theta$ and has its center of gravity located in $cg$. Connected at $B$ is the counterweight, which pivots with angle $\psi$ and has its center of gravity located at $cw$. Lastly, the projectile is connected to $A$. It pivots with angle $\varphi$ and has its center of gravity located at $p$. Dimensions are defined by $\ell_{A}$, $\ell_{B}$, $\ell_{cg}$, $\ell_{cw}$ and $\ell_{s}$.
 
 {% include /svgs/project-04-01.svg %}
 
-From this definition of the geometry, the kinematic relations for the arm, counter weight and projectile can be derived.
+From this definition of the geometry, the kinematic relations for the arm, counterweight and projectile can be derived.
 
 ### Arm
 
@@ -43,6 +64,7 @@ Described below are the kinematic relations for the arm, which relate angle $\th
 
 <div class="math-scroll">
 $$
+\renewcommand{\phi}{\varphi}
 \begin{aligned}
 x_{cg} &= -\ell_{cg}\sin{\theta} & y_{cg} &= \ell_{cg}\cos{\theta}\\
 \dot{x}_{cg} &= -\ell_{cg}\dot{\theta}\cos{\theta} & \dot{y}_{cg} &= -\ell_{cg}\dot{\theta}\sin{\theta} \\
@@ -55,7 +77,7 @@ $$
 
 ### Counterweight
 
-Described below are the kinematic relations for the counter weight, which relate angles $\theta$ and $\psi$ and its derivative to cartesian coordinates $x_{cw}$ and $y_{cw}$ and their derivatives.
+Described below are the kinematic relations for the counterweight, which relate angles $\theta$ and $\psi$ and its derivative to cartesian coordinates $x_{cw}$ and $y_{cw}$ and their derivatives.
 
 <div class="math-scroll">
 $$
@@ -96,13 +118,13 @@ $$
 ## Equations of motion
 
 ### Counterweight
-The free body diagram and kinetic diagram of the counter weight are shown below.
+The free body diagram and kinetic diagram of the counterweight are shown below.
 
 <div style="width: 66%; margin: 0 auto;">
     {% include /svgs/project-04-02.svg %}
 </div>
 
-From these diagram the sums of forces along the x- and y-axis acting on the counter weight, as well as the sum of moments acting on it is derived.
+From these diagram the sums of forces along the x- and y-axis acting on the counterweight, as well as the sum of moments acting on it is derived.
 
 <div class="math-scroll">
 $$
@@ -233,7 +255,7 @@ $$
 
 The model progresses through three stages. Firstly, the projectile is dragged over the ground. Next, it is lifted up and finally it is released. 
 
-To determine the motion of the system, the five equations of motion are combined into a linear system of equations. This system of equations is solved to obtain a state vector containing the tension in the sling, $T$, the normal force acting on the projectile, $N$, and the angular accelerations of the arm, sling and counter weight, $\ddot{\theta}$, $\ddot{\phi}$ and $\ddot{\psi}$. Angular accelarations $\ddot{\theta}$, $\ddot{\phi}$ and $\ddot{\psi}$ are used to determine angular velocities $\dot{\theta}$, $\dot{\phi}$ and $\dot{\psi}$ and angles $\theta$, $\phi$ and $\psi$ using a Runge-Kutta-4 time stepping scheme. Forces $T$ and $N$ are used to determine stage progression.
+To determine the motion of the system, the five equations of motion are combined into a linear system of equations. This system of equations is solved to obtain a state vector containing the tension in the sling, $T$, the normal force acting on the projectile, $N$, and the angular accelerations of the arm, sling and counterweight, $\ddot{\theta}$, $\ddot{\phi}$ and $\ddot{\psi}$. Angular accelarations $\ddot{\theta}$, $\ddot{\phi}$ and $\ddot{\psi}$ are used to determine angular velocities $\dot{\theta}$, $\dot{\phi}$ and $\dot{\psi}$ and angles $\theta$, $\phi$ and $\psi$ using a Runge-Kutta-4 time stepping scheme. Forces $T$ and $N$ are used to determine stage progression.
 
 ### Stage 1 − Grounded
 
@@ -338,7 +360,7 @@ As the sling can only be loaded in tension, the projectile disengages when $T$ b
 
 $$T < 0$$
 
-When either release condition is met, the model progresses to stage 3, where the projectile is modelled seperately from the arm and counter weight. The acceleration of the projectile is as follows:
+When either release condition is met, the model progresses to stage 3, where the projectile is modelled seperately from the arm and counterweight. The acceleration of the projectile is as follows:
 
 $$
 \begin{aligned}

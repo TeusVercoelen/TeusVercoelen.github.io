@@ -18,9 +18,31 @@ order: 1
 
 <span style="color:#999999">&#91;<i>Deze pagina is nog in ontwikkeling en alleen beschikbaar in het engels.</i>&#93;</span>
 
-$$
-\renewcommand{\phi}{\varphi}
-$$
+
+Back in 2024, after building a model trebuchet using rough guidelines I'd found on the internet, I wondered what the ideal shape of a basic trebuchet is. I started working on this trebuchet simulation in Python, which can be used with a genetic optimization algorithm to optimize certain parameters of the model. 
+
+A visual representation of the result of such an optimization is show below. In this example, the angle of the release pin and the lengths of the long arm and sling are optimized to maximize projectile distance. The mass of the counterweight and projectile are held constant at 50 kg and 1000 kg respectively.
+
+<div id="project-svg"></div>
+
+<template id="project-svg-template">
+    {% include svgs/project-04-06.svg %}
+</template>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(() => {
+        const template = document.getElementById("project-svg-template");
+        const container = document.getElementById("project-svg");
+
+        container.appendChild(template.content.cloneNode(true));
+    }, 2000);
+});
+</script>
+
+>
+
+For the optimization,  a single-objective genetic algorithm from [**pyMOO**](https://pymoo.org/) was used. More details about the physics model can found below.
 
 ## Assumptions
 
@@ -31,7 +53,7 @@ $$
 
 ## Kinematic relations
 
-An abstract representation of the system is shown below. The arm, which spans from $A$ to $B$, pivots around $O$ with angle $\theta$ and has its center of gravity located in $cg$. Connected at $B$ is the counter weight, which pivots with angle $\psi$ and has its center of gravity located at $cw$. Lastly, the projectile is connected to $A$. It pivots with angle $\phi$ and has its center of gravity located at $p$. Dimensions are defined by $\ell_{A}$, $\ell_{B}$, $\ell_{cg}$, $\ell_{cw}$ and $\ell_{s}$.
+An abstract representation of the system is shown below. The arm, which spans from $A$ to $B$, pivots around $O$ with angle $\theta$ and has its center of gravity located in $cg$. Connected at $B$ is the counter weight, which pivots with angle $\psi$ and has its center of gravity located at $cw$. Lastly, the projectile is connected to $A$. It pivots with angle $\varphi$ and has its center of gravity located at $p$. Dimensions are defined by $\ell_{A}$, $\ell_{B}$, $\ell_{cg}$, $\ell_{cw}$ and $\ell_{s}$.
 
 {% include /svgs/project-04-01.svg %}
 
@@ -43,6 +65,7 @@ Described below are the kinematic relations for the arm, which relate angle $\th
 
 <div class="math-scroll">
 $$
+\renewcommand{\phi}{\varphi}
 \begin{aligned}
 x_{cg} &= -\ell_{cg}\sin{\theta} & y_{cg} &= \ell_{cg}\cos{\theta}\\
 \dot{x}_{cg} &= -\ell_{cg}\dot{\theta}\cos{\theta} & \dot{y}_{cg} &= -\ell_{cg}\dot{\theta}\sin{\theta} \\
